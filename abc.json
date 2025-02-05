@@ -1,0 +1,54 @@
+{
+	"themes": [
+		{
+			"theme": "Love, Faith and Hope",
+			"articles": [
+				{
+					"article": {
+						"en": "Love",
+						"am": "Love"
+					},
+					"devotional": {
+						"en": "Love",
+						"am": "Love"
+					}
+				},
+				{
+					"article": {
+						"en": "Faith",
+						"am": "Faith"
+					},
+					"devotional": {
+						"en": "Faith",
+						"am": "Faith"
+					}
+				}
+			]
+		},
+		{
+			"theme": "names of God",
+			"articles": [
+				{
+					"article": {
+						"en": "Jehovah Jireh",
+						"am": "Jehovah Jireh"
+					},
+					"devotional": {
+						"en": "Jehovah Jireh",
+						"am": "Jehovah Jireh"
+					}
+				},
+				{
+					"article": {
+						"en": "Jehovah Jireh",
+						"am": "Jehovah Jireh"
+					},
+					"devotional": {
+						"en": "Jehovah Jireh",
+						"am": "Jehovah Jireh"
+					}
+				}
+			]
+		}
+	]
+}
