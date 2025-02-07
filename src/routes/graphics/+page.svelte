@@ -5,7 +5,7 @@
 	import { graphicsList } from '../../store/graphics.svelte';
 </script>
 
-<div class="relative">
+<div class="no-scrollbar relative">
 	<!-- Nav -->
 	<Nav />
 
@@ -17,13 +17,13 @@
 	/>
 
 	<!-- Content -->
-	<div class="absolute z-50 -mt-64 flex w-screen items-center justify-center">
-		<div class="flex w-1/2 flex-col justify-between">
+	<div class="absolute z-50 -mt-72 flex w-screen items-center justify-center pb-60">
+		<div class="flex w-3/5 flex-col justify-between">
 			{#each graphicsList.themes as theme}
-				<div class="pb-3 pl-5 text-lg font-semibold italic text-white">
+				<div class="font-batangas pb-3 pl-5 pt-14 text-xl text-black">
 					— {theme.theme}
 				</div>
-				<div class="grid grid-cols-3 gap-x-10">
+				<div class="grid grid-cols-3 gap-y-7">
 					{#each theme.subtopics as subtopic}
 						<EachArticleContainer
 							title={subtopic.title}

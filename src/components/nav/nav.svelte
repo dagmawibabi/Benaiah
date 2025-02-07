@@ -3,6 +3,15 @@
 	import whiteLogo from '$lib/assets/logo/WhiteLogo.png';
 	import { _, locale } from 'svelte-i18n';
 	import EachNavItem from './each_nav_item.svelte';
+
+	// Move to state
+	function changeLanguage() {
+		if ($locale === 'am') {
+			locale.set('en');
+		} else {
+			locale.set('am');
+		}
+	}
 </script>
 
 <div class="absolute left-0 right-0 top-0 z-50 flex items-center justify-between px-2">
@@ -24,13 +33,16 @@
 	</div>
 
 	<!-- LANG -->
+	<!-- svelte-ignore a11y_no_static_element_interactions -->
+	<!-- svelte-ignore a11y_click_events_have_key_events -->
 	<div
-		class="w-16 rounded-full border border-zinc-700 pb-1 text-center backdrop-blur-xl hover:bg-zinc-900 hover:text-white"
+		class="w-16 cursor-pointer rounded-full border border-zinc-700 pb-1 text-center backdrop-blur-xl hover:bg-zinc-900 hover:text-white"
+		onclick={() => changeLanguage()}
 	>
 		{#if $locale === 'am'}
-			<button onclick={() => locale.set('en')}> en </button>
+			en
 		{:else}
-			<button onclick={() => locale.set('am')}> am </button>
+			am
 		{/if}
 	</div>
 </div>
