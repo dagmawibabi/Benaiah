@@ -2,6 +2,22 @@
 	"page": {
 		"home": {
 			"subtitle": "God has Created | Built"
+		},
+		"graphics": {
+			"graphics": "Graphics",
+			"description": "Thought-provoking graphics from gifted people of faith that address biblical, theological, and practical themes to encourage Christians to grow in their faith and spiritual maturity."
+		},
+		"articles": {
+			"articles": "Articles",
+			"description": "Thought-provoking articles from gifted people of faith that address biblical, theological, and practical themes to encourage growing Christians in their faith"
+		},
+		"navigation": {
+			"home": "Home",
+			"articles": "Articles",
+			"graphics": "Graphics",
+			"team": "Team",
+			"mission": "Mission",
+			"contact": "Contact Us"
 		}
 	}
 }

@@ -1,46 +1,35 @@
 <script>
+	import { _, locale } from 'svelte-i18n';
+	import { graphicsList } from '../../store/graphics.svelte';
 	import Nav from '../../components/nav/nav.svelte';
 	import Hero from '../../components/hero.svelte';
-	import EachArticleContainer from '../../components/each_article_container.svelte';
-	import { graphicsList } from '../../store/graphics.svelte';
+	import BlurredBackground from '../../components/blurred_background.svelte';
+	import EachSubtopicGraphicsContainer from '../../components/each_subtopic/each_subtopic_graphics_container.svelte';
 </script>
 
-<div class="no-scrollbar relative">
+<!-- Blurred Background -->
+<BlurredBackground />
+
+<div class="no-scrollbar relative h-screen overflow-scroll">
 	<!-- Nav -->
 	<Nav />
 
 	<!-- HERO -->
-	<Hero
-		title="Graphics"
-		description="Thought-provoking graphics from gifted people of faith that address biblical, theological,
-					and practical themes to encourage growing Christians in their faith."
-	/>
+	<Hero title={$_('page.graphics.graphics')} description={$_('page.graphics.description')} />
 
 	<!-- Content -->
-	<div class="absolute z-50 -mt-72 flex w-screen items-center justify-center pb-60">
+	<div class="absolute z-50 flex w-screen items-center justify-center pb-60">
 		<div class="flex w-3/5 flex-col justify-between">
 			{#each graphicsList.themes as theme}
-				<div class="font-batangas pb-3 pl-5 pt-14 text-xl text-black">
-					— {theme.theme}
+				<div class="pl-5 font-batangas text-xl text-black">
+					— {$locale === 'am' ? theme.theme_am : theme.theme_en}
 				</div>
-				<div class="grid grid-cols-3 gap-y-7">
+				<div class="grid grid-cols-3 gap-y-7 pb-14 pt-3">
 					{#each theme.subtopics as subtopic}
-						<EachArticleContainer
-							title={subtopic.title}
-							description={subtopic.description}
-							cover_en={subtopic.cover_en}
-							cover_am={subtopic.cover_am}
-							square_en={subtopic.square_en}
-							square_am={subtopic.square_am}
-							story_en={subtopic.story_en}
-							story_am={subtopic.story_am}
-							artists={subtopic.artists}
-						/>
+						<EachSubtopicGraphicsContainer {theme} {subtopic} />
 					{/each}
 				</div>
 			{/each}
 		</div>
 	</div>
-
-	<div class="h-screen"></div>
 </div>

@@ -1,12 +1,12 @@
 <script lang="ts">
-	import blackLogo from '$lib/assets/logo/BlackLogo.png';
-	import whiteLogo from '$lib/assets/logo/WhiteLogo.png';
-	import hero from '$lib/assets/banners/hero (7).png'; // 6 12 15 31
-
-	import Nav from '../../components/nav/nav.svelte';
-
 	import { _, locale } from 'svelte-i18n';
+	import Nav from '../../components/nav/nav.svelte';
+	import blackLogo from '$lib/assets/logo/BlackLogo.png';
+	import BlurredBackground from '../../components/blurred_background.svelte';
 </script>
+
+<!-- Blurred Background -->
+<BlurredBackground />
 
 <div class="no-scrollbar relative">
 	<!-- NAV -->
@@ -14,11 +14,6 @@
 
 	<!-- HERO -->
 	<div class="relative flex h-[100vh] items-center justify-center overflow-clip">
-		<!-- BANNER -->
-		<div class="absolute flex w-screen items-center blur-2xl">
-			<img src={hero} alt="logo" class="h-full w-full object-fill" />
-		</div>
-
 		<!-- HEADER TEXT -->
 		<div
 			class="absolute flex h-full w-full items-center justify-center bg-zinc-950 bg-opacity-0 pb-20"
@@ -61,14 +56,3 @@
 	<!--  -->
 	<div class="h-screen w-screen"></div>
 </div>
-
-<!-- <div class="flex h-screen w-screen flex-col items-center justify-center bg-black pb-48">
-	<img src={whiteLogo} alt="logo" class="object-fit w-56" />
-
-	<div class="pt-5 font-mono text-white">{$_('page.home.subtitle')}</div>
-
-	<div class="text-white">
-		<button onclick={() => locale.set('am')}> am </button>
-		<button onclick={() => locale.set('en')}> en </button>
-	</div>
-</div> -->
