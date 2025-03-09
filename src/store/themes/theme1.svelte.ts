@@ -1,24 +1,10 @@
-import love1 from '$lib/assets/graphics/themes/LoveFaithHope/Love/1.png';
-import love2 from '$lib/assets/graphics/themes/LoveFaithHope/Love/2.png';
-import love3 from '$lib/assets/graphics/themes/LoveFaithHope/Love/3.png';
-import love4 from '$lib/assets/graphics/themes/LoveFaithHope/Love/4.png';
-import love5 from '$lib/assets/graphics/themes/LoveFaithHope/Love/5.png';
-import love6 from '$lib/assets/graphics/themes/LoveFaithHope/Love/6.png';
-import love7 from '$lib/assets/graphics/themes/LoveFaithHope/Love/7.png';
-import love8 from '$lib/assets/graphics/themes/LoveFaithHope/Love/8.png';
 import love9 from '$lib/assets/graphics/themes/LoveFaithHope/Love/9.png';
 import love10 from '$lib/assets/graphics/themes/LoveFaithHope/Love/10.png';
 import love11 from '$lib/assets/graphics/themes/LoveFaithHope/Love/11.png';
-import love12 from '$lib/assets/graphics/themes/LoveFaithHope/Love/12.png';
-import love13 from '$lib/assets/graphics/themes/LoveFaithHope/Love/13.png';
-import love14 from '$lib/assets/graphics/themes/LoveFaithHope/Love/14.png';
-import love15 from '$lib/assets/graphics/themes/LoveFaithHope/Love/15.png';
-import love16 from '$lib/assets/graphics/themes/LoveFaithHope/Love/16.png';
-import love17 from '$lib/assets/graphics/themes/LoveFaithHope/Love/17.png';
-import love18 from '$lib/assets/graphics/themes/LoveFaithHope/Love/18.png';
 
 import faith1 from '$lib/assets/graphics/themes/LoveFaithHope/Faith/1.png';
-import hope2 from '$lib/assets/graphics/themes/LoveFaithHope/Hope/2.png';
+import hope15 from '$lib/assets/graphics/themes/LoveFaithHope/Hope/15.png';
+import hope16 from '$lib/assets/graphics/themes/LoveFaithHope/Hope/16.png';
 
 import { team } from '../team_members.svelte';
 
@@ -30,12 +16,34 @@ export const theme1 = $state({
 			title_en: 'Love',
 			title_am: 'ፍቅር',
 			description: 'A collection of beautiful and heart warming graphics',
-			cover_en: love3,
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
 			cover_am: love10,
-			square_en: [love1, love2, love3, love4, love5, love6],
-			square_am: [love7, love8, love9, love10, love11, love12],
-			story_en: [love13, love14, love15],
-			story_am: [love16, love17, love18],
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				love9,
+				love10,
+				love11,
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -54,12 +62,34 @@ export const theme1 = $state({
 			title_en: 'Hope',
 			title_am: 'ተስፋ',
 			description: 'A collection of beautiful and heart warming graphics',
-			cover_en: hope2,
-			cover_am: hope2,
-			square_en: [hope2],
-			square_am: [hope2],
-			story_en: [hope2],
-			story_am: [hope2],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/1_yroxsc.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_lcq6sg.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_cwzrrh.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_hfpkrw.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_asr46c.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_xo3tgi.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_qkrmkx.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/9_ewl7ox.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/10_zwdu9p.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_x274vu.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_jxtu05.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_fd4nuq.png',
+				hope15
+			],
+			story_am: [
+				hope16,
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_jsjald.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dvgyf8.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		}
 	]
