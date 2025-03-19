@@ -36,6 +36,8 @@
 		"vite": "^5.4.11"
 	},
 	"dependencies": {
+		"@lucide/svelte": "^0.483.0",
+		"mdsvex": "^0.12.3",
 		"svelte-i18n": "^4.0.1"
 	}
 }

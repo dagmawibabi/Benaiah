@@ -11,7 +11,20 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Chatsahi',
 			title_am: 'Fikir',
-			description: 'A collection of beautiful and heart warming graphics',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+				devotional_author_en: [team.AkinahomGetahun],
+				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_author_am: [team.RebiraTibebu]
+			},
+			study_material: {
+				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_author_en: [team.BethelemMelese],
+				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_author_am: [team.AkinahomGetahun]
+			},
 			cover_en: Chatsahi,
 			cover_am: Chatsahi,
 			square_en: [Chatsahi, Rapha, Goel],
@@ -23,7 +36,20 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Rapha',
 			title_am: 'Fikir',
-			description: 'A collection of beautiful and heart warming graphics',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+				devotional_author_en: [team.AkinahomGetahun],
+				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_author_am: [team.RebiraTibebu]
+			},
+			study_material: {
+				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_author_en: [team.BethelemMelese],
+				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_author_am: [team.AkinahomGetahun]
+			},
 			cover_en: Rapha,
 			cover_am: Rapha,
 			square_en: [Rapha],
@@ -35,7 +61,20 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Goel',
 			title_am: 'Fikir',
-			description: 'A collection of beautiful and heart warming graphics',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+				devotional_author_en: [team.AkinahomGetahun],
+				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_author_am: [team.RebiraTibebu]
+			},
+			study_material: {
+				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_author_en: [team.BethelemMelese],
+				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_author_am: [team.AkinahomGetahun]
+			},
 			cover_en: Goel,
 			cover_am: Goel,
 			square_en: [Goel],
@@ -47,7 +86,20 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Chatsahi',
 			title_am: 'Fikir',
-			description: 'A collection of beautiful and heart warming graphics',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+				devotional_author_en: [team.AkinahomGetahun],
+				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_author_am: [team.RebiraTibebu]
+			},
+			study_material: {
+				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_author_en: [team.BethelemMelese],
+				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_author_am: [team.AkinahomGetahun]
+			},
 			cover_en: Chatsahi,
 			cover_am: Chatsahi,
 			square_en: [Chatsahi],
@@ -59,7 +111,20 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Rapha',
 			title_am: 'Fikir',
-			description: 'A collection of beautiful and heart warming graphics',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+				devotional_author_en: [team.AkinahomGetahun],
+				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_author_am: [team.RebiraTibebu]
+			},
+			study_material: {
+				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_author_en: [team.BethelemMelese],
+				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_author_am: [team.AkinahomGetahun]
+			},
 			cover_en: Rapha,
 			cover_am: Rapha,
 			square_en: [Rapha],
@@ -71,7 +136,20 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Goel',
 			title_am: 'Fikir',
-			description: 'A collection of beautiful and heart warming graphics',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+				devotional_author_en: [team.AkinahomGetahun],
+				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_author_am: [team.RebiraTibebu]
+			},
+			study_material: {
+				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_author_en: [team.BethelemMelese],
+				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_author_am: [team.AkinahomGetahun]
+			},
 			cover_en: Goel,
 			cover_am: Goel,
 			square_en: [Goel],
