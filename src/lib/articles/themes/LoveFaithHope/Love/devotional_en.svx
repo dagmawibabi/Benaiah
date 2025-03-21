@@ -1,3 +1,13 @@
+---
+title: Svex up your markdown
+count: 25
+color: cadetblue
+list: [1, 2, 3, 4, "boo"]
+
+---
+
+# { title }
+
 # Lost in Doubts? God's Love Never Quits on You
 
 Ever catch yourself wondering if that ride-or-die kind of love is even real? A Love that doesn't ghost you when life gets messy like, the kind that sticks around through the chaos and feels like a cozy blanket on a bad day? Well, spoiler: it's 100% real. And here's the kicker - it's already yours, right here, right now.

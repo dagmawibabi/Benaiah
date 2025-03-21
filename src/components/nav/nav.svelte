@@ -28,11 +28,10 @@
 	<!-- NAV -->
 	<div class="-ml-20 flex gap-x-1">
 		<EachNavItem name={$_('page.navigation.home')} link="/" />
-		<EachNavItem name={$_('page.navigation.articles')} link="/articles" />
-		<EachNavItem name={$_('page.navigation.graphics')} link="/graphics" />
-		<EachNavItem name={$_('page.navigation.team')} link="/articles" />
-		<EachNavItem name={$_('page.navigation.mission')} link="/articles" />
-		<EachNavItem name={$_('page.navigation.contact')} link="/articles" />
+		<EachNavItem name={$_('page.navigation.resources')} link="/resources" />
+		<EachNavItem name={$_('page.navigation.teams')} link="/team" />
+		<EachNavItem name={$_('page.navigation.mission')} link="/resources" />
+		<EachNavItem name={$_('page.navigation.contact')} link="/resources" />
 	</div>
 
 	<!-- LANG -->

@@ -5,8 +5,7 @@
 	import Nav from '../../../../components/nav/nav.svelte';
 	import Hero from '../../../../components/hero.svelte';
 	import BlurredBackground from '../../../../components/blurred_background.svelte';
-	import ArtistsListContainer from '../../../../components/subtopic_artists_list_container.svelte';
-	import SubtopicArtistsListContainer from '../../../../components/subtopic_artists_list_container.svelte';
+	import SubtopicArtistsListContainer from '../../../../components/resource_container/subtopic_artists_list_container.svelte';
 
 	const url = page.url.pathname.split('/');
 	const theme_en = url[2].replaceAll('%20', ' ');
@@ -44,36 +43,40 @@
 
 	<!-- Content -->
 	<div class="absolute z-50 flex w-screen flex-col items-center justify-center gap-y-7 pb-60">
-		<!-- Graphics -->
+		<!-- Social Media Postss -->
 		<div class="flex w-3/5 flex-col justify-between">
 			<div class="grid grid-cols-3 gap-y-7">
 				{#each $locale === 'am' ? currentTopic.square_am : currentTopic.square_en as eachGraphics}
-					<div
-						class="group aspect-square w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
-					>
-						<img
-							src={eachGraphics}
-							alt=""
-							class="h-full w-full object-fill transition-all group-hover:scale-105"
-						/>
-					</div>
+					<a href={eachGraphics} target="_blank">
+						<div
+							class="group aspect-square w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
+						>
+							<img
+								src={eachGraphics}
+								alt=""
+								class="h-full w-full object-fill transition-all group-hover:scale-105"
+							/>
+						</div>
+					</a>
 				{/each}
 			</div>
 		</div>
 
-		<!-- Graphics -->
+		<!-- Stories -->
 		<div class="flex w-3/5 flex-col justify-between">
 			<div class="grid grid-cols-3 gap-y-7">
 				{#each $locale === 'am' ? currentTopic.story_am : currentTopic.story_en as eachGraphics}
-					<div
-						class="group w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
-					>
-						<img
-							src={eachGraphics}
-							alt=""
-							class="h-full w-full object-fill transition-all group-hover:scale-105"
-						/>
-					</div>
+					<a href={eachGraphics} download target="_blank">
+						<div
+							class="group w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
+						>
+							<img
+								src={eachGraphics}
+								alt=""
+								class="h-full w-full object-fill transition-all group-hover:scale-105"
+							/>
+						</div>
+					</a>
 				{/each}
 			</div>
 		</div>

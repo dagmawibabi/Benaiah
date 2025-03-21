@@ -3,6 +3,14 @@
 		"home": {
 			"subtitle": "God has Created | Built"
 		},
+		"resources": {
+			"resources": "Resources",
+			"description": "Thought-provoking articles and graphics from gifted people of faith that address biblical, theological, and practical themes to encourage Christians to grow in their faith and spiritual maturity."
+		},
+		"teams": {
+			"teams": "Teams",
+			"description": "Meet the gifted individuals running Benaiah. United by a passion for Christ and His Word, we aim to encourage believers through biblical insights and creative expressions to foster spiritual growth."
+		},
 		"graphics": {
 			"graphics": "Graphics",
 			"description": "Thought-provoking graphics from gifted people of faith that address biblical, theological, and practical themes to encourage Christians to grow in their faith and spiritual maturity."
@@ -13,9 +21,10 @@
 		},
 		"navigation": {
 			"home": "Home",
+			"resources": "Resources",
+			"teams": "Teams",
 			"articles": "Articles",
 			"graphics": "Graphics",
-			"team": "Team",
 			"mission": "Mission",
 			"contact": "Contact Us"
 		}

@@ -25,6 +25,7 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
 		"globals": "^15.0.0",
+		"mdsvex": "^0.12.3",
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.6",
 		"prettier-plugin-tailwindcss": "^0.6.5",
@@ -37,7 +38,6 @@
 	},
 	"dependencies": {
 		"@lucide/svelte": "^0.483.0",
-		"mdsvex": "^0.12.3",
 		"svelte-i18n": "^4.0.1"
 	}
 }

@@ -18,7 +18,7 @@ export const theme1 = $state({
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: {
-				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+				devotional_en: './src/routes/articles/devotional_en.svelte',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
 				devotional_author_am: [team.RebiraTibebu]
