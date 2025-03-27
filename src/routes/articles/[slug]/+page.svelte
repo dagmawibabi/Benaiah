@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Nav from '../../../components/nav/nav.svelte';
+
 	interface Props {
 		data: any;
 	}
@@ -20,3 +22,8 @@
 		<data.content finite="play me"></data.content>
 	</div>
 </section>
+
+<!-- 
+ - the file organization : i made the themes a metadata in the .md article
+ - 
+ -->
