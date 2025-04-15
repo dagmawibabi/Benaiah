@@ -25,7 +25,7 @@
         {/if}
     </div>
 
-    <div class="text-base">
+    <div class="text-sm md:text-base lg:text-base xl:text-base 2xl:text-base">
         {#if category === "devotional_am" || category === "devotional_en"}
             {category === "devotional_am" ? subtopic.devotional.devotional_author_am[0].fullname_am : subtopic.devotional.devotional_author_en[0].fullname_en}
         {:else if category === "study_material_am" || category === "study_material_en"}
