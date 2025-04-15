@@ -8,6 +8,10 @@
 	import TeamCategoryContainer from '../../components/team_category_container.svelte';
 </script>
 
+<svelte:head>
+	<title>Benaiah | Teams</title>
+</svelte:head>
+
 <!-- Blurred Background -->
 <BlurredBackground />
 

@@ -7,6 +7,10 @@
 	import ResourceContainer from '../../components/resource_container/resource_container.svelte';
 </script>
 
+<svelte:head>
+	<title>Benaiah | Resources</title>
+</svelte:head>
+
 <!-- Blurred Background -->
 <BlurredBackground />
 

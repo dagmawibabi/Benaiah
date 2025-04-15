@@ -2,7 +2,7 @@ import { error } from '@sveltejs/kit';
 
 export async function load({ params }) {
 	try {
-		const article = await import(`../../../articles/${params.slug}.md`);
+		const article = await import(`../../../../../../articles/themes/${params.theme}/${params.subtopic}/${params.slug}.md`);
 
 		return {
 			content: article.default,

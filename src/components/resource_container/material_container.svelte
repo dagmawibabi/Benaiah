@@ -3,7 +3,7 @@
 	let { title, icon, artistsList, link } = $props();
 </script>
 
-<a href={link}>
+<a href={link} target="_blank">
 	<div class="group/material">
 		<div
 			class="flex items-center justify-between gap-1 rounded-bl-xl rounded-br-2xl rounded-tl-xl rounded-tr-2xl border border-transparent py-1 pl-2 pr-1 group-hover/material:border-zinc-400 group-hover/material:bg-zinc-200"

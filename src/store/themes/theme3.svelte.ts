@@ -11,16 +11,16 @@ export const theme3 = $state({
 			title_am: 'Fikir',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: {
-				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+			devotional: { 
+				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
 				devotional_author_am: [team.RebiraTibebu]
 			},
 			study_material: {
-				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_en: './articles/themes/LoveFaithHope/Love/study_material_en',
 				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
@@ -36,16 +36,16 @@ export const theme3 = $state({
 			title_am: 'Fikir',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: {
-				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+			devotional: { 
+				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
 				devotional_author_am: [team.RebiraTibebu]
 			},
 			study_material: {
-				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_en: './articles/themes/LoveFaithHope/Love/study_material_en',
 				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
 			cover_en: faith1,
@@ -61,16 +61,16 @@ export const theme3 = $state({
 			title_am: 'Fikir',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: {
-				devotional_en: './static/articles/themes/LoveFaithHope/Love/devotional_en.svx',
+			devotional: { 
+				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './static/articles/themes/LoveFaithHope/Love/devotional_am.svx',
+				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
 				devotional_author_am: [team.RebiraTibebu]
 			},
 			study_material: {
-				study_material_en: './static/articles/themes/LoveFaithHope/Love/study_material_en.svx',
+				study_material_en: './articles/themes/LoveFaithHope/Love/study_material_en',
 				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './static/articles/themes/LoveFaithHope/Love/study_material_am.svx',
+				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',

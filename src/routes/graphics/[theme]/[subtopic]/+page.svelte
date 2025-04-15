@@ -26,6 +26,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Benaiah | Graphics</title>
+</svelte:head>
+
 <!-- Blurred Background -->
 <BlurredBackground />
 

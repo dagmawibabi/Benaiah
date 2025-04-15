@@ -24,7 +24,7 @@
 			title={'Devotional'}
 			icon={FileText}
 			artistsList={subtopic.devotional.devotional_author_en}
-			link={subtopic.devotional.devotional_en}
+			link={$locale === 'am' ? subtopic.devotional.devotional_am : subtopic.devotional.devotional_en}
 		/>
 
 		<!-- Study Material -->
@@ -32,7 +32,7 @@
 			title={'Study Material'}
 			icon={BookText}
 			artistsList={subtopic.study_material.study_material_author_en}
-			link={'/'}
+			link={$locale === 'am' ? subtopic.study_material.study_material_am : subtopic.study_material.study_material_en}
 		/>
 
 		<!-- Divider -->
