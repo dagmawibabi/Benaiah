@@ -15,7 +15,7 @@
 
 <div class="no-scrollbar relative h-screen overflow-scroll">
 	<!-- Content -->
-	<div class="w-[90%] md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 m-auto items-center mt-5 text-base md:text-lg lg:text-lg xl:text-lg 2xl:text-lg justify-center pb-96 pt-16 text-left text-black">
+	<div class="w-[90%] md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 m-auto items-center text-base md:text-lg lg:text-lg xl:text-lg 2xl:text-lg justify-center pb-96 pt-8 text-left text-black">
 		<data.content />
 	</div>
 </div>
