@@ -26,7 +26,7 @@
 	</div>
 
 	<!-- NAV -->
-	<div class="md:-ml-20 lg:-ml-20 xl:-ml-20 2xl:-ml-20 flex md:m-0 lg:m-0 xl:m-0 2xl:m-0 m-auto gap-x-1">
+	<div class="md:-ml-20 lg:-ml-20 xl:-ml-20 2xl:-ml-20 flex md:m-0 lg:m-0 xl:m-0 2xl:m-0 m-auto gap-x-1 py-2">
 		<EachNavItem name={$_('page.navigation.home')} link="/" />
 		<EachNavItem name={$_('page.navigation.resources')} link="/resources" />
 		<EachNavItem name={$_('page.navigation.teams')} link="/team" />
