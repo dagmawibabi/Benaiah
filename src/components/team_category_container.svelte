@@ -5,10 +5,10 @@
 </script>
 
 <div class="pl-5 font-batangas text-xl text-black">— {title}</div>
-<div class="grid grid-cols-3 gap-y-7 pb-14 pt-3">
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-y-7 pb-14 pt-3">
 	{#each category as member}
 		<div
-			class="group w-72 overflow-clip rounded-xl border border-black shadow-lg transition-all hover:border-black hover:shadow-xl"
+			class="group w-full md:w-72 lg:w-72 xl:w-72 2xl:w-72 overflow-clip rounded-xl border border-black shadow-lg transition-all hover:border-black hover:shadow-xl"
 		>
 			<!-- Cover Image -->
 			<div class="aspect-square overflow-clip">

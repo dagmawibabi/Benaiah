@@ -48,12 +48,12 @@
 	<!-- Content -->
 	<div class="absolute z-50 flex w-screen flex-col items-center justify-center gap-y-7 pb-60">
 		<!-- Social Media Postss -->
-		<div class="flex w-3/5 flex-col justify-between">
-			<div class="grid grid-cols-3 gap-y-7">
+		<div class="flex w-[90%] md:w-3/5 lg:w-3/5 xl:w-3/5 2xl:w-3/5 flex-col justify-between">
+			<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-y-7">
 				{#each $locale === 'am' ? currentTopic.square_am : currentTopic.square_en as eachGraphics}
 					<a href={eachGraphics} target="_blank">
 						<div
-							class="group aspect-square w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
+							class="group aspect-square w-full md:w-72 lg:w-72 xl:w-72 2xl:w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
 						>
 							<img
 								src={eachGraphics}
@@ -67,12 +67,12 @@
 		</div>
 
 		<!-- Stories -->
-		<div class="flex w-3/5 flex-col justify-between">
-			<div class="grid grid-cols-3 gap-y-7">
+		<div class="flex w-[90%] md:w-3/5 lg:w-3/5 xl:w-3/5 2xl:w-3/5 flex-col justify-between">
+			<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-y-7">
 				{#each $locale === 'am' ? currentTopic.story_am : currentTopic.story_en as eachGraphics}
 					<a href={eachGraphics} download target="_blank">
 						<div
-							class="group w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
+							class="group w-full md:w-72 lg:w-72 xl:w-72 2xl:w-72 overflow-clip rounded border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
 						>
 							<img
 								src={eachGraphics}

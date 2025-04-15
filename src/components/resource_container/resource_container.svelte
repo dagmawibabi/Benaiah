@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="group w-72 overflow-clip rounded-xl border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
+	class="group w-full md:w-72 lg:w-72 xl:w-72 2xl:w-72 overflow-clip rounded-xl border border-zinc-300 shadow-lg transition-all hover:border-black hover:shadow-xl"
 >
 	<div class="grid grid-cols-1 bg-white px-1 py-1">
 		<!-- Title -->
