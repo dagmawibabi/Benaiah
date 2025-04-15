@@ -4,7 +4,7 @@
 </script>
 
 <div class={reading_mode ? "blur-3xl opacity-90" : "blur-none opacity-100"}>
-	<div class="absolute flex w-screen items-center blur-xl ">
+	<div class="absolute flex w-screen h-screen items-center blur-xl ">
 		<img src={hero} alt="logo" class="h-full w-full object-fill" />
 	</div>
 </div>
