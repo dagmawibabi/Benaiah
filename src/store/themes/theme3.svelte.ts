@@ -3,6 +3,7 @@ import { team } from '../team_members.svelte';
 import faith1 from '$lib/assets/graphics/themes/LoveFaithHope/Faith/1.png';
 
 export const theme3 = $state({
+	published: false,
 	theme_en: 'Independent Pieces',
 	theme_am: 'እምነት፣ ተስፋና ፍቅር',
 	subtopics: [

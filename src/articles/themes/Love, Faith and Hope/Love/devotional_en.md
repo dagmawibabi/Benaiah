@@ -22,7 +22,7 @@ Here's the deal: God's love isn't reserved for a select few. It's for everyone. 
 
 <br/>
 
-In fact, the Bible reminds us of how deep God’s love goes: *“For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life”* (John 3:16 NIV). While this verse reveals the Father's love in sending His Son, Jesus carried out that love by willingly giving His life, he proved it by showing the depth of God's love in action! To show you just how much you're worth. So, when you catch yourself wondering if real, unshakeable love exists: it does, and it's yours.
+In fact, the Bible reminds us of how deep God’s love goes: _“For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life”_ (John 3:16 NIV). While this verse reveals the Father's love in sending His Son, Jesus carried out that love by willingly giving His life, he proved it by showing the depth of God's love in action! To show you just how much you're worth. So, when you catch yourself wondering if real, unshakeable love exists: it does, and it's yours.
 
 <br/>
 

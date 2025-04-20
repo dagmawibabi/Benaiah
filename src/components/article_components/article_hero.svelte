@@ -3,6 +3,7 @@
     import ArticleTitle from './article_title.svelte';
     import ArticleImage from './article_image.svelte';
 	import ArticleAuthor from './article_author.svelte';
+	import FeedbackLink from './feedback_link.svelte';
 </script>
 
 <div>

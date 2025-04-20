@@ -9,6 +9,7 @@ import hope16 from '$lib/assets/graphics/themes/LoveFaithHope/Hope/16.png';
 import { team } from '../team_members.svelte';
 
 export const theme1 = $state({
+	published: true,
 	theme_en: 'Love, Faith and Hope',
 	theme_am: 'እምነት፣ ተስፋና ፍቅር',
 	subtopics: [

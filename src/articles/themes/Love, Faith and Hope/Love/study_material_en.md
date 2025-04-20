@@ -94,7 +94,7 @@ God’s love brings with it a beautiful promise: eternal life for all who place 
 
 <ArticleHeader content="God’s Everlasting Love: A Promise for All Generations" />
 
-“The Lord appeared to us in the past, saying: “I have loved you with an everlasting love; I have drawn you with unfailing kindness.” (Jeremiah 31:3 NIV) 
+“The Lord appeared to us in the past, saying: “I have loved you with an everlasting love; I have drawn you with unfailing kindness.” (Jeremiah 31:3 NIV)
 
 <br/>
 

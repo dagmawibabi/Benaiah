@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { _, locale } from 'svelte-i18n';
 	import { page } from '$app/state';
-	import { graphicsList } from '../../../../store/graphics.svelte';
+	import { themeList } from '../../../../store/theme_list.svelte';
 	import Nav from '../../../../components/nav/nav.svelte';
 	import Hero from '../../../../components/hero.svelte';
 	import BlurredBackground from '../../../../components/blurred_background.svelte';
@@ -13,7 +13,7 @@
 
 	var currentTheme: any;
 	var currentTopic: any;
-	for (var eachTheme of graphicsList.themes) {
+	for (var eachTheme of themeList.themes) {
 		if (eachTheme.theme_en == theme_en) {
 			currentTheme = eachTheme;
 			for (var eachSubtopic of eachTheme.subtopics) {

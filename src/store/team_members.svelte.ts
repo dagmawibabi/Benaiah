@@ -9,14 +9,14 @@ import YishakWondimagegn from '$lib/assets/team/YishakWondimagegn.png';
 
 import AbleneMelese from '$lib/assets/team/AbleneMelese.png';
 import BethelemMelese from '$lib/assets/team/BethelemMelese.png';
-import ClintonBeyene from '$lib/assets/team/ClintonBeyene.jpg';
+import ClintonBeyene from '$lib/assets/team/ClintonBeyene.png';
 import DanielDemerew from '$lib/assets/team/DanielDemerew.png';
 import EdenTesfaye from '$lib/assets/team/EdenTesfaye.jpg';
 import HannaKinfe from '$lib/assets/team/HannaKinfe.png';
-import HawiFikru from '$lib/assets/team/HawiFikru.jpg';
-import KibruAbebe from '$lib/assets/team/KibruAbebe.jpg';
+import HawiFikru from '$lib/assets/team/HawiFikru.png';
+import KibruAbebe from '$lib/assets/team/KibruAbebe.png';
 import LeulGezahegn from '$lib/assets/team/LeulGezahegn.png';
-import TruketLema from '$lib/assets/team/TruketLema.jpg';
+import TruketLema from '$lib/assets/team/TruketLema.png';
 
 import DagmawiEsayas from '$lib/assets/team/DagmawiEsayas.png';
 

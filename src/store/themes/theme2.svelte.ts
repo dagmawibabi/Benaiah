@@ -5,6 +5,7 @@ import Chatsahi from '$lib/assets/graphics/themes/NamesOfGod/Chatsahi/1.png';
 import Rapha from '$lib/assets/graphics/themes/NamesOfGod/Rapha/1.png';
 
 export const theme2 = $state({
+	published: false,
 	theme_en: 'Names of God',
 	theme_am: 'እምነት፣ ተስፋና ፍቅር',
 	subtopics: [

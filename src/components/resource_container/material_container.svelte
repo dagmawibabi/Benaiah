@@ -12,7 +12,7 @@
 			<div class="flex items-center gap-1">
 				<!-- svelte-ignore svelte_component_deprecated -->
 				<svelte:component this={icon} size={16} />
-				<div class="text-sm font-semibold">{title}</div>
+				<div class={$locale == 'am' ? "text-sm" : "text-sm font-semibold"}>{title}</div>
 			</div>
 
 			<!-- Authors/Artists -->
