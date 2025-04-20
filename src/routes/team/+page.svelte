@@ -4,7 +4,6 @@
 	import Nav from '../../components/nav/nav.svelte';
 	import Hero from '../../components/hero.svelte';
 	import BlurredBackground from '../../components/blurred_background.svelte';
-	import ResourceContainer from '../../components/resource_container/resource_container.svelte';
 	import TeamCategoryContainer from '../../components/team_category_container.svelte';
 </script>
 

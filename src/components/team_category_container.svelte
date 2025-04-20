@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { _, locale } from 'svelte-i18n';
 	import { Instagram, Linkedin, PlaneIcon, Send } from '@lucide/svelte';
 
 	let { title, category } = $props();
@@ -21,13 +22,15 @@
 
 			<!-- Name and Socials -->
 			<div
-				class="flex items-center justify-between border-t border-black bg-zinc-800 font-semibold"
+				class="flex items-center justify-between text-center border-t border-black bg-zinc-800"
 			>
 				<div class="w-full px-2 py-1 text-white">
-					{member.fullname_en}
+					<span class={$locale === 'am' ? "" : "font-semibold"}>
+						{$locale === 'am' ? member.fullname_am :member.fullname_en}
+					</span>
 				</div>
 				<!-- Socials -->
-				<div class="flex h-full gap-x-2 px-3 text-white">
+				<!-- <div class="flex h-full gap-x-2 px-3 text-white">
 					<a href={member.socials.telegram}>
 						<Send
 							size={16}
@@ -46,7 +49,7 @@
 							class="cursor-pointer transition-all hover:scale-125 hover:text-blue-600"
 						/>
 					</a>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	{/each}
