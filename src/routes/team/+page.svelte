@@ -24,13 +24,17 @@
 	<!-- Content -->
 	<div class="absolute z-50 flex w-screen items-center justify-center pb-60">
 		<div class="flex w-[90%] md:w-3/5 lg:w-3/5 xl:w-3/5 2xl:w-3/5 flex-col justify-between">
-			<TeamCategoryContainer title={'Authors'} category={teamCategories.authors} />
+			<TeamCategoryContainer title={$_('page.teams.authors')} category={teamCategories.authors} />
 			<TeamCategoryContainer
-				title={'Graphics Designers'}
+				title={$_('page.teams.graphicsDesigners')}
 				category={teamCategories.graphicsDesigners}
+			/> 
+			<TeamCategoryContainer
+				title={$_('page.teams.narrators')}
+				category={teamCategories.narrators}
 			/>
 			<TeamCategoryContainer
-				title={'Software Developers'}
+				title={$_('page.teams.softwareDevelopers')}
 				category={teamCategories.softwareDevelopers}
 			/>
 		</div>

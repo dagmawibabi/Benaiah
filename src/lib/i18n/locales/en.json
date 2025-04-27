@@ -9,7 +9,11 @@
 		},
 		"teams": {
 			"teams": "Teams",
-			"description": "Meet the gifted individuals running Benaiah. United by a passion for Christ and His Word, we aim to encourage believers through biblical insights and creative expressions to foster spiritual growth."
+			"description": "Meet the gifted individuals running Benaiah. United by a passion for Christ and His Word, we aim to encourage believers through biblical insights and creative expressions to foster spiritual growth.",
+			"authors": "Authors",
+			"graphicsDesigners": "Graphics Designers",
+			"narrators": "Narrators",
+			"softwareDevelopers": "Software Developers"
 		},
 		"graphics": {
 			"graphics": "Graphics",

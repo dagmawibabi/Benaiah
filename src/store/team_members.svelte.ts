@@ -2,7 +2,6 @@ import AddisTechale from '$lib/assets/team/AddisTechale.jpg';
 import AkinahomGetahun from '$lib/assets/team/AkinahomGetahun.png';
 import BereketFikru from '$lib/assets/team/BereketFikru.png';
 import EyuelMelese from '$lib/assets/team/EyuelMelese.png';
-import HenokTesfaye from '$lib/assets/team/HenokTesfaye.png';
 import RebiraTibebu from '$lib/assets/team/RebiraTibebu.png';
 import TinsaeSolomon from '$lib/assets/team/TinsaeSolomon.png';
 import YishakWondimagegn from '$lib/assets/team/YishakWondimagegn.png';
@@ -17,6 +16,9 @@ import HawiFikru from '$lib/assets/team/HawiFikru.png';
 import KibruAbebe from '$lib/assets/team/KibruAbebe.png';
 import LeulGezahegn from '$lib/assets/team/LeulGezahegn.png';
 import TruketLema from '$lib/assets/team/TruketLema.png';
+
+import HenokTesfaye from '$lib/assets/team/HenokTesfaye.png';
+import CourtneyReed from '$lib/assets/team/CourtneyReed.png';
 
 import DagmawiEsayas from '$lib/assets/team/DagmawiEsayas.png';
 
@@ -62,18 +64,6 @@ export const team = $state({
 		fullname_en: 'Eyuel Melese',
 		fullname_am: 'ኢዪኤል መለሰ',
 		photo: EyuelMelese,
-		role_en: 'Graphic Designer',
-		role_am: 'Graphic Designer',
-		socials: {
-			instagram: 'https://www.instagram.com/akinahomgetahun',
-			linkedin: 'https://www.linkedin.com/in/akinahomgetahun',
-			telegram: 'https://t.me/akinahomgetahun'
-		}
-	},
-	HenokTesfaye: {
-		fullname_en: 'Henok Tesfaye',
-		fullname_am: 'ሄኖክ ተስፋዬ',
-		photo: HenokTesfaye,
 		role_en: 'Graphic Designer',
 		role_am: 'Graphic Designer',
 		socials: {
@@ -241,6 +231,32 @@ export const team = $state({
 			linkedin: 'https://www.linkedin.com/in/akinahomgetahun',
 			telegram: 'https://t.me/akinahomgetahun'
 		}
+	}, 
+
+	// Narrators 
+	CourtneyReed: {
+		fullname_en: 'Courtney Reed',
+		fullname_am: 'ኮርትኒ ሪድ',
+		photo: CourtneyReed,
+		role_en: 'Narrator',
+		role_am: 'Narrator',
+		socials: {
+			instagram: 'https://www.instagram.com/akinahomgetahun',
+			linkedin: 'https://www.linkedin.com/in/akinahomgetahun',
+			telegram: 'https://t.me/akinahomgetahun'
+		}
+	},
+	HenokTesfaye: {
+		fullname_en: 'Henok Tesfaye',
+		fullname_am: 'ሄኖክ ተስፋዬ',
+		photo: HenokTesfaye,
+		role_en: 'Narrator',
+		role_am: 'Narrator',
+		socials: {
+			instagram: 'https://www.instagram.com/akinahomgetahun',
+			linkedin: 'https://www.linkedin.com/in/akinahomgetahun',
+			telegram: 'https://t.me/akinahomgetahun'
+		}
 	},
 
 	// Devs 
@@ -281,5 +297,6 @@ export const teamCategories = $state({
 		team.TinsaeSolomon,
 		team.YishakWondimagegn,
 	],
+	narrators: [team.CourtneyReed, team.HenokTesfaye,],
 	softwareDevelopers: [team.DagmawiEsayas]
 });
