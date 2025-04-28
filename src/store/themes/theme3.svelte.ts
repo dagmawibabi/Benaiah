@@ -1,7 +1,5 @@
 import { team } from '../team_members.svelte';
 
-import faith1 from '$lib/assets/graphics/themes/LoveFaithHope/Faith/1.png';
-
 export const theme3 = $state({
 	published: false,
 	theme_en: 'Independent Pieces',
@@ -49,12 +47,12 @@ export const theme3 = $state({
 				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: faith1,
-			cover_am: faith1,
-			square_en: [faith1],
-			square_am: [faith1],
-			story_en: [faith1],
-			story_am: [faith1],
+			cover_en: 'faith1',
+			cover_am: 'faith1',
+			square_en: ['faith1'],
+			square_am: ['faith1'],
+			story_en: ['faith1'],
+			story_am: ['faith1'],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
