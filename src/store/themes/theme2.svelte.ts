@@ -3,7 +3,7 @@ import { team } from '../team_members.svelte';
 export const theme2 = $state({
 	published: false,
 	theme_en: 'Names of God',
-	theme_am: 'እምነት፣ ተስፋና ፍቅር',
+	theme_am: 'የእግዚአብሄር ስሞች',
 	subtopics: [
 		{
 			title_en: 'Jehovah Chatsahi',

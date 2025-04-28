@@ -3,7 +3,7 @@ import { team } from '../team_members.svelte';
 export const theme1 = $state({
 	published: true,
 	theme_en: 'Love, Faith and Hope',
-	theme_am: 'እምነት፣ ተስፋና ፍቅር',
+	theme_am: 'ፍቅር፣ እምነትና ተስፋ',
 	subtopics: [
 		{
 			title_en: 'Love',
@@ -12,15 +12,15 @@ export const theme1 = $state({
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: { 
 				devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
-				devotional_author_en: [team.AkinahomGetahun],
+				devotional_author_en: [team.HawiFikru],
 				devotional_am: './articles/themes/Love, Faith and Hope/Love/devotional_am',
-				devotional_author_am: [team.RebiraTibebu]
+				devotional_author_am: [team.KibruAbebe]
 			},
 			study_material: {
 				study_material_en: './articles/themes/Love, Faith and Hope/Love/study_material_en',
-				study_material_author_en: [team.BethelemMelese],
+				study_material_author_en: [team.HawiFikru],
 				study_material_am: './articles/themes/Love, Faith and Hope/Love/study_material_am',
-				study_material_author_am: [team.AkinahomGetahun]
+				study_material_author_am: [team.KibruAbebe]
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
@@ -50,22 +50,22 @@ export const theme1 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
 			],
-			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
+			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.YishakWondimagegn]
 		},
 		{
 			title_en: 'Faith',
 			title_am: 'እምነት',
 			devotional: { 
-				devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
-				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './articles/themes/Love, Faith and Hope/Love/devotional_am',
-				devotional_author_am: [team.RebiraTibebu]
+				devotional_en: './articles/themes/Love, Faith and Hope/Faith/devotional_en',
+				devotional_author_en: [team.EdenTesfaye],
+				devotional_am: './articles/themes/Love, Faith and Hope/Faith/devotional_am',
+				devotional_author_am: [team.KibruAbebe]
 			},
 			study_material: {
-				study_material_en: './articles/themes/Love, Faith and Hope/Love/study_material_en',
-				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './articles/themes/Love, Faith and Hope/Love/study_material_am',
-				study_material_author_am: [team.AkinahomGetahun]
+				study_material_en: './articles/themes/Love, Faith and Hope/Faith/study_material_en',
+				study_material_author_en: [team.EdenTesfaye],
+				study_material_am: './articles/themes/Love, Faith and Hope/Faith/study_material_am',
+				study_material_author_am: [team.KibruAbebe]
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798661/1_zadgvw.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795456/8_dbsvnk.png',
@@ -95,7 +95,7 @@ export const theme1 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798870/17_bieire.jpg',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795502/18_b1lyhp.png',
 			],
-			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
+			artists: [team.YishakWondimagegn]
 		},
 		{
 			title_en: 'Hope',
@@ -103,16 +103,16 @@ export const theme1 = $state({
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: { 
-				devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
-				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './articles/themes/Love, Faith and Hope/Love/devotional_am',
-				devotional_author_am: [team.RebiraTibebu]
+				devotional_en: './articles/themes/Love, Faith and Hope/Hope/devotional_en',
+				devotional_author_en: [team.TruketLema],
+				devotional_am: './articles/themes/Love, Faith and Hope/Hope/devotional_am',
+				devotional_author_am: [team.KibruAbebe]
 			},
 			study_material: {
-				study_material_en: './articles/themes/Love, Faith and Hope/Love/study_material_en',
-				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './articles/themes/Love, Faith and Hope/Love/study_material_am',
-				study_material_author_am: [team.AkinahomGetahun]
+				study_material_en: './articles/themes/Love, Faith and Hope/Hope/study_material_en',
+				study_material_author_en: [team.TruketLema],
+				study_material_am: './articles/themes/Love, Faith and Hope/Hope/study_material_am',
+				study_material_author_am: [team.KibruAbebe]
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
@@ -142,7 +142,7 @@ export const theme1 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_jsjald.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dvgyf8.png'
 			],
-			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
+			artists: [team.HenokTesfaye]
 		}
 	]
 });

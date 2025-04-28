@@ -3,10 +3,9 @@
 	import { Send } from "@lucide/svelte";
     const category = page.url.pathname.split('/').pop();
 </script>
-<div class="pt-36">	
 
-
-		<a href="https://t.me/benaiahcontact">
+<div class="pt-36 pb-10">	
+		<a href="https://t.me/benaiah_contact">
 			<div class="flex gap-x-2 items-center text-blue-600 border-b border-b-transparent cursor-pointer hover:border-b-blue-600 w-fit">	
 				<Send
 					 size={18}

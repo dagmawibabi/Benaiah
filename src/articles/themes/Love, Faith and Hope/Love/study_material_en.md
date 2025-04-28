@@ -1,6 +1,6 @@
 ---
-title: A Love like No Other
-date: 'April 4, 2025'
+title: A Love Like No Other
+date: 'December 30, 2025'
 ---
 
 <script>
@@ -15,7 +15,7 @@ date: 'April 4, 2025'
   subtopic={theme1.subtopics[0]} 
 />
 
-<ArticleHeader content="A Love like No Other " />
+<ArticleHeader content="A Love Like No Other" />
 
 Have you ever stopped and wondered if true love, the real deal, never give up, always has your back kind of love actually exists? You know the kind of love that doesn’t just show up when you’re at your best but sticks around when you’re in a mess, too? A love so steady and pure it feels like a warm hug on your worst day?
 

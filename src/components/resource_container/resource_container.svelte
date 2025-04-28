@@ -32,7 +32,7 @@
 			<MaterialContainer
 				title={$locale === 'am' ? 'የጥሞና ጽሑፍ' : 'Devotional'}
 				icon={FileText}
-				artistsList={subtopic.devotional.devotional_author_en}
+				artistsList={$locale === 'am' ? subtopic.devotional.devotional_author_am : subtopic.devotional.devotional_author_en}
 				link={$locale === 'am' ? subtopic.devotional.devotional_am : subtopic.devotional.devotional_en}
 			/>
 
@@ -40,7 +40,7 @@
 			<MaterialContainer
 				title={$locale === 'am' ? 'የጥናት ጽሑፍ' : 'Study Material'}
 				icon={BookText}
-				artistsList={subtopic.study_material.study_material_author_en}
+				artistsList={$locale === 'am' ? subtopic.study_material.study_material_author_am : subtopic.study_material.study_material_author_en}
 				link={$locale === 'am' ? subtopic.study_material.study_material_am : subtopic.study_material.study_material_en}
 			/>
 			
