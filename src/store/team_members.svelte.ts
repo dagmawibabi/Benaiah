@@ -292,7 +292,6 @@ export const teamCategories = $state({
 		team.AddisTechale,
 		team.BereketFikru,
 		team.EyuelMelese,
-		team.HenokTesfaye,
 		team.RebiraTibebu,
 		team.TinsaeSolomon,
 		team.YishakWondimagegn,
