@@ -12,7 +12,7 @@
 >
 	<div class="relative">
 		{#if !published}
-		<div class="w-72 h-full backdrop-blur-xl absolute group-hover:backdrop-blur-md">
+		<div class="w-full h-full backdrop-blur-xl absolute group-hover:backdrop-blur-md">
 			<span class="text-lg flex items-center font-batangas justify-center pt-16 text-black">
 				{$locale === 'am' ? 'በቅርብ ቀን' : 'Coming Soon'}
 			</span>

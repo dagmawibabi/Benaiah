@@ -12,7 +12,7 @@
 					 class="cursor-pointer transition-all hover:scale-125 hover:text-blue-500"
 				/>
 				<div class="pb-1">
-					{category === 'devotional_am' || category === 'study_material_am' ? 'ስለዚህ ጽሑፍ አስተያየትዎን እና የተሰማዎትን ይላኩልን።' : 'Send us your feedbacks and thoughts about this piece'}
+					{category === 'devotional_am' || category === 'study_material_am' ? 'ስለዚህ ጽሑፍ አስተያየትዎን እና የተሰማዎትን ይላኩልን።' : 'Send us your feedbacks and thoughts'}
 				</div>
 			</div>
 		</a>
