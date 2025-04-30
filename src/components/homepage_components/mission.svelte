@@ -1,12 +1,9 @@
 <script>
 	import { _, locale } from 'svelte-i18n';
 
-	import EachWork from './each_work.svelte';
 	import SectionHeader from './section_header.svelte';
 	import AnnouncementPost from '$lib/assets/illustrations/AnnouncementPost.jpg';
 	import AnnouncementPostAmharic from '$lib/assets/illustrations/AnnouncementPostAmharic.jpg';
-	import writer from '$lib/assets/illustrations/writer.png';
-	import design from '$lib/assets/illustrations/design.png';
 </script>
 
 <div id="mission" class="h-screen pt-20">

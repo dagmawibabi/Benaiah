@@ -1,9 +1,15 @@
 <script lang="ts">
+	import { _, locale } from 'svelte-i18n';
+
 	let { word, isTag = false } = $props();
 </script>
 
 {#if isTag}
-	<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
+	<div
+		class={$locale === 'am'
+			? 'rounded-full bg-emerald-400 px-5 py-1 text-lg text-black'
+			: 'rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black'}
+	>
 		{word}
 	</div>
 {:else}
