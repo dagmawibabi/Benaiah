@@ -32,9 +32,9 @@
 		<EachNavItem name={$_('page.navigation.home')} link="/" />
 		<EachNavItem name={$_('page.navigation.resources')} link="/resources" />
 		<EachNavItem name={$_('page.navigation.teams')} link="/team" />
+		<EachNavItem name={$_('page.navigation.mission')} link="/homepage#mission" />
 
 		<div class="hidden md:flex lg:flex xl:flex 2xl:flex">
-			<EachNavItem name={$_('page.navigation.mission')} link="/homepage#mission" />
 			<EachNavItem name={$_('page.navigation.contact')} link="/homepage#contactus" />
 		</div>
 	</div>
