@@ -20,25 +20,25 @@
 
 <div class="pb-72 pt-24 md:pt-24 lg:pt-0 xl:pt-0 2xl:pt-0">
 	<SectionHeader
-		title="How We Work"
-		description="This is how we produce the content you see on our website and across our social media. Our work process is pretty straightforward and simple."
+		title={$_('page.howWeWork.title')}
+		description={$_('page.howWeWork.description')}
 	/>
 
 	<div class="grid grid-cols-1 gap-4 md:grid lg:flex xl:flex 2xl:flex">
 		<EachWork
 			image={research}
-			title="Study Materials"
-			description="We first start by creating study materials under a certain theme."
+			title={$_('page.howWeWork.studyMaterial')}
+			description={$_('page.howWeWork.studyMaterialDescription')}
 		/>
 		<EachWork
 			image={writer}
-			title="Devotionals"
-			description="We first start by creating study materials under a certain theme."
+			title={$_('page.howWeWork.devotionals')}
+			description={$_('page.howWeWork.devotionalsDescription')}
 		/>
 		<EachWork
 			image={design}
-			title="Graphics"
-			description="We first start by creating study materials under a certain theme."
+			title={$_('page.howWeWork.graphics')}
+			description={$_('page.howWeWork.graphicsDescription')}
 		/>
 	</div>
 

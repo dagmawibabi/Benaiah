@@ -1,4 +1,6 @@
 <script>
+	import { _, locale } from 'svelte-i18n';
+
 	import SectionHeader from './section_header.svelte';
 	import BenaiahWhite from '$lib/assets/illustrations/Logo/BenaiahWhite.jpg';
 	import BenaiahBlack from '$lib/assets/illustrations/Logo/BenaiahBlack.jpg';
@@ -9,10 +11,7 @@
 </script>
 
 <div class="h-fit pb-52">
-	<SectionHeader
-		title="Logo Process"
-		description="This is how we produce the content you see on our website and across our social media. Our work process is pretty straightforward and simple."
-	/>
+	<SectionHeader title={$_('page.logo.title')} description={$_('page.logo.description')} />
 	<div class="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
 		<div class="h-full w-full overflow-clip rounded-2xl border border-zinc-500">
 			<img

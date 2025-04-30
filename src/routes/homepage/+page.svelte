@@ -20,12 +20,17 @@
 	<!-- HERO -->
 	<Hero />
 
-	<!--  -->
+	<!-- SECTIONS -->
 	<div class="mx-auto w-[90%] md:w-[90%] lg:w-3/5 xl:w-3/5 2xl:w-3/5">
 		<AboutUs />
 		<Mission />
 		<HowWeWork />
 		<Logo />
 		<ContactUs />
+	</div>
+
+	<!-- Footer -->
+	<div class="flex w-full items-center justify-center bg-black py-2 text-sm text-white">
+		Benaiah, Launched on May 1, 2025
 	</div>
 </div>

@@ -1,7 +1,42 @@
 {
 	"page": {
 		"home": {
-			"subtitle": "God has Created | Built"
+			"subtitle": "God has Created | Built",
+			"description": "Welcome to Benaiah! Benaiah means God has Created or Built and that is the center of our mission here. God is a creator and a builder actively involved in people's lives, we want God to build and create through us."
+		},
+		"about": {
+			"subtitle": "Origin Story",
+			"paragraph1": "Benaiah is God's initiative put into the hearts of Dagmawi Esayas and Akinahom Getahun. Benaiah came from the Hebrew word bana (to build) and yah (Yahweh) meaning 'Yahweh has Built or Created.' It is also the name of a mighty and honored warrior in David's kingdom whose heroic deeds are described in 2 Samuel 23:20-23.",
+			"paragraph2": "The team is composed of 20 wondeful individuals from Ethiopia and USA. Which includes authors, Graphics Designers, Narrators and Software Developers. After the formation of the team, we all started producing so much written, visual and audio content for 4 months. All of which is aimed at glorifying God, sharing the good news of the gospel and to encourage and give hope to Amharic and English speaking people."
+		},
+		"mission": {
+			"title": "New Content, One Mission",
+			"description": "This is what we aim to accomplish with Benaiah.",
+			"subtitle": "Mission",
+			"paragraph1": "Benaiah exists as a creative conduit, extending a heartfelt invitation for people to draw near to God. We believe the Creator desires relationship and our core mission is to facilitate that connection, calling individuals towards the source of life, truth, and enduring hope through accessible and engaging means.",
+			"paragraph2": "To fulfill this calling, we dedicate ourselves to crafting meaningful resources designed for spiritual growth and outreach. Through thoughtful devotionals, insightful study materials, visually compelling graphics, and clear narrations, we aim to illuminate God's Word and make His truths resonate powerfully in everyday life.",
+			"paragraph3": "We strive to equip both seekers and the faithful to encounter God more fully and share His love with the world.",
+			"cta": "Checkout Resources"
+		},
+
+		"howWeWork": {
+			"title": "How We Work",
+			"description": "This is how we produce the content you see on our website and across our social media. Our work process is pretty straightforward and simple.",
+			"studyMaterial": "Study Materials",
+			"studyMaterialDescription": "We first start by creating study materials under a certain theme.",
+			"devotionals": "Devotionals",
+			"devotionalsDescription": "Basing on the study material, we make sweet and precise devotionals",
+			"graphics": "Graphics",
+			"graphicsDescription": "Then based on both written content we make beautiful and mesmerizing graphics"
+		},
+		"logo": {
+			"title": "Logo",
+			"description": "This is the process of how we came up with out logo. Our logo is a modern and minimal logo, that has the name Benaiah written in the 'Batangas' typeface and an upwards pointing arrow. The idea for the arrow is to signify the spear and staff Benaiah used to kill the Egyptian. In related meaning we want it to point up to the sky."
+		},
+		"contactUs": {
+			"title": "Contact Us",
+			"description": "We have profile across all major social medias and you can use anyone of the following you're comfortable with to follow and engage with us.",
+			"connectWithUs": "Connect With Us"
 		},
 		"resources": {
 			"resources": "Resources",

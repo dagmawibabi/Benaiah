@@ -6,12 +6,12 @@
 	import HighlightedVerse from './highlighted_verse.svelte';
 </script>
 
-<div class="h-screen">
+<div class="pb-24">
 	<!-- Header -->
-	<SectionHeader
-		title="About Us"
-		description="This is how we produce the content you see on our website and across our social media. Our work process is pretty straightforward and simple."
-	/>
+	<SectionHeader title={$_('page.about.subtitle')} description={$_('page.about.paragraph1')} />
+
+	<!-- Paragraph -->
+	<SectionHeader title="" description={$_('page.about.paragraph2')} />
 
 	<!-- Paragraph -->
 	<div

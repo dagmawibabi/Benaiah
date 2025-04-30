@@ -6,10 +6,7 @@
 </script>
 
 <div id="contactus" class="h-screen pt-20">
-	<SectionHeader
-		title="Contact Us"
-		description="This is how we produce the content you see on our website and across our social media. Our work process is pretty straightforward and simple."
-	/>
+	<SectionHeader title={$_('page.contactUs.title')} description={$_('page.logo.description')} />
 
 	<div
 		class="mx-auto grid w-full grid-cols-3 gap-4 p-2 pb-16 md:w-[70%] md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
@@ -92,5 +89,5 @@
 		</a>
 	</div>
 
-	<SectionHeader title="" description="Connect with Us!" />
+	<SectionHeader title="" description={$_('page.contactUs.connectWithUs')} />
 </div>
