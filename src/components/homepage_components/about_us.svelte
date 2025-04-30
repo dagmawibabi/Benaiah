@@ -52,35 +52,16 @@
 	</div>
 
 	<div class="mx-auto flex w-[90%] justify-center gap-2 pt-6">
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			Benaiah
-		</div>
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			Valiant Warrior
-		</div>
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			Heroic Deeds
-		</div>
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			Honored
-		</div>
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			Captain
-		</div>
+		<HighlightedVerse word="Benaiah" isTag={true} />
+		<HighlightedVerse word="Valiant Warrior" isTag={true} />
+		<HighlightedVerse word="Heroic Deeds" isTag={true} />
+		<HighlightedVerse word="Honored" isTag={true} />
+		<HighlightedVerse word="Captain" isTag={true} />
 	</div>
 	<div class="mx-auto flex w-[90%] justify-center gap-2 pt-4">
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			בניה
-		</div>
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			God has Created
-		</div>
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			God has Built
-		</div>
-
-		<div class="rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black">
-			Bana-yah
-		</div>
+		<HighlightedVerse word="בניה" isTag={true} />
+		<HighlightedVerse word="God has Created" isTag={true} />
+		<HighlightedVerse word="God has Built" isTag={true} />
+		<HighlightedVerse word="Bana-yah" isTag={true} />
 	</div>
 </div>
