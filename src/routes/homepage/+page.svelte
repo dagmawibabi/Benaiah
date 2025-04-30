@@ -21,7 +21,7 @@
 	<Hero />
 
 	<!--  -->
-	<div class="w-[90%] md:w-3/5 lg:w-3/5 xl:w-3/5 2xl:w-3/5 mx-auto">
+	<div class="mx-auto w-[90%] md:w-3/5 lg:w-3/5 xl:w-3/5 2xl:w-3/5">
 		<AboutUs />
 		<Mission />
 		<HowWeWork />
