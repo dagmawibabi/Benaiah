@@ -43,7 +43,7 @@
 	<!-- svelte-ignore a11y_no_static_element_interactions -->
 	<!-- svelte-ignore a11y_click_events_have_key_events -->
 	<div
-		class="hidden w-16 cursor-pointer rounded-full border border-zinc-700 text-center backdrop-blur-xl hover:bg-zinc-900 hover:text-white md:block lg:block xl:block 2xl:block"
+		class="block w-16 cursor-pointer rounded-full border border-zinc-700 text-center backdrop-blur-xl hover:bg-zinc-900 hover:text-white md:block lg:block xl:block 2xl:block"
 		onclick={() => changeLanguage()}
 	>
 		{#if $locale === 'am'}
