@@ -12,7 +12,7 @@
 	/>
 
 	<div
-		class="mx-auto grid w-full grid-cols-3 gap-4 p-2 pb-16 md:w-full md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
+		class="mx-auto grid w-full grid-cols-3 gap-4 p-2 pb-16 md:w-[70%] md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"
 	>
 		<a
 			href={$locale === 'am' ? 'https://t.me/benaiah_amharic' : 'https://instagram.com/benaiah_org'}
