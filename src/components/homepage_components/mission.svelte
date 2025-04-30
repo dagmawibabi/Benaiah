@@ -17,7 +17,7 @@
 	<div class="flex gap-x-6">
 		<div class="group relative w-1/2">
 			<div
-				class="absolute m-2 h-full w-full rounded-lg bg-zinc-500 transition-all group-hover:bg-zinc-600"
+				class="absolute m-2 h-full w-full rounded-lg bg-zinc-600 transition-all group-hover:bg-zinc-600"
 			></div>
 			<img
 				src={$locale === 'am' ? AnnouncementPostAmharic : AnnouncementPost}
