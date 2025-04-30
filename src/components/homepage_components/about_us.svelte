@@ -15,7 +15,7 @@
 
 	<!-- Paragraph -->
 	<div
-		class="relative mx-auto h-[500px] w-full md:h-[340px] md:w-[90%] lg:h-[340px] lg:w-[90%] xl:h-[340px] xl:w-[90%] 2xl:h-[340px] 2xl:w-[90%]"
+		class="relative mx-auto h-[500px] w-full md:h-[500px] md:w-full lg:h-[340px] lg:w-[90%] xl:h-[340px] xl:w-[90%] 2xl:h-[340px] 2xl:w-[90%]"
 	>
 		<div class="absolute m-2 h-full w-full rounded-xl border border-black bg-zinc-600"></div>
 
@@ -79,7 +79,7 @@
 	</div>
 
 	<!-- Tags -->
-	<div class="hidden md:block lg:block xl:block 2xl:block">
+	<div class="hidden md:hidden lg:block xl:block 2xl:block">
 		<div class="mx-auto flex w-[90%] justify-center gap-2 pt-6">
 			<HighlightedVerse word={$locale === 'am' ? 'በናያስ' : 'Benaiah'} isTag={true} />
 			<HighlightedVerse word={$locale === 'am' ? 'ጐበዝ ተዋጊ' : 'Valiant Warrior'} isTag={true} />
