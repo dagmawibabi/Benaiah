@@ -23,7 +23,7 @@
 
 	<!-- Content -->
 	<div class="absolute z-50 flex w-screen items-center justify-center pb-60">
-		<div class="flex w-[90%] md:w-3/5 lg:w-3/5 xl:w-3/5 2xl:w-3/5 flex-col justify-between">
+		<div class="flex w-[90%] md:w-[95%] lg:w-[85%] xl:w-3/5 2xl:w-3/5 flex-col justify-between">
 			{#each themeList.themes as theme}
 				<div class="pl-5 font-batangas text-xl text-black">
 					— {$locale === 'am' ? theme.theme_am : theme.theme_en}

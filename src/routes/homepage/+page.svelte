@@ -7,6 +7,7 @@
 	import AboutUs from '../../components/homepage_components/about_us.svelte';
 	import Mission from '../../components/homepage_components/mission.svelte';
 	import ContactUs from '../../components/homepage_components/contact_us.svelte';
+	import Logo from '../../components/homepage_components/logo.svelte';
 </script>
 
 <!-- Blurred Background -->
@@ -24,9 +25,7 @@
 		<AboutUs />
 		<Mission />
 		<HowWeWork />
+		<Logo />
 		<ContactUs />
 	</div>
-	
-	<!--  -->
-	<div class="h-screen w-screen"></div>
 </div>

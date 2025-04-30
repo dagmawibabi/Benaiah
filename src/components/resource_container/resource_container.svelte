@@ -12,10 +12,15 @@
 >
 	<div class="relative">
 		{#if !published}
-		<div class="w-full h-full backdrop-blur-xl absolute group-hover:backdrop-blur-md">
-			<span class="text-lg flex items-center font-batangas justify-center pt-16 text-black">
-				{$locale === 'am' ? 'በቅርብ ቀን' : 'Coming Soon'}
-			</span>
+		<div class="w-full h-full absolute bg-white">
+			<div class="text-lg flex flex-col items-center justify-center pt-14 text-black">
+				<div class="font-batangas">
+					{$locale === 'am' ? subtopic.title_am : subtopic.title_en}
+				</div>
+				<div class="text-sm">
+					{$locale === 'am' ? 'በቅርብ ቀን' : 'Coming Soon'}
+				</div>
+			</div>
 		</div>
 		{/if}
 

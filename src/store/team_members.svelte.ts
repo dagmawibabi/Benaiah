@@ -4,7 +4,7 @@ import BereketFikru from '$lib/assets/team/BereketFikru.png';
 import EyuelMelese from '$lib/assets/team/EyuelMelese.png';
 import RebiraTibebu from '$lib/assets/team/RebiraTibebu.png';
 import TinsaeSolomon from '$lib/assets/team/TinsaeSolomon.png';
-import YishakWondimagegn from '$lib/assets/team/YishakWondimagegn.png';
+import YishakWondimagegn from '$lib/assets/team/YishakWondimagegn.jpeg';
 
 import AbleneMelese from '$lib/assets/team/AbleneMelese.png';
 import BethelemMelese from '$lib/assets/team/BethelemMelese.png';

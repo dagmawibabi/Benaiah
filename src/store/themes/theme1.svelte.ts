@@ -95,7 +95,7 @@ export const theme1 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798870/17_bieire.jpg',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795502/18_b1lyhp.png',
 			],
-			artists: [team.YishakWondimagegn]
+			artists: [team.YishakWondimagegn, team.EyuelMelese]
 		},
 		{
 			title_en: 'Hope',
@@ -106,7 +106,7 @@ export const theme1 = $state({
 				devotional_en: './articles/themes/Love, Faith and Hope/Hope/devotional_en',
 				devotional_author_en: [team.TruketLema],
 				devotional_am: './articles/themes/Love, Faith and Hope/Hope/devotional_am',
-				devotional_author_am: [team.KibruAbebe]
+				devotional_author_am: [team.LeulGezahegn]
 			},
 			study_material: {
 				study_material_en: './articles/themes/Love, Faith and Hope/Hope/study_material_en',

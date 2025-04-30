@@ -6,8 +6,8 @@ export const theme3 = $state({
     theme_am: 'የእግዚአብሔር ሙሉ ጦር ዕቃ ',
     subtopics: [
         {
-            title_en: 'Love',
-            title_am: 'ፍቅር',
+            title_en: 'Belt of Truth',
+            title_am: 'የእውነት ዝናር',
             description_en: 'A collection of beautiful and heart warming graphics',
             description_am: 'A collection of beautiful and heart warming graphics',
             devotional: { 
@@ -53,8 +53,8 @@ export const theme3 = $state({
             artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
         },
         {
-            title_en: 'Faith',
-            title_am: 'እምነት',
+            title_en: 'Breastplate of Righteousness',
+            title_am: 'የጽድቅን ጥሩር',
             devotional: { 
                 devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
                 devotional_author_en: [team.AkinahomGetahun],
@@ -98,8 +98,8 @@ export const theme3 = $state({
             artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
         },
         {
-            title_en: 'Hope',
-            title_am: 'ተስፋ',
+            title_en: 'Shoes of the Gospel of Peace',
+            title_am: 'የሰላም ወንጌል ጫማ',
             description_en: 'A collection of beautiful and heart warming graphics',
             description_am: 'A collection of beautiful and heart warming graphics',
             devotional: { 
@@ -145,8 +145,8 @@ export const theme3 = $state({
             artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
         },
         {
-            title_en: 'Faith',
-            title_am: 'እምነት',
+            title_en: 'Helmet of Salvation',
+            title_am: 'የመዳን ራስ ቍር',
             devotional: { 
                 devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
                 devotional_author_en: [team.AkinahomGetahun],
@@ -190,8 +190,8 @@ export const theme3 = $state({
             artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
         },
         {
-            title_en: 'Hope',
-            title_am: 'ተስፋ',
+            title_en: 'Sword of the Spirit',
+            title_am: 'የመንፈስ ሰይፍ',
             description_en: 'A collection of beautiful and heart warming graphics',
             description_am: 'A collection of beautiful and heart warming graphics',
             devotional: { 
