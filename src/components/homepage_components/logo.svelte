@@ -1,12 +1,11 @@
 <script>
-	import EachWork from './each_work.svelte';
 	import SectionHeader from './section_header.svelte';
-	import BenaiahWhite from '$lib/assets/illustrations/logo/BenaiahWhite.jpg';
-	import BenaiahBlack from '$lib/assets/illustrations/logo/BenaiahBlack.jpg';
-	import logo1 from '$lib/assets/illustrations/logo/1.jpg';
-	import logo2 from '$lib/assets/illustrations/logo/2.jpg';
-	import logo3 from '$lib/assets/illustrations/logo/3.jpg';
-	import logo4 from '$lib/assets/illustrations/logo/4.jpg';
+	import BenaiahWhite from '$lib/assets/illustrations/Logo/BenaiahWhite.jpg';
+	import BenaiahBlack from '$lib/assets/illustrations/Logo/BenaiahBlack.jpg';
+	import logo1 from '$lib/assets/illustrations/Logo/1.jpg';
+	import logo2 from '$lib/assets/illustrations/Logo/2.jpg';
+	import logo3 from '$lib/assets/illustrations/Logo/3.jpg';
+	import logo4 from '$lib/assets/illustrations/Logo/4.jpg';
 </script>
 
 <div class="h-fit pb-52">
