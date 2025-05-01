@@ -4,7 +4,7 @@ import BereketFikru from '$lib/assets/team/BereketFikru.png';
 import EyuelMelese from '$lib/assets/team/EyuelMelese.png';
 import RebiraTibebu from '$lib/assets/team/RebiraTibebu.png';
 import TinsaeSolomon from '$lib/assets/team/TinsaeSolomon.png';
-import YishakWondimagegn from '$lib/assets/team/YishakWondimagegn.jpeg';
+import YisihakWondimagegn from '$lib/assets/team/YisihakWondimagegn.jpeg';
 
 import AbleneMelese from '$lib/assets/team/AbleneMelese.png';
 import BethelemMelese from '$lib/assets/team/BethelemMelese.png';
@@ -97,10 +97,10 @@ export const team = $state({
 			telegram: 'https://t.me/akinahomgetahun'
 		}
 	},
-	YishakWondimagegn: {
-		fullname_en: 'Yishak Wondimagegn',
-		fullname_am: 'ይስሃቅ ወንድማገኝ',
-		photo: YishakWondimagegn,
+	YisihakWondimagegn: {
+		fullname_en: 'Yisihak Wondimagegn',
+		fullname_am: 'ይስሐቅ ወንድማገኝ',
+		photo: YisihakWondimagegn,
 		role_en: 'Graphic Designer',
 		role_am: 'Graphic Designer',
 		socials: {
@@ -294,7 +294,7 @@ export const teamCategories = $state({
 		team.EyuelMelese,
 		team.RebiraTibebu,
 		team.TinsaeSolomon,
-		team.YishakWondimagegn
+		team.YisihakWondimagegn
 	],
 	narrators: [team.CourtneyReed, team.HenokTesfaye],
 	softwareDevelopers: [team.DagmawiEsayas]
