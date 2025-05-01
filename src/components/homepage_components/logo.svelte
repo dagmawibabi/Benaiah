@@ -17,7 +17,7 @@
 			<img
 				src={logo1}
 				alt="Benaiah Black"
-				class="h-full w-[full] rounded-2xl object-cover transition-all hover:scale-105"
+				class="h-full w-full rounded-2xl object-cover transition-all hover:scale-105"
 			/>
 		</div>
 		<div class="h-full w-full overflow-clip rounded-2xl border border-zinc-500">
