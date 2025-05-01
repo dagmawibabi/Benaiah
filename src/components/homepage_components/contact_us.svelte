@@ -24,7 +24,7 @@
 	/>
 
 	<div
-		class="mx-auto grid w-full grid-cols-3 gap-2 p-0 pb-16 md:w-[70%] md:grid-cols-4 md:gap-4 md:p-2 lg:grid-cols-4 lg:gap-4 lg:p-2 xl:grid-cols-4 xl:gap-4 xl:p-2 2xl:grid-cols-4 2xl:gap-4 2xl:p-2"
+		class="mx-auto grid w-full grid-cols-3 gap-2 p-0 pb-16 md:grid-cols-4 md:gap-4 md:p-2 lg:grid-cols-4 lg:gap-4 lg:p-2 xl:grid-cols-4 xl:gap-4 xl:p-2 2xl:grid-cols-4 2xl:gap-4 2xl:p-2"
 	>
 		<SocialLinks social={$locale === 'am' ? telegramAm : telegramEn} />
 
@@ -38,6 +38,8 @@
 		<SocialLinks social={email} />
 		<SocialLinks social={support} />
 	</div>
+
+	<div class="h-10"></div>
 
 	<SectionHeader title="" description={$_('page.contactUs.connectWithUs')} />
 </div>
