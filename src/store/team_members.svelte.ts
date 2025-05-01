@@ -9,7 +9,7 @@ import YishakWondimagegn from '$lib/assets/team/YishakWondimagegn.jpeg';
 import AbleneMelese from '$lib/assets/team/AbleneMelese.png';
 import BethelemMelese from '$lib/assets/team/BethelemMelese.png';
 import ClintonBeyene from '$lib/assets/team/ClintonBeyene.png';
-import DanielDemerew from '$lib/assets/team/DanielDemerew.png';
+import DanielDemerw from '$lib/assets/team/DanielDemerw.png';
 import EdenTesfaye from '$lib/assets/team/EdenTesfaye.jpg';
 import HannaKinfe from '$lib/assets/team/HannaKinfe.png';
 import HawiFikru from '$lib/assets/team/HawiFikru.png';
@@ -110,7 +110,7 @@ export const team = $state({
 		}
 	},
 
-	// Authors 
+	// Authors
 	EdenTesfaye: {
 		fullname_en: 'Eden Tesfaye',
 		fullname_am: 'ኤደን ተስፋዬ',
@@ -160,10 +160,10 @@ export const team = $state({
 			telegram: 'https://t.me/akinahomgetahun'
 		}
 	},
-	DanielDemerew: {
-		fullname_en: 'Daniel Demerew',
+	DanielDemerw: {
+		fullname_en: 'Daniel Demerw',
 		fullname_am: 'ዳንኤል ደመረው',
-		photo: DanielDemerew,
+		photo: DanielDemerw,
 		role_en: 'Author',
 		role_am: 'Author',
 		socials: {
@@ -231,9 +231,9 @@ export const team = $state({
 			linkedin: 'https://www.linkedin.com/in/akinahomgetahun',
 			telegram: 'https://t.me/akinahomgetahun'
 		}
-	}, 
+	},
 
-	// Narrators 
+	// Narrators
 	CourtneyReed: {
 		fullname_en: 'Courtney Reed',
 		fullname_am: 'ኮርትኒ ሪድ',
@@ -259,7 +259,7 @@ export const team = $state({
 		}
 	},
 
-	// Devs 
+	// Devs
 	DagmawiEsayas: {
 		fullname_en: 'Dagmawi Esayas',
 		fullname_am: 'ዳግማዊ ኢሳያስ',
@@ -280,12 +280,12 @@ export const teamCategories = $state({
 		team.AbleneMelese,
 		team.BethelemMelese,
 		team.ClintonBeyene,
-		team.DanielDemerew,
+		team.DanielDemerw,
 		team.HannaKinfe,
 		team.HawiFikru,
 		team.KibruAbebe,
 		team.LeulGezahegn,
-		team.TruketLema,
+		team.TruketLema
 	],
 	graphicsDesigners: [
 		team.AkinahomGetahun,
@@ -294,8 +294,8 @@ export const teamCategories = $state({
 		team.EyuelMelese,
 		team.RebiraTibebu,
 		team.TinsaeSolomon,
-		team.YishakWondimagegn,
+		team.YishakWondimagegn
 	],
-	narrators: [team.CourtneyReed, team.HenokTesfaye,],
+	narrators: [team.CourtneyReed, team.HenokTesfaye],
 	softwareDevelopers: [team.DagmawiEsayas]
 });

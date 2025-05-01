@@ -26,7 +26,7 @@
 						: 'cursor-pointer rounded-full bg-white px-4 py-2 font-semibold text-black backdrop-blur-xl hover:bg-emerald-500 hover:text-black md:px-6 lg:px-6 xl:px-6 2xl:px-6'}
 					onclick={() => locale.set('am')}
 				>
-					አማረኛ ትርጉም
+					አማርኛ ትርጉም
 				</div>
 				<!-- svelte-ignore a11y_click_events_have_key_events -->
 				<!-- svelte-ignore a11y_no_static_element_interactions -->

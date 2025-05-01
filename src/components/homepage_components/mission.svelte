@@ -6,11 +6,11 @@
 	import AnnouncementPostAmharic from '$lib/assets/illustrations/AnnouncementPostAmharic.jpg';
 </script>
 
-<div id="mission" class="h-screen">
+<div id="mission" class="">
 	<SectionHeader title={$_('page.mission.title')} description={$_('page.mission.description')} />
 
 	<div
-		class="flex w-full gap-2 overflow-clip rounded-lg border border-zinc-500 bg-white bg-opacity-50"
+		class="flex w-full gap-2 overflow-clip rounded-lg border border-zinc-500 bg-white bg-opacity-65"
 	>
 		<div class="hidden w-1/2 md:hidden lg:block xl:block 2xl:block">
 			<img

@@ -10,7 +10,7 @@
 	import logo4 from '$lib/assets/illustrations/Logo/4.jpg';
 </script>
 
-<div class="h-fit pb-52">
+<div class="h-fit pb-10">
 	<SectionHeader title={$_('page.logo.title')} description={$_('page.logo.description')} />
 	<div class="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
 		<div class="h-full w-full overflow-clip rounded-2xl border border-zinc-500">

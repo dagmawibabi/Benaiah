@@ -6,7 +6,10 @@
 </script>
 
 <div id="contactus" class="h-screen pt-20">
-	<SectionHeader title={$_('page.contactUs.title')} description={$_('page.logo.description')} />
+	<SectionHeader
+		title={$_('page.contactUs.title')}
+		description={$_('page.contactUs.description')}
+	/>
 
 	<div
 		class="mx-auto grid w-full grid-cols-3 gap-4 p-2 pb-16 md:w-[70%] md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4"

@@ -30,9 +30,11 @@
 		class="m-auto flex gap-x-1 py-2 md:m-0 md:-ml-20 lg:m-0 lg:-ml-20 xl:m-0 xl:-ml-20 2xl:m-0 2xl:-ml-20"
 	>
 		<EachNavItem name={$_('page.navigation.home')} link="/" />
+		<div class="hidden md:flex lg:flex xl:flex 2xl:flex">
+			<EachNavItem name={$_('page.navigation.mission')} link="/homepage#mission" />
+		</div>
 		<EachNavItem name={$_('page.navigation.resources')} link="/resources" />
 		<EachNavItem name={$_('page.navigation.teams')} link="/team" />
-		<EachNavItem name={$_('page.navigation.mission')} link="/homepage#mission" />
 
 		<div class="hidden md:flex lg:flex xl:flex 2xl:flex">
 			<EachNavItem name={$_('page.navigation.contact')} link="/homepage#contactus" />

@@ -6,7 +6,7 @@
 	import HighlightedVerse from './highlighted_verse.svelte';
 </script>
 
-<div class="pb-24">
+<div class="pb-32">
 	<!-- Header -->
 	<SectionHeader title={$_('page.about.subtitle')} description={$_('page.about.paragraph1')} />
 
@@ -14,13 +14,11 @@
 	<SectionHeader title="" description={$_('page.about.paragraph2')} />
 
 	<!-- Paragraph -->
-	<div
-		class="relative mx-auto h-[500px] w-full md:h-[500px] md:w-full lg:h-[340px] lg:w-[90%] xl:h-[340px] xl:w-[90%] 2xl:h-[340px] 2xl:w-[90%]"
-	>
+	<div class="relative mx-auto w-full md:w-full lg:w-[90%] xl:w-[90%] 2xl:w-[90%]">
 		<div class="absolute m-2 h-full w-full rounded-xl border border-black bg-zinc-600"></div>
 
 		<div
-			class="absolute flex h-full w-full flex-col items-start gap-x-5 rounded-xl border border-black bg-white px-5 py-5 text-base font-semibold text-black md:text-lg lg:text-lg xl:text-lg 2xl:text-lg"
+			class="relative flex w-full flex-col items-start gap-x-5 overflow-scroll rounded-xl border border-black bg-white px-5 py-5 text-base font-semibold text-black md:text-lg lg:text-lg xl:text-lg 2xl:text-lg"
 		>
 			<div class="flex items-center gap-2 font-normal">
 				<Quote size={20} />

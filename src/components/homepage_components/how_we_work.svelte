@@ -18,7 +18,7 @@
 	import faithAmharic from '$lib/assets/illustrations/ThemeTopic/FaithAmharic.jpg';
 </script>
 
-<div class="pb-72 pt-24 md:pt-24 lg:pt-0 xl:pt-0 2xl:pt-0">
+<div class="h-fit py-32">
 	<SectionHeader
 		title={$_('page.howWeWork.title')}
 		description={$_('page.howWeWork.description')}
@@ -43,7 +43,7 @@
 	</div>
 
 	<div
-		class="grid h-fit w-full grid-cols-2 gap-5 p-0 pt-4 md:grid lg:flex lg:p-5 xl:flex xl:p-5 2xl:flex 2xl:p-5"
+		class="grid w-full grid-cols-2 gap-5 p-0 pt-4 md:grid lg:flex lg:p-5 xl:flex xl:p-5 2xl:flex 2xl:p-5"
 	>
 		<div class="group relative aspect-square w-full md:w-full lg:w-1/2 xl:w-1/2 2xl:w-1/2">
 			<div
