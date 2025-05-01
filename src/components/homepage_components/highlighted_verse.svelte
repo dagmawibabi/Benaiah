@@ -7,8 +7,8 @@
 {#if isTag}
 	<div
 		class={$locale === 'am'
-			? 'rounded-full bg-emerald-400 px-5 py-1 text-lg text-black'
-			: 'rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic text-black'}
+			? 'whitespace-nowrap rounded-full bg-emerald-400 px-5 py-1 text-lg leading-tight text-black'
+			: 'whitespace-nowrap rounded-full bg-emerald-400 px-5 py-1 text-lg font-semibold italic leading-tight text-black'}
 	>
 		{word}
 	</div>
