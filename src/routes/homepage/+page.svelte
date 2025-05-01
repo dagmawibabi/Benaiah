@@ -28,9 +28,4 @@
 		<Logo />
 		<ContactUs />
 	</div>
-
-	<!-- Footer -->
-	<div class="flex w-full items-center justify-center bg-black py-2 text-sm italic text-zinc-300">
-		Benaiah, Launched on May 1, 2025
-	</div>
 </div>
