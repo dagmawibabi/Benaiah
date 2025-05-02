@@ -10,7 +10,7 @@ export const theme1 = $state({
 			title_am: 'ፍቅር',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
 				devotional_author_en: [team.HawiFikru],
 				devotional_am: './articles/themes/Love, Faith and Hope/Love/devotional_am',
@@ -50,12 +50,12 @@ export const theme1 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
 			],
-			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.YishakWondimagegn]
+			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.YisihakWondimagegn]
 		},
 		{
 			title_en: 'Faith',
 			title_am: 'እምነት',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/Love, Faith and Hope/Faith/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
 				devotional_am: './articles/themes/Love, Faith and Hope/Faith/devotional_am',
@@ -72,10 +72,10 @@ export const theme1 = $state({
 			square_en: [
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798661/1_zadgvw.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801401/2_czoiyb.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795209/3_d0ngln.png', 
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795209/3_d0ngln.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795329/4_touynl.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795323/5_wpq9rr.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798561/6_urqnx8.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798561/6_urqnx8.png'
 			],
 			square_am: [
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795456/8_dbsvnk.png',
@@ -83,26 +83,26 @@ export const theme1 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798626/9_rk8rvd.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798572/10_oaclkg.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795525/11_xkcq3g.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798639/12_p4wpdd.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798639/12_p4wpdd.png'
 			],
 			story_en: [
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795496/13_yzofgh.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795498/14_vcvtle.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795504/15_kflupl.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795504/15_kflupl.png'
 			],
 			story_am: [
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795511/16_mj1l0l.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798870/17_bieire.jpg',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795502/18_b1lyhp.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795502/18_b1lyhp.png'
 			],
-			artists: [team.YishakWondimagegn, team.EyuelMelese]
+			artists: [team.YisihakWondimagegn, team.EyuelMelese]
 		},
 		{
 			title_en: 'Hope',
 			title_am: 'ተስፋ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/Love, Faith and Hope/Hope/devotional_en',
 				devotional_author_en: [team.TruketLema],
 				devotional_am: './articles/themes/Love, Faith and Hope/Hope/devotional_am',
