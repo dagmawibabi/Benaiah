@@ -12,11 +12,11 @@
 			<div class="flex items-center gap-1">
 				<!-- svelte-ignore svelte_component_deprecated -->
 				<svelte:component this={icon} size={16} />
-				<div class={$locale == 'am' ? "text-sm" : "text-sm font-semibold"}>{title}</div>
+				<div class={$locale == 'am' ? 'text-sm' : 'text-sm font-semibold'}>{title}</div>
 			</div>
 
 			<!-- Authors/Artists -->
-			<div class="flex gap-x-1">
+			<!-- <div class="flex gap-x-1">
 				{#each artistsList as artist}
 					<div
 						class="h-7 w-7 overflow-clip rounded-full border border-zinc-400 shadow-lg transition-all hover:scale-110 group-hover/material:border-black"
@@ -28,7 +28,7 @@
 						/>
 					</div>
 				{/each}
-			</div>
+			</div> -->
 		</div>
 	</div>
 </a>
