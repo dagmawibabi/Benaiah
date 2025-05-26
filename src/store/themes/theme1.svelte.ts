@@ -92,7 +92,7 @@ export const theme1 = $state({
 			],
 			story_am: [
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795511/16_mj1l0l.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798870/17_bieire.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1748253805/faith_cf8mau.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795502/18_b1lyhp.png'
 			],
 			artists: [team.YisihakWondimagegn, team.EyuelMelese]
