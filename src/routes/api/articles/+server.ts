@@ -23,11 +23,9 @@ async function getArticles() {
 	// articles.sort((a, b) => a.date - b.date);
 
 	return articles;
-	// return projects;
 }
 
 export async function GET() {
 	const articles = await getArticles();
-	console.log('👉👉: ', articles);
 	return json(articles);
 }

@@ -45,6 +45,8 @@
 			: `These are a list of beautiful and intriguing graphics our team made under the theme "${currentTheme.theme_en}" to inspire and encourage people to draw closer to God and grow in their faith`}
 	/>
 
+	
+
 	<!-- Content -->
 	<div class="absolute z-50 flex w-screen flex-col items-center justify-center gap-y-7 pb-60">
 		<!-- Social Media Postss -->
