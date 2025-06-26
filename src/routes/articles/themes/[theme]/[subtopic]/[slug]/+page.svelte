@@ -13,6 +13,7 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
+
 <!-- Blurred Background -->
 <BlurredBackground reading_mode={true} />
 
