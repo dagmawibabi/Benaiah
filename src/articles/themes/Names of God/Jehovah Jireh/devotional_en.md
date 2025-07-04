@@ -1,5 +1,5 @@
 ---
-title: Jehovah-Jireh - The Lord Our Provider
+title: Jehovah Jireh — The Lord Our Provider
 date: 'Feb 27, 2025'
 ---
 
@@ -14,6 +14,8 @@ date: 'Feb 27, 2025'
   date={date}
   subtopic={theme2.subtopics[0]} 
 />
+
+<br/>
 
 He stretched out the sky and laid the earth beneath it. He whispered and life took form. Above all, at the height and end of it all, He formed humanity and carved us with care. He breathed His own breath into us; His very essence — His form of life.
 
