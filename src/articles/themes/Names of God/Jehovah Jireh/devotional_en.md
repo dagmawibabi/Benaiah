@@ -1,5 +1,5 @@
 ---
-title: Jehovah-Jireh: The Lord Our Provider
+title: Jehovah-Jireh - The Lord Our Provider
 date: 'Feb 27, 2025'
 ---
 
