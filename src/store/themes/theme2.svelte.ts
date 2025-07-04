@@ -1,7 +1,7 @@
 import { team } from '../team_members.svelte';
 
 export const theme2 = $state({
-	published: false,
+	published: true,
 	theme_en: 'Names of God',
 	theme_am: 'የእግዚአብሄር ስሞች',
 	subtopics: [
@@ -10,7 +10,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ራፋ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Rapha/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/Names of God/Jehovah Rapha/devotional_am',
@@ -57,7 +57,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ቻሳሂ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Chatsahi/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/Names of God/Jehovah Chatsahi/devotional_am',
@@ -104,7 +104,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ሚስጋቭ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Misgab/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/Names of God/Jehovah Misgab/devotional_am',
@@ -151,7 +151,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ጎኤል',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Goel/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/Names of God/Jehovah Goel/devotional_am',
@@ -198,7 +198,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ሻሎም',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
@@ -245,7 +245,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ኢሜካ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
@@ -292,7 +292,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ቦራ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
@@ -339,7 +339,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ካንና',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
@@ -386,7 +386,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ አምባዬ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
@@ -433,7 +433,7 @@ export const theme2 = $state({
 			title_am: 'ጄሆቫ ይርኤ',
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
-			devotional: { 
+			devotional: {
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
 				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
@@ -474,6 +474,6 @@ export const theme2 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
 			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
-		},
+		}
 	]
 });
