@@ -9,8 +9,15 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"moduleResolution": "bundler"
+		"moduleResolution": "bundler",
+		"types": ["vidstack/svelte"],
+		"baseUrl": ".",
+		"paths":{
+			"@/*": ["src/*"]
+		}
 	}
+	
+	// "noImplicitAny": false
 	// Path aliases are handled by https://svelte.dev/docs/kit/configuration#alias
 	// except $lib which is handled by https://svelte.dev/docs/kit/configuration#files
 	//

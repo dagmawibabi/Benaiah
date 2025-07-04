@@ -11,23 +11,45 @@ export const theme2 = $state({
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: { 
-				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
+				devotional_en: './articles/themes/Names of God/Jehovah Rapha/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
+				devotional_am: './articles/themes/Names of God/Jehovah Rapha/devotional_am',
 				devotional_author_am: [team.RebiraTibebu]
 			},
 			study_material: {
-				study_material_en: './articles/themes/LoveFaithHope/Love/study_material_en',
+				study_material_en: './articles/themes/Names of God/Jehovah Rapha/study_material_en',
 				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
+				study_material_am: './articles/themes/Names of God/Jehovah Rapha/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Chatsahi',
-			cover_am: 'Chatsahi',
-			square_en: ['Chatsahi', 'Rapha', 'Goel'],
-			square_am: ['Chatsahi', 'Rapha', 'Goel'],
-			story_en: ['Chatsahi'],
-			story_am: ['Chatsahi'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -36,23 +58,45 @@ export const theme2 = $state({
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: { 
-				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
+				devotional_en: './articles/themes/Names of God/Jehovah Chatsahi/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
+				devotional_am: './articles/themes/Names of God/Jehovah Chatsahi/devotional_am',
 				devotional_author_am: [team.RebiraTibebu]
 			},
 			study_material: {
-				study_material_en: './articles/themes/LoveFaithHope/Love/study_material_en',
+				study_material_en: './articles/themes/Names of God/Jehovah Chatsahi/study_material_en',
 				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
+				study_material_am: './articles/themes/Names of God/Jehovah Chatsahi/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Rapha',
-			cover_am: 'Rapha',
-			square_en: ['Rapha'],
-			square_am: ['Rapha'],
-			story_en: ['Rapha'],
-			story_am: ['Rapha'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -61,23 +105,45 @@ export const theme2 = $state({
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: { 
-				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
+				devotional_en: './articles/themes/Names of God/Jehovah Misgab/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
+				devotional_am: './articles/themes/Names of God/Jehovah Misgab/devotional_am',
 				devotional_author_am: [team.RebiraTibebu]
 			},
 			study_material: {
-				study_material_en: './articles/themes/LoveFaithHope/Love/study_material_en',
+				study_material_en: './articles/themes/Names of God/Jehovah Misgab/study_material_en',
 				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
+				study_material_am: './articles/themes/Names of God/Jehovah Misgab/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Goel',
-			cover_am: 'Goel',
-			square_en: ['Goel'],
-			square_am: ['Goel'],
-			story_en: ['Goel'],
-			story_am: ['Goel'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -86,23 +152,45 @@ export const theme2 = $state({
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: { 
-				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
+				devotional_en: './articles/themes/Names of God/Jehovah Goel/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
-				devotional_am: './articles/themes/LoveFaithHope/Love/devotional_am',
+				devotional_am: './articles/themes/Names of God/Jehovah Goel/devotional_am',
 				devotional_author_am: [team.RebiraTibebu]
 			},
 			study_material: {
-				study_material_en: './articles/themes/LoveFaithHope/Love/study_material_en',
+				study_material_en: './articles/themes/Names of God/Jehovah Goel/study_material_en',
 				study_material_author_en: [team.BethelemMelese],
-				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
+				study_material_am: './articles/themes/Names of God/Jehovah Goel/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Chatsahi',
-			cover_am: 'Chatsahi',
-			square_en: ['Chatsahi'],
-			square_am: ['Chatsahi'],
-			story_en: ['Chatsahi'],
-			story_am: ['Chatsahi'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -122,12 +210,34 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Rapha',
-			cover_am: 'Rapha',
-			square_en: ['Rapha'],
-			square_am: ['Rapha'],
-			story_en: ['Rapha'],
-			story_am: ['Rapha'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -147,12 +257,34 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Goel',
-			cover_am: 'Goel',
-			square_en: ['Goel'],
-			square_am: ['Goel'],
-			story_en: ['Goel'],
-			story_am: ['Goel'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -172,12 +304,34 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Goel',
-			cover_am: 'Goel',
-			square_en: ['Goel'],
-			square_am: ['Goel'],
-			story_en: ['Goel'],
-			story_am: ['Goel'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -197,12 +351,34 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Goel',
-			cover_am: 'Goel',
-			square_en: ['Goel'],
-			square_am: ['Goel'],
-			story_en: ['Goel'],
-			story_am: ['Goel'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -222,12 +398,34 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Goel',
-			cover_am: 'Goel',
-			square_en: ['Goel'],
-			square_am: ['Goel'],
-			story_en: ['Goel'],
-			story_am: ['Goel'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 		{
@@ -247,12 +445,34 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/LoveFaithHope/Love/study_material_am',
 				study_material_author_am: [team.AkinahomGetahun]
 			},
-			cover_en: 'Goel',
-			cover_am: 'Goel',
-			square_en: ['Goel'],
-			square_am: ['Goel'],
-			story_en: ['Goel'],
-			story_am: ['Goel'],
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		},
 	]
