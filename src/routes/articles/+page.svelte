@@ -7,7 +7,6 @@
 	}
 
 	let { data }: Props = $props();
-	console.log('data: ', data);
 </script>
 
 <svelte:head>

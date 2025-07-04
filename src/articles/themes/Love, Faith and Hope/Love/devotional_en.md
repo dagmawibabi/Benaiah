@@ -1,12 +1,14 @@
 ---
 title: True Love
 date: 'December 30, 2025'
+audio: 'youtube/_cMxraX_5RE'
 ---
 
 <script>
   import {theme1} from '../../../../store/themes/theme1.svelte';
   import ArticleHero from '../../../../components/article_components/article_hero.svelte';
   import ArticleHeader from '../../../../components/article_components/article_header.svelte';
+  import AudioPlayer from '../../../../components/AudioPlayer.svelte'
 </script>
 
 <ArticleHero 
@@ -15,7 +17,9 @@ date: 'December 30, 2025'
   subtopic={theme1.subtopics[0]} 
 />
 
+
 <ArticleHeader content="Lost in Doubts? God's Love Never Quits on You" />
+
 
 Ever catch yourself wondering if that ride-or-die kind of love is even real? A Love that doesn't ghost you when life gets messy like, the kind that sticks around through the chaos and feels like a cozy blanket on a bad day? Well, spoiler: it's 100% real. And here's the kicker - **it's already yours**, right here, right now.
 Here's the deal: God's love isn't reserved for a select few. It's for everyone. For the one who feels unlovable sometimes, who’s been let down or betrayed, who wonders if real love even exists, the one who laughs too loud, cries when no one’s looking, and secretly wonders if you’re enough. You, with all the doubts, the fears, and the questions you have, He sees it all, and loves you.
