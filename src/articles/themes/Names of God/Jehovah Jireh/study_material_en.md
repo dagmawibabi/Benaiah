@@ -15,7 +15,7 @@ date: 'Feb 27, 2025'
   subtopic={theme2.subtopics[0]} 
 />
 
-<ArticleHeader content="የእግዚአብሔር ሉዓላዊነት: የመግቦት መሠረት" />
+<br/>
 
 In the middle of life's hardships, when doubts and tribulations cascade over us, does God really see us? And if He is truly a good and caring God, why does all this evil happen to us? Do we really have the courage and strength to keep moving forward and push through it all? Yes Jehovah-Jireh, the One who provides and is strong enough to hold and carry us through the trials, is more than enough for everything.
 

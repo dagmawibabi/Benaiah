@@ -22,35 +22,33 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/Names of God/Jehovah Jireh/study_material_am',
 				study_material_author_am: [team.ClintonBeyene]
 			},
-			cover_en:
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751661344/photo_2025-07-04_23-32-30_dh6nav.jpg',
-			cover_am:
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751661343/photo_2025-07-04_23-32-33_oonnr8.jpg',
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666007/1_fsfa6v.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666587/7_d7nw1t.png',
 			square_en: [
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751661344/photo_2025-07-04_23-32-30_dh6nav.jpg',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666007/1_fsfa6v.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666289/2_serfwh.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666638/3_tu0jmh.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666261/4_sykuow.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751668627/5_uqrclu.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751668634/6_nzgse8.png'
 			],
 			square_am: [
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751661343/photo_2025-07-04_23-32-33_oonnr8.jpg',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666587/7_d7nw1t.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666083/8_x3sdyd.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751665988/9_icoxot.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666530/10_f45epa.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666757/11_uefig4.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666793/12_qwc7yo.png'
 			],
 			story_en: [
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666817/13_qiqgaa.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666862/14_rbuupa.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751668643/15_kd6b3q.png'
 			],
 			story_am: [
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751668642/16_vmqpgo.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751668641/17_ksnp5r.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1751668653/18_znhrvg.png'
 			],
 			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.HenokTesfaye, team.EyuelMelese]
 		}
