@@ -13,7 +13,7 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[6]} 
+  subtopic={theme2.subtopics[7]} 
 />
 
 
