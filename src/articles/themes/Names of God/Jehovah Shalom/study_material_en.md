@@ -12,11 +12,10 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[5]} 
+  subtopic={theme2.subtopics[1]} 
 />
 
 <ArticleHeader content="Shalom To Fear" />
-
 
 Many times in the bible we see God giving his identity as the perfect remedy for the problem of the Israelites, which is deeply embedded in his name. He tells them that He Himself is enough to save them from their troubles without additions.
 
@@ -26,7 +25,7 @@ It was during the time, when the Israelites were under the oppression of the Mid
 
 <br />
 
-God called Him “Mighty warrior” which perplexed Gideon because he thought he could be anything but that. It was a time where he was questioning his identity, the help of God that somehow seemed to vanish and he came to a conclusion that God had left his people. 
+God called Him “Mighty warrior” which perplexed Gideon because he thought he could be anything but that. It was a time where he was questioning his identity, the help of God that somehow seemed to vanish and he came to a conclusion that God had left his people.
 
 <br />
 
@@ -34,12 +33,11 @@ God called Him “Mighty warrior” which perplexed Gideon because he thought he
 
 <br />
 
-Gideon comes from one of the smallest clans in Israel and was undeniably full of fear because of their oppressors, but then the Lord tells him that He will be with him and that he will defeat the Midians. God tells Gideon, the one so scared and unseen that he is a man of valor. After Gideon offered his sacrifice to the angel of the LORD he realized he actually saw Him with his own eyes  and he was engulfed with fear, the Lord then says to him ”peace be with you” and reassures him that he will not die.  Gideon calls that place Jehovah Shalom which speaks very boldly that the Lord doesn’t only give peace; He is peace itself, in him, we find the perfect wholeness, a sound mind, and sweet sleep.
+Gideon comes from one of the smallest clans in Israel and was undeniably full of fear because of their oppressors, but then the Lord tells him that He will be with him and that he will defeat the Midians. God tells Gideon, the one so scared and unseen that he is a man of valor. After Gideon offered his sacrifice to the angel of the LORD he realized he actually saw Him with his own eyes and he was engulfed with fear, the Lord then says to him ”peace be with you” and reassures him that he will not die. Gideon calls that place Jehovah Shalom which speaks very boldly that the Lord doesn’t only give peace; He is peace itself, in him, we find the perfect wholeness, a sound mind, and sweet sleep.
 
 <br />
 
-There are times when we doubt the help of God, his presence in our life due to the chaos that we go through. We sometimes forget that he always looks over us even in our mistakes and mess ups, but He always does and finds ways of rescue to bring us out from. He sees what we don`t see clearly, fogged by our emotions and the desires of our hearts, but He also sees “a mighty warrior” who gives us our true identities found in him. 
-
+There are times when we doubt the help of God, his presence in our life due to the chaos that we go through. We sometimes forget that he always looks over us even in our mistakes and mess ups, but He always does and finds ways of rescue to bring us out from. He sees what we don`t see clearly, fogged by our emotions and the desires of our hearts, but He also sees “a mighty warrior” who gives us our true identities found in him.
 
 <ArticleHeader content="Shalom To Chaos" />
 
@@ -47,7 +45,7 @@ In a time of great distress, when the disciples were all in a room after the dea
 
 <br />
 
-It's so amazing how the Lord uses the phrase “peace be with you” to those scared, and not only scared- scared for their lives. What he offers is completely opposite from what the world offers, as Jesus said, the peace that he gives us is not like the peace of the world, it’s not achievement nor success, wealth nor beauty, it’s not the kind of peace that wants more and more. It’s a whole peace complete by itself. 
+It's so amazing how the Lord uses the phrase “peace be with you” to those scared, and not only scared- scared for their lives. What he offers is completely opposite from what the world offers, as Jesus said, the peace that he gives us is not like the peace of the world, it’s not achievement nor success, wealth nor beauty, it’s not the kind of peace that wants more and more. It’s a whole peace complete by itself.
 
 <ArticleHeader content="Shalom To Anxiety" />
 
@@ -55,7 +53,7 @@ It’s not once that we find ourselves amidst such circumstances, scared of what
 
 <br />
 
-It’s difficult to trust God while we are trying to get control over everything, stressing out about what would wait us in our tomorrows; but the Lord wants us to trust him even with the little things in our lives. It is not his intention for us to live a stressful life, he wants us to Know that he is in control behind the scenes. 
+It’s difficult to trust God while we are trying to get control over everything, stressing out about what would wait us in our tomorrows; but the Lord wants us to trust him even with the little things in our lives. It is not his intention for us to live a stressful life, he wants us to Know that he is in control behind the scenes.
 
 <br />
 
@@ -71,7 +69,7 @@ It's so easy to lose sight with all the distractions happening all around us, to
 
 <br />
 
-He wants us to be kept in peace in all the turmoil and turbulence of life, knowing that he is with us in all the ways that we go through. “Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.” – John 14:27 KJV 
+He wants us to be kept in peace in all the turmoil and turbulence of life, knowing that he is with us in all the ways that we go through. “Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.” – John 14:27 KJV
 
 <ArticleHeader content="The ultimate Peace" />
 
@@ -79,9 +77,7 @@ In numbers, the lord tells Moses to tell Aaron and his children to bless the Isr
 
 <br />
 
-It gives us a beautiful  insight on how being with the lord gives peace, that his very presence is simultaneously attached with the presence of peace.  Christ was born in Bethlehem to do this- give us the ultimate peace, return order to the chaos created by sin. Through him we have the perfect peace because God himself is with us.  
-
-
+It gives us a beautiful insight on how being with the lord gives peace, that his very presence is simultaneously attached with the presence of peace. Christ was born in Bethlehem to do this- give us the ultimate peace, return order to the chaos created by sin. Through him we have the perfect peace because God himself is with us.
 
 <ArticleHeader content="References" />
 
