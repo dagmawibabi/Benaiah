@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
     import 'vidstack/bundle';
 
     export let title: string;
@@ -16,4 +16,4 @@
 
 
 
-
+ -->
