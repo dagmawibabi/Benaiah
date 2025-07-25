@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
   import 'vidstack/bundle';
 
 </script>
@@ -11,4 +11,4 @@
   <media-video-layout></media-video-layout>
 </media-player>
 </div>
-
+ -->
