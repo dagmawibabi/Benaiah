@@ -116,7 +116,7 @@ export const theme2 = $state({
 				study_material_am: './articles/themes/Names of God/Jehovah Rapha/study_material_am',
 				study_material_author_am: [team.DanielDemerw]
 			},
-			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1755030088/2_o9dtau.png',
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1755031386/2_gxuwbj.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1755030222/10_sujeg5.png',
 			square_en: [
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1755031521/1_vwmchu.png',
