@@ -3,7 +3,6 @@ title: Jehovah Chatsahi
 date: 'June 24, 2025'
 ---
 
-
 <script>
   import { theme2 } from '../../../../store/themes/theme2.svelte';
   import ArticleHero from '../../../../components/article_components/article_hero.svelte';
@@ -13,9 +12,10 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[1]} 
+  subtopic={theme2.subtopics[3]} 
 />
 
+<br/>
 
 Have you ever wondered why names carry so much weight in the Bible?
 Why did people often name places or give God a new name after experiencing something
@@ -67,7 +67,6 @@ uplift and empower us, let’s take a look at just a few key areas where His str
 our lives.
 
 <ArticleHeader content="God’s Strength for Emotional Healing" />
-
 
 God’s Strength for Emotional Healing
 We&#39;ve all been there, haven&#39;t we? Those moments when our hearts feel shattered, and life
@@ -200,9 +199,7 @@ too big, no fear is too strong. Keep your eyes on Jehovah-Chatsahi, and let His 
 carry you through whatever comes your way!
 “I can do all this through him who gives me strength.” (Philippians 4:13 NIV)
 
-
 <ArticleHeader content="References" />
 
-[1] M. Henry, Matthew Henry&#39;s Commentary on the Whole Bible, Hendrickson Publishers,
-1994.
+[1] M. Henry, Matthew Henry&#39;s Commentary on the Whole Bible, Hendrickson Publishers, 1994.
 [2] J. Bridges, The Pursuit of Holiness, NavPress, 1978.

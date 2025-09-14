@@ -145,55 +145,55 @@ export const theme2 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1755030183/18_hltgec.png'
 			],
 			artists: [team.AddisTechale, team.RebiraTibebu]
+		},
+		{
+			title_en: 'Jehovah Chatsahi',
+			title_am: 'ጄሆቫ ቻሳሂ',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './articles/themes/Names of God/Jehovah Chatsahi/devotional_en',
+				devotional_author_en: [team.HawiFikru],
+				devotional_am: './articles/themes/Names of God/Jehovah Chatsahi/devotional_am',
+				devotional_author_am: [team.ClintonBeyene]
+			},
+			study_material: {
+				study_material_en: './articles/themes/Names of God/Jehovah Chatsahi/study_material_en',
+				study_material_author_en: [team.HawiFikru],
+				study_material_am: './articles/themes/Names of God/Jehovah Chatsahi/study_material_am',
+				study_material_author_am: [team.ClintonBeyene]
+			},
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842089/1_uk9ixj.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842164/7_ya1qov.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842089/1_uk9ixj.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842086/2_phct2z.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842215/3_gy6b1v.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842097/4_sacoaa.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757841842/5_utojre.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842127/6_oqet4r.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842164/7_ya1qov.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842170/8_cshepo.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842215/9_gbscez.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842340/10_lbcir7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842340/11_uheapm.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842294/12_l7ho7l.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842382/13_flf3lb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842306/14_fka3jn.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842338/15_rrx9ni.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842414/16_tmel25.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842419/17_juinbp.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842429/18_njtctd.png'
+			],
+			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.EyuelMelese, team.BereketFikru]
 		}
 
-		// {
-		// 	title_en: 'Jehovah Chatsahi',
-		// 	title_am: 'ጄሆቫ ቻሳሂ',
-		// 	description_en: 'A collection of beautiful and heart warming graphics',
-		// 	description_am: 'A collection of beautiful and heart warming graphics',
-		// 	devotional: {
-		// 		devotional_en: './articles/themes/Names of God/Jehovah Chatsahi/devotional_en',
-		// 		devotional_author_en: [team.AkinahomGetahun],
-		// 		devotional_am: './articles/themes/Names of God/Jehovah Chatsahi/devotional_am',
-		// 		devotional_author_am: [team.RebiraTibebu]
-		// 	},
-		// 	study_material: {
-		// 		study_material_en: './articles/themes/Names of God/Jehovah Chatsahi/study_material_en',
-		// 		study_material_author_en: [team.BethelemMelese],
-		// 		study_material_am: './articles/themes/Names of God/Jehovah Chatsahi/study_material_am',
-		// 		study_material_author_am: [team.AkinahomGetahun]
-		// 	},
-		// 	cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
-		// 	cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
-		// 	square_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
-		// 	],
-		// 	square_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
-		// 	],
-		// 	story_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
-		// 	],
-		// 	story_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
-		// 	],
-		// 	artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
-		// },
 		// {
 		// 	title_en: 'Jehovah Misgab',
 		// 	title_am: 'ጄሆቫ ሚስጋቭ',
