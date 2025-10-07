@@ -238,7 +238,7 @@ export const theme2 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1759875854/17_czaxtw.png',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1759876011/18_lbmdiw.png'
 			],
-			artists: [team.AkinahomGetahun, team.RebiraTibebu, team.YisihakWondimagegn, team.EyuelMelese]
+			artists: [team.AkinahomGetahun, team.EyuelMelese, team.TinsaeSolomon, team.YisihakWondimagegn]
 		}
 		// {
 		// 	title_en: 'Jehovah Goel',
