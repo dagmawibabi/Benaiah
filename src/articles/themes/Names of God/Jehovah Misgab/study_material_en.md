@@ -1,6 +1,6 @@
 ---
 title: Jehovah Misgab
-date: 'June 24, 2025'
+date: 'January 16, 2025'
 ---
 
 <script>
@@ -12,7 +12,7 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[2]} 
+  subtopic={theme2.subtopics[4]} 
 />
 
 <ArticleHeader content="Jehovah Misgab : God—My High Tower" />
@@ -36,7 +36,7 @@ This verse portrays God as a high tower of refuge, allowing David to see enemies
 <ArticleHeader content="Rescued from all the enemies" />
 
 In Psalm 18:2, before the psalm begins, there is a little introduction about this specific psalm, and it says, “A Psalm of David, the servant of the Lord, who spoke the words of this song to the Lord on the day when the Lord rescued him from the hand of all his enemies and from the hand of Saul.” I love this intro because it highlights that the Lord rescued David from the hand of all his enemies, and it comforts the deepest parts of me in need of rescue. Through this word, the unchanging nature of God is a promise to all of us today that we will be rescued not from some of our troubles but from all of them. We should go to our high tower not just for some of our problems but for all of them, for He can and will deliver us from each one.
- 
+
 <ArticleHeader content="The Highest Place" />
 
 God sits in the highest place, and nothing can change that. The only exception is the time when Jesus willingly came down to earth in human form (while still being fully God though), so that He might seat us in heavenly places with Him. Other than that, God sits in heavenly high places (Philippians 2:6-11, Ephesians 2:6). Heaven is a place that the world can’t fully understand, an inaccessible realm, except to those who are in Christ.
@@ -59,7 +59,6 @@ What do we do when we fail at something and regret wants to get cozy in one corn
  
 As shiny and full of momentary excitement with instant gratification as they are, all the things we run to, other than God, can’t rescue us. They delude us into being okay with the situation by giving us momentary breaks. But these things leave us even more depleted, worn out, and emptier than we were before. These high places are empty promises of bliss. Another high place, other than God, is like dew before a hot sun—high, but not truly high. It is a counterfeit, imitating what God can provide, offering a shortcut to the presence our souls truly need. God is the one true high tower, the only One capable of rescuing us from whatever life throws at us. In Proverbs 18:10, it is a call to run to God, just as the righteous did, and rise above the problems we face.
 
-
 <ArticleHeader content="Help, I Can’t Go Up" />
 
 I have a huge admiration for people who hike as a hobby because, as for me, I once found myself in the middle of a hike, barely even at the intermediate level, completely exhausted and asking myself why I was doing this to myself as a sane person. I even wondered if I should just sit where I was and wait for the others to go and return from the destination view (which would take them over 2 hours). I was also really frustrated with the people who were enjoying it, they were like annoying reminders that I was very weak. At one point, I couldn’t take it anymore; I just wanted to lie on the ground and cry for hours. Seriously, hiking is hard, and it’s just not my kind of hard.
@@ -79,5 +78,11 @@ Seeking God may be hard, but it is worth it, for the promise of being safe and p
  <ArticleHeader content="References" />
 
 https://biblehub.com/hebrew/4869.htm
+
+<br />
+
 https://enduringword.com/bible-commentary/psalm-18/
+
+<br />
+
 Upon Waking: 60 Daily Reflections to Discover Ourselves and the God We Were Made For —Devotional by Jackie Hill Perry

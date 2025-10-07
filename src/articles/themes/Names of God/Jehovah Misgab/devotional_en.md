@@ -1,6 +1,6 @@
 ---
 title: Jehovah Misgab
-date: 'June 24, 2025'
+date: 'January 16, 2025'
 ---
 
 <script>
@@ -12,7 +12,7 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[2]} 
+  subtopic={theme2.subtopics[4]} 
 />
 
 <ArticleHeader content="Jehovah Misgab - A Place of Safety" />
@@ -21,7 +21,7 @@ From the earliest days of human history, war has been a part of life, continuing
 
 <br />
 
-_The name of the Lord is a strong tower;_ 
+_The name of the Lord is a strong tower;_
 _The righteous runs to it and is safe and set on high [far above evil]._
 _Proverbs 18:10(Amp)_
 
