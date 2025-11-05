@@ -1,6 +1,6 @@
 ---
 title: Jehovah Goel
-date: 'June 24, 2025'
+date: 'ጥር 10, 2017'
 ---
 
 <script>
@@ -9,10 +9,10 @@ date: 'June 24, 2025'
   import ArticleHeader from '../../../../components/article_components/article_header.svelte';
 </script>
 
-<ArticleHero 
-  title={title} 
+<ArticleHero
+  title={title}
   date={date}
-  subtopic={theme2.subtopics[3]} 
+  subtopic={theme2.subtopics[5]}
 />
 
 <ArticleHeader content="ሙት ነፍሴ እና ቤዛዋ" />
@@ -27,4 +27,3 @@ date: 'June 24, 2025'
 <br />
 
 ለማይጠቅም ፡ ለማይረባ ነፍስ ፣ እጣ ፋንታዋ ገሃነም ልትወረድ ለነበረች ነፍስ፡፡ ነገር ግን እሱ እንዳልሰራኝ በእጁ እንዳለቀረጸኝ ፤ድጋሚ ሊወስደኝ በገበያ ላይ ለድርድር ቆመ። ሳያመነታ ነፍሱን በኔ ለወጠ። በገዛ ህይወቱ ገዛኝ ። ራሱን አሳልፎ ሰጥቶ ተሰውቶ እኔን ወደ ቤት ። ተቤዠኝ። ፈቅዶ ወደ ሕይወት በሚያመጣው ቤዛው ባይሆን ኖሮ? የሞተ ሰው ምን ኃይል አለው?
-
