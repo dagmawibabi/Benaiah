@@ -1,6 +1,6 @@
 ---
-title: Jehovah Immeka
-date: 'June 24, 2025'
+title: Jehovah Bora
+date: 'January 29, 2025'
 ---
 
 <script>

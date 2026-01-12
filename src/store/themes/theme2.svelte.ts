@@ -333,54 +333,54 @@ export const theme2 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1764599726/18_ywbupv.png'
 			],
 			artists: [team.AkinahomGetahun]
+		},
+		{
+			title_en: 'Jehovah Bora',
+			title_am: 'ጄሆቫ ቦራ',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './articles/themes/Names of God/Jehovah Bora/devotional_en',
+				devotional_author_en: [team.HawiFikru],
+				devotional_am: './articles/themes/Names of God/Jehovah Bora/devotional_am',
+				devotional_author_am: [team.AbleneMelese]
+			},
+			study_material: {
+				study_material_en: './articles/themes/Names of God/Jehovah Bora/study_material_en',
+				study_material_author_en: [team.HawiFikru],
+				study_material_am: './articles/themes/Names of God/Jehovah Bora/study_material_am',
+				study_material_author_am: [team.AbleneMelese]
+			},
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190295/1_z0sr2b.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190332/10_dfsmxb.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190295/1_z0sr2b.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190292/2_j97vke.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190352/3_f9lq6v.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190279/4_ao8yvb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190399/5_np3mmt.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190292/6_yzodqt.png'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190388/7_sbj6dp.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190339/8_t6upmf.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190315/9_vyhmj9.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190332/10_dfsmxb.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190371/11_cq2usq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190400/12_scrmsd.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190405/18_mqtmbg.png'
+			],
+			artists: [team.EyuelMelese]
 		}
-		// {
-		// 	title_en: 'Jehovah Bora',
-		// 	title_am: 'ጄሆቫ ቦራ',
-		// 	description_en: 'A collection of beautiful and heart warming graphics',
-		// 	description_am: 'A collection of beautiful and heart warming graphics',
-		// 	devotional: {
-		// 		devotional_en: './articles/themes/Names of God/Jehovah Bora/devotional_en',
-		// 		devotional_author_en: [team.AkinahomGetahun],
-		// 		devotional_am: './articles/themes/Names of God/Jehovah Bora/devotional_am',
-		// 		devotional_author_am: [team.RebiraTibebu]
-		// 	},
-		// 	study_material: {
-		// 		study_material_en: './articles/themes/Names of God/Jehovah Bora/study_material_en',
-		// 		study_material_author_en: [team.BethelemMelese],
-		// 		study_material_am: './articles/themes/Names of God/Jehovah Bora/study_material_am',
-		// 		study_material_author_am: [team.AkinahomGetahun]
-		// 	},
-		// 	cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
-		// 	cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
-		// 	square_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
-		// 	],
-		// 	square_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
-		// 	],
-		// 	story_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
-		// 	],
-		// 	story_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
-		// 	],
-		// 	artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
-		// },
 		// {
 		// 	title_en: 'Jehovah Kanna',
 		// 	title_am: 'ጄሆቫ ካንና',

@@ -1,6 +1,6 @@
 ---
-title: Jehovah Immeka
-date: 'June 24, 2025'
+title: ጄሆቫ ቦራ
+date: 'ጥር 16, 2017'
 ---
 
 <script>
