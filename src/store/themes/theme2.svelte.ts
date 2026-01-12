@@ -370,13 +370,13 @@ export const theme2 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190400/12_scrmsd.png'
 			],
 			story_en: [
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768192200/13_vwlh9e.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768191405/14_prtj7f.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768191505/15_n7fdmd.png'
 			],
 			story_am: [
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
-				'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768192091/16_nhhwex.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768192161/17_i0trmm.jpg',
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190405/18_mqtmbg.png'
 			],
 			artists: [team.EyuelMelese]
