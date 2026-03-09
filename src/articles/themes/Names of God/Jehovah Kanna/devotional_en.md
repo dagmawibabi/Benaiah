@@ -1,8 +1,7 @@
 ---
-title: Jehovah Immeka
-date: 'June 24, 2025'
+title: Jehovah Kanna
+date: 'January 20, 2025'
 ---
-
 
 <script>
   import { theme2 } from '../../../../store/themes/theme2.svelte';
@@ -13,9 +12,8 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[8]} 
+  subtopic={theme2.subtopics[9]} 
 />
-
 
 <ArticleHeader content="El Qanna" />
 
@@ -28,4 +26,3 @@ We experience jealousy because it is part of being created in the image of God. 
 <br />
 
 Worship, by nature, requires full devotion to the one deemed worthy. **Since God created us out of His abundant love, He has always devoted Himself to humanity, even to the point of offering His only Son so we could clearly see His loving heart.** In return for His devotion, He expects us to worship Him with hearts fully devoted to Him. God cannot bear to see us belong to others when He created us to be His. **While jealousy is usually associated with lack, God's jealousy can only be understood as stemming from love, not lack.**
-

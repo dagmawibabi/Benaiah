@@ -1,6 +1,6 @@
 ---
-title: Jehovah Immeka
-date: 'June 24, 2025'
+title: Jehovah Kanna
+date: 'January 20, 2025'
 ---
 
 <script>
@@ -12,7 +12,7 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[8]} 
+  subtopic={theme2.subtopics[9]} 
 />
 
 
@@ -112,7 +112,7 @@ If there are people, positions, or belongings we feel we can’t live without, w
 **Only God is the true Lord, and only He is worthy of our fully devoted hearts.**
 
 
-<ArticleHeader content="Refrences" />
+<ArticleHeader content="References" />
 
 1. (Jealousy definition)[https://www.merriam-webster.com/dictionary/jealousy]
 2. (I am a Jealous God)[https://www.youtube.com/watch?v=P31bl_2f4jg]

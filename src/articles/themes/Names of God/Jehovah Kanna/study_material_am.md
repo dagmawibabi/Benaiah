@@ -1,6 +1,6 @@
 ---
-title: Jehovah Immeka
-date: 'June 24, 2025'
+title: Jehovah Kanna
+date: 'ጥር 12, 2017'
 ---
 
 <script>
@@ -12,7 +12,7 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[8]} 
+  subtopic={theme2.subtopics[9]} 
 />
 
 <ArticleHeader content="ያህዌ-ካንና ፥ እግዚአብሄር ቀናተኛ አምላክ" />
@@ -63,4 +63,3 @@ _“እግዚአብሔርም ያደረገውን ሁሉ አየ፥ እነሆም �
 2. (GotQuestions Ministries, "Is God a jealous God? | Amharic," GotQuestions.org.)[https://www.gotquestions.org/Amharic/Amharic-God-jealous.html]
 3. (. Brooks, "Jehovah El Kanna \u2013 The Lord Whose Name is Jealous," JudyBrooks.org. [Online])[https://judybrooks.org/jehovah-el-kanna-the-lord-whose-name-is-jealous/#:~:text=God%20is%20saying%2C%20%E2%80%9CLook%2C,His%20name%20is%20Jehovah%20Kanna]
 4. (Devotionary, "Jehovah Kanna," DevotionaryBlog.com. [Online])[https://devotionaryblog.com/2024/09/26/jehovah-kanna/]
-

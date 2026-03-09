@@ -1,6 +1,6 @@
 ---
-title: Jehovah Immeka
-date: 'June 24, 2025'
+title: Jehovah Kanna
+date: 'ጥር 12, 2017'
 ---
 
 <script>
@@ -12,7 +12,7 @@ date: 'June 24, 2025'
 <ArticleHero 
   title={title} 
   date={date}
-  subtopic={theme2.subtopics[8]} 
+  subtopic={theme2.subtopics[9]} 
 />
 
 <ArticleHeader content="እግዚአብሄር ቀናተኛ ነው" />

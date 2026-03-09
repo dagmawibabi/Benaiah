@@ -434,9 +434,9 @@ export const theme2 = $state({
 			description_en: 'A collection of beautiful and heart warming graphics',
 			description_am: 'A collection of beautiful and heart warming graphics',
 			devotional: {
-				devotional_en: './articles/themes/Names of God/Jehovah Kenna/devotional_en',
+				devotional_en: './articles/themes/Names of God/Jehovah Kanna/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
-				devotional_am: './articles/themes/Names of God/Jehovah Kenna/devotional_am',
+				devotional_am: './articles/themes/Names of God/Jehovah Kanna/devotional_am',
 				devotional_author_am: [team.BethelemMelese]
 			},
 			study_material: {
