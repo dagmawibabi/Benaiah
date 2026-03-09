@@ -381,53 +381,6 @@ export const theme2 = $state({
 			],
 			artists: [team.EyuelMelese]
 		},
-		// {
-		// 	title_en: 'Jehovah Kanna',
-		// 	title_am: 'ጄሆቫ ካንና',
-		// 	description_en: 'A collection of beautiful and heart warming graphics',
-		// 	description_am: 'A collection of beautiful and heart warming graphics',
-		// 	devotional: {
-		// 		devotional_en: './articles/themes/Names of God/Jehovah Kenna/devotional_en',
-		// 		devotional_author_en: [team.AkinahomGetahun],
-		// 		devotional_am: './articles/themes/Names of God/Jehovah Kenna/devotional_am',
-		// 		devotional_author_am: [team.RebiraTibebu]
-		// 	},
-		// 	study_material: {
-		// 		study_material_en: './articles/themes/Names of God/Jehovah Kanna/study_material_en',
-		// 		study_material_author_en: [team.BethelemMelese],
-		// 		study_material_am: './articles/themes/Names of God/Jehovah Kanna/study_material_am',
-		// 		study_material_author_am: [team.AkinahomGetahun]
-		// 	},
-		// 	cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
-		// 	cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
-		// 	square_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484898/1_nrxe0z.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_accgok.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_uqvv8h.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_erhgme.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_b3xzfd.png'
-		// 	],
-		// 	square_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_hzabr5.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_kf8czj.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801052/9_anj7h9.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801015/11_qr7czq.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_npfsmi.png'
-		// 	],
-		// 	story_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_p1ckg7.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_xhbxfv.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/15_zorqcz.png'
-		// 	],
-		// 	story_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/16_mcppp5.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_v5gyxv.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dwd5hi.png'
-		// 	],
-		// 	artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
-		// },
 		{
 			title_en: 'Jehovah Maoz',
 			title_am: 'ጄሆቫ አምባዬ',
@@ -474,6 +427,53 @@ export const theme2 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1770595950/18_pj0up0.png'
 			],
 			artists: [team.HenokTesfaye, team.RebiraTibebu]
+		},
+		{
+			title_en: 'Jehovah Kanna',
+			title_am: 'ጄሆቫ ካንና',
+			description_en: 'A collection of beautiful and heart warming graphics',
+			description_am: 'A collection of beautiful and heart warming graphics',
+			devotional: {
+				devotional_en: './articles/themes/Names of God/Jehovah Kenna/devotional_en',
+				devotional_author_en: [team.EdenTesfaye],
+				devotional_am: './articles/themes/Names of God/Jehovah Kenna/devotional_am',
+				devotional_author_am: [team.BethelemMelese]
+			},
+			study_material: {
+				study_material_en: './articles/themes/Names of God/Jehovah Kanna/study_material_en',
+				study_material_author_en: [team.EdenTesfaye],
+				study_material_am: './articles/themes/Names of God/Jehovah Kanna/study_material_am',
+				study_material_author_am: [team.BethelemMelese]
+			},
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085993/2_kfrhlm.jpg',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086015/7_zkixnb.jpg',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086037/1_ujpfxk.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085993/2_kfrhlm.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086015/3_kkqmgl.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085988/4_xjaffl.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086017/5_ubh6h7.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086022/6_tcjtyb.jpg'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086015/7_zkixnb.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086040/8_xigly4.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086024/9_ub6gn3.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086021/10_o2pz6f.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085967/11_ugdglx.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085967/12_avnykw.jpg'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085974/13_umanaz.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086011/14_kehqzx.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085983/15_xv4g28.jpg'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085982/16_mphghs.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085983/17_bcsskg.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085963/18_d9qo6u.jpg'
+			],
+			artists: [team.HenokTesfaye, team.EyuelMelese]
 		}
 	]
 });
