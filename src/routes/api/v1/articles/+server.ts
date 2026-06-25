@@ -55,7 +55,7 @@ export const GET: RequestHandler = async ({ setHeaders }) => {
 							: null
 					}
 				},
-				artists: subtopic.artists
+				artists: subtopic.artists.map(({ socials, ...rest }) => rest)
 			}))
 		}));
 	
