@@ -101,53 +101,6 @@ export const theme3 = $state({
 		// 	],
 		// 	artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
 		// },
-		// {
-		//     title_en: 'Shoes of the Gospel of Peace',
-		//     title_am: 'የሰላም ወንጌል ጫማ',
-		//     description_en: 'A collection of beautiful and heart warming graphics',
-		//     description_am: 'A collection of beautiful and heart warming graphics',
-		//     devotional: {
-		//         devotional_en: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/devotional_en',
-		//         devotional_author_en: [team.HawiFikru],
-		//         devotional_am: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/devotional_am',
-		//         devotional_author_am: [team.ClintonBeyene]
-		//     },
-		//     study_material: {
-		//         study_material_en: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/study_material_en',
-		//         study_material_author_en: [team.HawiFikru],
-		//         study_material_am: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/study_material_am',
-		//         study_material_author_am: [team.ClintonBeyene]
-		//     },
-		//     cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
-		//     cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
-		//     square_en: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/1_yroxsc.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_lcq6sg.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_cwzrrh.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_hfpkrw.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_asr46c.png'
-		//     ],
-		//     square_am: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_xo3tgi.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_qkrmkx.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/9_ewl7ox.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/10_zwdu9p.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_x274vu.png'
-		//     ],
-		//     story_en: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_jxtu05.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_fd4nuq.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1745800860/15_kg94dv.png'
-		//     ],
-		//     story_am: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1745800734/16_pi1lbs.jpg',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_jsjald.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dvgyf8.png'
-		//     ],
-		//     artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
-		// },
 		{
 			title_en: 'Breastplate of Righteousness',
 			title_am: 'የጽድቅን ጥሩር',
@@ -196,7 +149,55 @@ export const theme3 = $state({
 				'https://res.cloudinary.com/doh7zyphl/image/upload/v1782840283/18_bubhpo.jpg'
 			],
 			artists: [team.HenokTesfaye]
-		}
+    },
+    {
+		    title_en: 'Shoes of the Gospel of Peace',
+		    title_am: 'የሰላም ወንጌል ጫማ',
+		    description_en: 'A collection of beautiful and heart warming graphics',
+		    description_am: 'A collection of beautiful and heart warming graphics',
+		    devotional: {
+		        devotional_en: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/devotional_en',
+		        devotional_author_en: [team.HawiFikru],
+		        devotional_am: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/devotional_am',
+		        devotional_author_am: [team.ClintonBeyene]
+		    },
+		    study_material: {
+		        study_material_en: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/study_material_en',
+		        study_material_author_en: [team.HawiFikru],
+		        study_material_am: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/study_material_am',
+		        study_material_author_am: [team.ClintonBeyene]
+		    },
+		    cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
+		    cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
+		    square_en: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118846/1_nwpi2o.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118775/2_hz96bc.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118740/3_m4ivcu.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118846/4_hyhof0.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118972/5_txkzvf.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118963/6_iodkmg.jpg'
+		    ],
+		    square_am: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118811/7_cbvurs.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118977/8_ji3vvj.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118857/9_zjalrq.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118970/10_zexwiy.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118855/11_haht69.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118826/12_jr9rhc.png'
+		    ],
+		    story_en: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118867/13_kmwq4g.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118888/14_rxgs4s.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118887/15_l3wx86.png'
+		    ],
+		    story_am: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118928/16_yf5vay.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118899/17_qtv0d6.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1785118894/18_hjlh5t.png'
+		    ],
+		    artists: [team.AkinahomGetahun, team.YisihakWondimagegn]
+		},
+
 		// {
 		//     title_en: 'Sword of the Spirit',
 		//     title_am: 'የመንፈስ ሰይፍ',
