@@ -54,53 +54,6 @@ export const theme3 = $state({
 			],
 			artists: [team.EyuelMelese, team.BereketFikru]
 		},
-		// {
-		// 	title_en: 'Helmet of Salvation',
-		// 	title_am: 'የመዳን ራስ ቍር',
-		// 	devotional: {
-		// 		devotional_en: './articles/themes/The Full Armor of God/Helmet of Salvation/devotional_en',
-		// 		devotional_author_en: [team.HannaKinfe],
-		// 		devotional_am: './articles/themes/The Full Armor of God/Helmet of Salvation/devotional_am',
-		// 		devotional_author_am: [team.DanielDemerw]
-		// 	},
-		// 	study_material: {
-		// 		study_material_en:
-		// 			'./articles/themes/The Full Armor of God/Helmet of Salvation/study_material_en',
-		// 		study_material_author_en: [team.HannaKinfe],
-		// 		study_material_am:
-		// 			'./articles/themes/The Full Armor of God/Helmet of Salvation/study_material_am',
-		// 		study_material_author_am: [team.DanielDemerw]
-		// 	},
-		// 	cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798661/1_zadgvw.png',
-		// 	cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795456/8_dbsvnk.png',
-		// 	square_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798661/1_zadgvw.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801401/2_czoiyb.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795209/3_d0ngln.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795329/4_touynl.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795323/5_wpq9rr.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798561/6_urqnx8.png'
-		// 	],
-		// 	square_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795456/8_dbsvnk.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798654/7_ii2knu.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798626/9_rk8rvd.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798572/10_oaclkg.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795525/11_xkcq3g.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798639/12_p4wpdd.png'
-		// 	],
-		// 	story_en: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795496/13_yzofgh.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795498/14_vcvtle.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795504/15_kflupl.png'
-		// 	],
-		// 	story_am: [
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795511/16_mj1l0l.png',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798870/17_bieire.jpg',
-		// 		'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795502/18_b1lyhp.png'
-		// 	],
-		// 	artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
-		// },
 		{
 			title_en: 'Breastplate of Righteousness',
 			title_am: 'የጽድቅን ጥሩር',
@@ -198,52 +151,100 @@ export const theme3 = $state({
 		    artists: [team.AkinahomGetahun, team.YisihakWondimagegn]
 		},
 
-		// {
-		//     title_en: 'Sword of the Spirit',
-		//     title_am: 'የመንፈስ ሰይፍ',
-		//     description_en: 'A collection of beautiful and heart warming graphics',
-		//     description_am: 'A collection of beautiful and heart warming graphics',
-		//     devotional: {
-		//         devotional_en: './articles/themes/The Full Armor of God/Sword of the Spirit/devotional_en',
-		//         devotional_author_en: [team.EdenTesfaye],
-		//         devotional_am: './articles/themes/The Full Armor of God/Sword of the Spirit/devotional_am',
-		//         devotional_author_am: [team.KibruAbebe]
-		//     },
-		//     study_material: {
-		//         study_material_en: './articles/themes/The Full Armor of God/Sword of the Spirit/study_material_en',
-		//         study_material_author_en: [team.EdenTesfaye],
-		//         study_material_am: './articles/themes/The Full Armor of God/Sword of the Spirit/study_material_am',
-		//         study_material_author_am: [team.KibruAbebe]
-		//     },
-		//     cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
-		//     cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
-		//     square_en: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/1_yroxsc.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_lcq6sg.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/4_cwzrrh.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/5_hfpkrw.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/6_asr46c.png'
-		//     ],
-		//     square_am: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/7_xo3tgi.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/8_qkrmkx.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/9_ewl7ox.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/10_zwdu9p.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/12_x274vu.png'
-		//     ],
-		//     story_en: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/13_jxtu05.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/14_fd4nuq.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1745800860/15_kg94dv.png'
-		//     ],
-		//     story_am: [
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1745800734/16_pi1lbs.jpg',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/17_jsjald.png',
-		//         'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/18_dvgyf8.png'
-		//     ],
-		//     artists: [team.AkinahomGetahun, team.RebiraTibebu, team.BethelemMelese]
-		// },
+    {
+			title_en: 'Helmet of Salvation',
+			title_am: 'የመዳን ራስ ቍር',
+			devotional: {
+				devotional_en: './articles/themes/The Full Armor of God/Helmet of Salvation/devotional_en',
+				devotional_author_en: [team.HannaKinfe],
+				devotional_am: './articles/themes/The Full Armor of God/Helmet of Salvation/devotional_am',
+				devotional_author_am: [team.DanielDemerw]
+			},
+			study_material: {
+				study_material_en:
+					'./articles/themes/The Full Armor of God/Helmet of Salvation/study_material_en',
+				study_material_author_en: [team.HannaKinfe],
+				study_material_am:
+					'./articles/themes/The Full Armor of God/Helmet of Salvation/study_material_am',
+				study_material_author_am: [team.DanielDemerw]
+			},
+			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788128999/1_lkpxiq.png',
+			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129032/9_lrbncy.png',
+			square_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788128999/1_lkpxiq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788128999/2_demdp5.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129266/3_d0vlgx.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129089/4_fa17kq.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129010/5_ja5oge.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129270/6_lmhuyw.jpg'
+			],
+			square_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129004/7_wv3xyw.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129077/8_ybu6ak.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129032/9_lrbncy.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129279/10_jlpm41.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129008/11_l8pq71.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129018/12_ljnym8.png'
+			],
+			story_en: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129281/13_jvxlc7.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129261/14_u8tycc.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129283/15_ioot3a.jpg'
+			],
+			story_am: [
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129016/16_unwc1y.png',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129270/17_fnpfeo.jpg',
+				'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129037/18_brykhd.png'
+			],
+			artists: [team.EyuelMelese]
+		},
+
+		{
+		    title_en: 'Sword of the Spirit',
+		    title_am: 'የመንፈስ ሰይፍ',
+		    description_en: 'A collection of beautiful and heart warming graphics',
+		    description_am: 'A collection of beautiful and heart warming graphics',
+		    devotional: {
+		        devotional_en: './articles/themes/The Full Armor of God/Sword of the Spirit/devotional_en',
+		        devotional_author_en: [team.EdenTesfaye],
+		        devotional_am: './articles/themes/The Full Armor of God/Sword of the Spirit/devotional_am',
+		        devotional_author_am: [team.KibruAbebe]
+		    },
+		    study_material: {
+		        study_material_en: './articles/themes/The Full Armor of God/Sword of the Spirit/study_material_en',
+		        study_material_author_en: [team.EdenTesfaye],
+		        study_material_am: './articles/themes/The Full Armor of God/Sword of the Spirit/study_material_am',
+		        study_material_author_am: [team.KibruAbebe]
+		    },
+		    cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129360/2_fszf3c.png',
+		    cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129355/12_zyqgso.png',
+		    square_en: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129568/1_hwwskk.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129360/2_fszf3c.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129587/3_rkjjzk.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129369/4_uhw5l9.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129346/5_djemce.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129600/6_kudpjw.jpg'
+		    ],
+		    square_am: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129581/7_vq1kdx.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129575/8_ayqz6s.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129580/9_v5wgdy.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129607/10_gtbwq5.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129369/11_jljbxq.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129355/12_zyqgso.png'
+		    ],
+		    story_en: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129597/13_pttyhy.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129602/14_sqt2aw.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129584/15_x378io.jpg'
+		    ],
+		    story_am: [
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129371/16_jufic9.png',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129568/17_u3t4bp.jpg',
+		        'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129370/18_hhrrto.png'
+		    ],
+		    artists: [team.AkinahomGetahun]
+		},
 	]
 });
