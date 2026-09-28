@@ -1,6 +1,13 @@
-import { readFileSync } from 'fs';
-import { join } from 'path';
 import { themeList } from '../store/theme_list.svelte.js';
+
+// Eagerly import all markdown article files as raw strings at build time.
+// This ensures the content is bundled into the serverless function on Vercel
+// instead of relying on readFileSync + process.cwd() which fails in production.
+const articleModules = import.meta.glob('../articles/themes/**/*.md', {
+	query: '?raw',
+	import: 'default',
+	eager: true
+}) as Record<string, string>;
 
 // Slugify function to convert titles to URL-safe slugs
 export function slugify(text: string): string {
@@ -82,7 +89,8 @@ export function getTopicBySlug(themeSlug: string, topicSlug: string) {
 	};
 }
 
-// Get markdown content
+// Get markdown content using Vite's statically-bundled glob imports.
+// The glob key format is: ../articles/themes/{ThemeName}/{SubtopicName}/{type}_{lang}.md
 export function getMarkdownContent(themeSlug: string, topicSlug: string, lang: string, type: string) {
 	const theme = themeList.themes.find((t) => slugify(t.theme_en) === themeSlug);
 	if (!theme) return null;
@@ -104,13 +112,17 @@ export function getMarkdownContent(themeSlug: string, topicSlug: string, lang: s
 
 	if (!filePath) return null;
 
-	try {
-		// Convert the relative path to an absolute file path
-		const fullPath = join(process.cwd(), 'src', 'articles', 'themes', filePath.replace('./articles/themes/', '') + '.md');
-		const content = readFileSync(fullPath, 'utf-8');
-		return content;
-	} catch (error) {
-		console.error(`Error reading file: ${filePath}`, error);
+	// Convert stored path (e.g. "./articles/themes/Names of God/Jehovah Jireh/devotional_en")
+	// to the glob key format used by import.meta.glob
+	const relativePath = filePath.replace('./articles/themes/', '');
+	const globKey = `../articles/themes/${relativePath}.md`;
+
+	const content = articleModules[globKey];
+	if (!content) {
+		console.error(`Article not found in glob: ${globKey}`);
 		return null;
 	}
+
+	return content;
 }
+
