@@ -60,7 +60,7 @@ export const GET: RequestHandler = async ({ params, setHeaders }) => {
 						: null
 				}
 			},
-			artists: subtopic.artists
+			artists: subtopic.artists.map(({ socials, ...rest }) => rest)
 		}))
 	};
 	

@@ -56,12 +56,12 @@ export const GET: RequestHandler = async ({ params, setHeaders }) => {
 			}
 		},
 		authors: {
-			devotional_en: subtopic.devotional?.devotional_author_en || [],
-			devotional_am: subtopic.devotional?.devotional_author_am || [],
-			study_material_en: subtopic.study_material?.study_material_author_en || [],
-			study_material_am: subtopic.study_material?.study_material_author_am || []
+			devotional_en: (subtopic.devotional?.devotional_author_en || []).map(({ socials, ...rest }) => rest),
+			devotional_am: (subtopic.devotional?.devotional_author_am || []).map(({ socials, ...rest }) => rest),
+			study_material_en: (subtopic.study_material?.study_material_author_en || []).map(({ socials, ...rest }) => rest),
+			study_material_am: (subtopic.study_material?.study_material_author_am || []).map(({ socials, ...rest }) => rest)
 		},
-		artists: subtopic.artists
+		artists: subtopic.artists.map(({ socials, ...rest }) => rest)
 	};
 	
 	// Set Cache-Control header
