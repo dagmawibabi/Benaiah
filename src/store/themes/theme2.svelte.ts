@@ -8,8 +8,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Jireh',
 			title_am: 'ጄሆቫ ይርኤ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord who provides for us.',
+			description_am: 'የሚያስፈልገንን የሚሰጠን ጌታ።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Jireh/devotional_en',
 				devotional_author_en: [team.TruketLema],
@@ -55,8 +55,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Shalom',
 			title_am: 'ጄሆቫ ሻሎም',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord is our peace.',
+			description_am: 'ጌታ ሰላማችን ነው።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Shalom/devotional_en',
 				devotional_author_en: [team.HannaKinfe],
@@ -102,8 +102,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Rapha',
 			title_am: 'ጄሆቫ ራፋ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord who heals us.',
+			description_am: 'የሚፈውሰን ጌታ።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Rapha/devotional_en',
 				devotional_author_en: [team.HannaKinfe],
@@ -149,8 +149,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Chatsahi',
 			title_am: 'ጄሆቫ ቻሳሂ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord is our strength.',
+			description_am: 'ጌታ ኃይላችን ነው።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Chatsahi/devotional_en',
 				devotional_author_en: [team.HawiFikru],
@@ -196,8 +196,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Misgab',
 			title_am: 'ጄሆቫ ሚስጋቭ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord is our strong tower.',
+			description_am: 'ጌታ ጽኑ ግንባችን ነው።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Misgab/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
@@ -243,8 +243,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Goel',
 			title_am: 'ጄሆቫ ጎኤል',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord is our Redeemer.',
+			description_am: 'ጌታ ቤዛችን ነው።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Goel/devotional_en',
 				devotional_author_en: [team.TruketLema],
@@ -290,8 +290,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Immeka',
 			title_am: 'ጄሆቫ ኢሜካ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord is always with us.',
+			description_am: 'ጌታ ሁልጊዜ ከእኛ ጋር ነው።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Immeka/devotional_en',
 				devotional_author_en: [team.TruketLema],
@@ -337,8 +337,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Bora',
 			title_am: 'ጄሆቫ ቦራ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'Created by God, for His glory.',
+			description_am: 'ለክብሩ በእግዚአብሔር የተፈጠርን።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Bora/devotional_en',
 				devotional_author_en: [team.HawiFikru],
@@ -384,8 +384,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Maoz',
 			title_am: 'ጄሆቫ ማኦዝ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord is our safe refuge.',
+			description_am: 'ጌታ የደህንነት መጠጊያችን ነው።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Maoz/devotional_en',
 				devotional_author_en: [team.HawiFikru],
@@ -431,8 +431,8 @@ export const theme2 = $state({
 		{
 			title_en: 'Jehovah Kanna',
 			title_am: 'ጄሆቫ ካንና',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'The Lord desires our undivided worship.',
+			description_am: 'ጌታ እርሱን ብቻ እንድናመልክ ይፈልጋል።',
 			devotional: {
 				devotional_en: './articles/themes/Names of God/Jehovah Kanna/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],

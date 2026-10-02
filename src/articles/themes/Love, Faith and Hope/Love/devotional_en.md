@@ -1,7 +1,7 @@
 ---
 title: True Love
 date: 'December 30, 2025'
-audio: 'youtube/_cMxraX_5RE'
+audio: ''
 ---
 
 <script>

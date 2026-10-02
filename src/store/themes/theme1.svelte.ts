@@ -8,8 +8,8 @@ export const theme1 = $state({
 		{
 			title_en: 'Love',
 			title_am: 'ፍቅር',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'Loving God and one another.',
+			description_am: 'እግዚአብሔርንና እርስ በርሳችን መዋደድ።',
 			devotional: {
 				devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
 				devotional_author_en: [team.HawiFikru],
@@ -55,6 +55,8 @@ export const theme1 = $state({
 		{
 			title_en: 'Faith',
 			title_am: 'እምነት',
+			description_en: 'Trusting God in every season.',
+			description_am: 'በሁሉም ወቅት በእግዚአብሔር መታመን።',
 			devotional: {
 				devotional_en: './articles/themes/Love, Faith and Hope/Faith/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
@@ -101,8 +103,8 @@ export const theme1 = $state({
 		{
 			title_en: 'Hope',
 			title_am: 'ተስፋ',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'Finding hope in Christ.',
+			description_am: 'በክርስቶስ ተስፋ ማግኘት።',
 			devotional: {
 				devotional_en: './articles/themes/Love, Faith and Hope/Hope/devotional_en',
 				devotional_author_en: [team.TruketLema],

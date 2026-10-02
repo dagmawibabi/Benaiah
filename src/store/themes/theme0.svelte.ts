@@ -8,8 +8,8 @@ export const theme0 = $state({
 		{
 			title_en: 'Love',
 			title_am: 'Fikir',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'Loving God and one another.',
+			description_am: 'እግዚአብሔርንና እርስ በርሳችን መዋደድ።',
 			devotional: { 
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
@@ -33,8 +33,8 @@ export const theme0 = $state({
 		{
 			title_en: 'Faith',
 			title_am: 'Fikir',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'Trusting God in every season.',
+			description_am: 'በሁሉም ወቅት በእግዚአብሔር መታመን።',
 			devotional: { 
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],
@@ -58,8 +58,8 @@ export const theme0 = $state({
 		{
 			title_en: 'Hope',
 			title_am: 'Fikir',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'Finding hope in Christ.',
+			description_am: 'በክርስቶስ ተስፋ ማግኘት።',
 			devotional: { 
 				devotional_en: './articles/themes/LoveFaithHope/Love/devotional_en',
 				devotional_author_en: [team.AkinahomGetahun],

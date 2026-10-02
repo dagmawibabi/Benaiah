@@ -8,8 +8,8 @@ export const theme3 = $state({
 		{
 			title_en: 'Belt of Truth',
 			title_am: 'የእውነት ዝናር',
-			description_en: 'A collection of beautiful and heart warming graphics',
-			description_am: 'A collection of beautiful and heart warming graphics',
+			description_en: 'Standing firm in the truth of God.',
+			description_am: 'በእግዚአብሔር እውነት ጸንቶ መቆም።',
 			devotional: {
 				devotional_en: './articles/themes/The Full Armor of God/Belt of Truth/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
@@ -57,6 +57,8 @@ export const theme3 = $state({
 		{
 			title_en: 'Breastplate of Righteousness',
 			title_am: 'የጽድቅን ጥሩር',
+			description_en: 'Guarding our hearts with righteousness.',
+			description_am: 'ልባችንን በጽድቅ መጠበቅ።',
 			devotional: {
 				devotional_en:
 					'./articles/themes/The Full Armor of God/Breastplate of Righteousness/devotional_en',
@@ -106,8 +108,8 @@ export const theme3 = $state({
     {
 		    title_en: 'Shoes of the Gospel of Peace',
 		    title_am: 'የሰላም ወንጌል ጫማ',
-		    description_en: 'A collection of beautiful and heart warming graphics',
-		    description_am: 'A collection of beautiful and heart warming graphics',
+		    description_en: 'Ready to share the gospel of peace.',
+		    description_am: 'የሰላምን ወንጌል ለማብሰር መዘጋጀት።',
 		    devotional: {
 		        devotional_en: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/devotional_en',
 		        devotional_author_en: [team.HawiFikru],
@@ -154,6 +156,8 @@ export const theme3 = $state({
     {
 			title_en: 'Helmet of Salvation',
 			title_am: 'የመዳን ራስ ቍር',
+			description_en: 'Guarding our minds with salvation in Christ.',
+			description_am: 'አእምሯችንን በክርስቶስ ባለን መዳን መጠበቅ።',
 			devotional: {
 				devotional_en: './articles/themes/The Full Armor of God/Helmet of Salvation/devotional_en',
 				devotional_author_en: [team.HannaKinfe],
@@ -202,8 +206,8 @@ export const theme3 = $state({
 		{
 		    title_en: 'Sword of the Spirit',
 		    title_am: 'የመንፈስ ሰይፍ',
-		    description_en: 'A collection of beautiful and heart warming graphics',
-		    description_am: 'A collection of beautiful and heart warming graphics',
+		    description_en: 'The Word of God, our spiritual sword.',
+		    description_am: 'የእግዚአብሔር ቃል፣ መንፈሳዊ ሰይፋችን።',
 		    devotional: {
 		        devotional_en: './articles/themes/The Full Armor of God/Sword of the Spirit/devotional_en',
 		        devotional_author_en: [team.EdenTesfaye],
