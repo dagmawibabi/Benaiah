@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { locale } from 'svelte-i18n';
+	import { useI18n } from '$lib/i18n';
+	const { locale } = useI18n();
 	let { artistsList } = $props();
 </script>
 

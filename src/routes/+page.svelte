@@ -1,7 +1,38 @@
 <script lang="ts">
-	import HomePage from './homepage/+page.svelte';
+	import { useI18n } from '$lib/i18n';
+	const { _, locale } = useI18n();
+	import Nav from '../components/nav/nav.svelte';
+	import Seo from '../components/seo.svelte';
+	import BlurredBackground from '../components/blurred_background.svelte';
+	import Hero from '../components/homepage_components/hero.svelte';
+	import HowWeWork from '../components/homepage_components/how_we_work.svelte';
+	import AboutUs from '../components/homepage_components/about_us.svelte';
+	import Mission from '../components/homepage_components/mission.svelte';
+	import ContactUs from '../components/homepage_components/contact_us.svelte';
+	import Logo from '../components/homepage_components/logo.svelte';
 </script>
 
-<div>
-	<HomePage />
+<Seo
+	title={$locale === 'am' ? 'በናያስ' : 'Benaiah'}
+	description={$_('page.home.description')}
+/>
+
+<!-- Blurred Background -->
+<BlurredBackground />
+
+<div class="no-scrollbar relative min-h-screen">
+	<!-- NAV -->
+	<Nav />
+
+	<!-- HERO -->
+	<Hero />
+
+	<!-- SECTIONS -->
+	<div class="mx-auto w-[90%] md:w-[90%] lg:w-3/5 xl:w-3/5 2xl:w-3/5">
+		<AboutUs />
+		<Mission />
+		<HowWeWork />
+		<Logo />
+		<ContactUs />
+	</div>
 </div>

@@ -1,36 +1,9 @@
-<script>
-    let {subtopic} = $props();
-
-    import { page } from "$app/state";
-    const category = page.url.pathname.split('/').pop();
+<script lang="ts">
+ import { page } from '$app/state';
+ import type { Subtopic } from '$lib/types';
+ let {subtopic}: {subtopic: Subtopic} = $props();
+ const category = $derived(page.params.slug ?? '');
+ const am = $derived(category.endsWith('_am'));
+ const authors = $derived(category.startsWith('devotional') ? (am ? subtopic.devotional.devotional_author_am : subtopic.devotional.devotional_author_en) : (am ? subtopic.study_material.study_material_author_am : subtopic.study_material.study_material_author_en));
 </script>
-
-<div class="flex gap-2 pb-4 items-center">
-    — 
-    <div
-        class="h-7 w-7 overflow-clip rounded-full border border-zinc-400 shadow-lg transition-all hover:scale-110 group-hover/material:border-black"
-    >   
-        {#if category === "devotional_en" || category === "devotional_am"}
-            <img
-                src={category === "devotional_am" ? subtopic.devotional.devotional_author_am[0].photo : subtopic.devotional.devotional_author_en[0].photo}
-                alt={subtopic.devotional.devotional_author_en[0].fullname_en}
-                class="aspect-square"
-            />
-        {:else if category === "study_material_am" || category === "study_material_en"}
-            <img
-                src={category === "study_material_am" ? subtopic.study_material.study_material_author_am[0].photo : subtopic.study_material.study_material_author_en[0].photo}
-                alt={subtopic.study_material.study_material_author_en[0].fullname_en}
-                class="aspect-square"
-            />
-        {/if}
-    </div>
-
-    <div class="text-sm md:text-base lg:text-base xl:text-base 2xl:text-base">
-        {#if category === "devotional_am" || category === "devotional_en"}
-            {category === "devotional_am" ? subtopic.devotional.devotional_author_am[0].fullname_am : subtopic.devotional.devotional_author_en[0].fullname_en}
-        {:else if category === "study_material_am" || category === "study_material_en"}
-            {category === "study_material_am" ? subtopic.study_material.study_material_author_am[0].fullname_am : subtopic.study_material.study_material_author_en[0].fullname_en}
-        {/if}
-    </div>
-</div>
-
+<div class="flex flex-wrap items-center gap-2 pb-4">{#each authors ?? [] as author}<img src={author.photo} alt={am ? author.fullname_am : author.fullname_en} class="h-7 w-7 rounded-full object-cover"/><span class="text-sm">{am ? author.fullname_am : author.fullname_en}</span>{/each}</div>

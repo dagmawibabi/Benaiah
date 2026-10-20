@@ -1,5 +1,6 @@
 <script>
-	import { _, locale } from 'svelte-i18n';
+	import { useI18n } from '$lib/i18n';
+	const { _, locale } = useI18n();
 
 	import SectionHeader from './section_header.svelte';
 	import BenaiahWhite from '$lib/assets/illustrations/Logo/BenaiahWhite.jpg';

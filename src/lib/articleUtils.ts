@@ -1,4 +1,7 @@
 import { themeList } from '../store/theme_list.svelte.js';
+import { slugify } from './themes';
+
+export { slugify };
 
 // Eagerly import all markdown article files as raw strings at build time.
 // This ensures the content is bundled into the serverless function on Vercel
@@ -8,20 +11,6 @@ const articleModules = import.meta.glob('../articles/themes/**/*.md', {
 	import: 'default',
 	eager: true
 }) as Record<string, string>;
-
-// Slugify function to convert titles to URL-safe slugs
-export function slugify(text: string): string {
-	return text
-		.toLowerCase()
-		.trim()
-		.replace(/\s+/g, '-')
-		.replace(/[^\w-]/g, '');
-}
-
-// Deslugify function to convert slugs back to readable format
-export function deslugify(slug: string): string {
-	return slug.split('-').join(' ');
-}
 
 // Get all themes with metadata
 export function getThemes() {

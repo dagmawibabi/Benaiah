@@ -1,14 +1,14 @@
 <script lang="ts">
-	let activeSection = '';
-	
+	import Seo from '../../components/seo.svelte';
+	import Nav from '../../components/nav/nav.svelte';
+
 	function scrollToSection(id: string) {
 		const element = document.getElementById(id);
 		if (element) {
 			element.scrollIntoView({ behavior: 'smooth' });
-			activeSection = id;
 		}
 	}
-	
+
 	// JSON examples as strings
 	const example1 = `[
   {
@@ -166,17 +166,17 @@
 
 	const errorExamples = `// 404 - Theme not found
 {
-  "error": "Theme not found: invalid-theme-slug"
+  "error": "Theme not found"
 }
 
 // 400 - Invalid slug format
 {
-  "error": "Invalid slug format. Expected format: {type}_{lang}"
+  "error": "Invalid slug format. Expected format: {type}_{lang} (e.g., devotional_en, study_material_am)"
 }
 
 // 400 - Invalid language
 {
-  "error": "Invalid language. Must be 'en' or 'am'"
+  "error": "Invalid language. Must be \\"en\\" or \\"am\\""
 }`;
 
 	const codeExample1 = `// Get all themes
@@ -231,24 +231,33 @@ console.log(data.content);  // Markdown content`;
 }`;
 </script>
 
-<svelte:head>
-	<title>API Documentation - Developers</title>
-	<meta name="description" content="REST API documentation for Articles API" />
-</svelte:head>
+<Seo
+	title="API documentation · Benaiah"
+	description="REST API for Benaiah's devotionals, study materials and graphics in English and Amharic."
+/>
 
+<Nav />
 <div class="docs-container">
 	<!-- Sidebar Navigation -->
 	<nav class="sidebar">
 		<h2>API Documentation</h2>
 		<ul>
-			<li><button on:click={() => scrollToSection('overview')}>Overview</button></li>
-			<li><button on:click={() => scrollToSection('endpoints')}>Endpoints</button></li>
-			<li class="sub"><button on:click={() => scrollToSection('get-all-themes')}>Get All Themes</button></li>
-			<li class="sub"><button on:click={() => scrollToSection('get-theme')}>Get Single Theme</button></li>
-			<li class="sub"><button on:click={() => scrollToSection('get-subtopic')}>Get Single Subtopic</button></li>
-			<li class="sub"><button on:click={() => scrollToSection('get-article')}>Get Single Article</button></li>
-			<li><button on:click={() => scrollToSection('errors')}>Error Handling</button></li>
-			<li><button on:click={() => scrollToSection('examples')}>Code Examples</button></li>
+			<li><button onclick={() => scrollToSection('overview')}>Overview</button></li>
+			<li><button onclick={() => scrollToSection('endpoints')}>Endpoints</button></li>
+			<li class="sub">
+				<button onclick={() => scrollToSection('get-all-themes')}>Get All Themes</button>
+			</li>
+			<li class="sub">
+				<button onclick={() => scrollToSection('get-theme')}>Get Single Theme</button>
+			</li>
+			<li class="sub">
+				<button onclick={() => scrollToSection('get-subtopic')}>Get Single Subtopic</button>
+			</li>
+			<li class="sub">
+				<button onclick={() => scrollToSection('get-article')}>Get Single Article</button>
+			</li>
+			<li><button onclick={() => scrollToSection('errors')}>Error Handling</button></li>
+			<li><button onclick={() => scrollToSection('examples')}>Code Examples</button></li>
 		</ul>
 	</nav>
 
@@ -262,8 +271,11 @@ console.log(data.content);  // Markdown content`;
 		<!-- Overview -->
 		<section id="overview">
 			<h2>Overview</h2>
-			<p>The Articles REST API provides access to themed devotional and study material content in both English and Amharic languages.</p>
-			
+			<p>
+				The Articles REST API provides access to themed devotional and study material content in
+				both English and Amharic languages.
+			</p>
+
 			<h3>Key Features</h3>
 			<ul>
 				<li><strong>Versioned API</strong> - All endpoints under <code>/api/v1/</code></li>
@@ -283,7 +295,7 @@ console.log(data.content);  // Markdown content`;
 		<section id="get-all-themes" class="endpoint">
 			<h3>1. Get All Themes</h3>
 			<p>Retrieve all published themes with subtopics and graphics.</p>
-			
+
 			<div class="endpoint-details">
 				<p><span class="method">GET</span> <code>/api/v1/articles</code></p>
 			</div>
@@ -296,9 +308,9 @@ console.log(data.content);  // Markdown content`;
 		<section id="get-theme" class="endpoint">
 			<h3>2. Get Single Theme</h3>
 			<p>Retrieve details for a specific theme.</p>
-			
+
 			<div class="endpoint-details">
-				<p><span class="method">GET</span> <code>/api/v1/articles/{'{'}'theme'{'}'}</code></p>
+				<p><span class="method">GET</span> <code>/api/v1/articles/{'{theme}'}</code></p>
 			</div>
 
 			<h4>Parameters</h4>
@@ -327,9 +339,11 @@ console.log(data.content);  // Markdown content`;
 		<section id="get-subtopic" class="endpoint">
 			<h3>3. Get Single Subtopic</h3>
 			<p>Retrieve details for a specific subtopic with authors and content availability.</p>
-			
+
 			<div class="endpoint-details">
-				<p><span class="method">GET</span> <code>/api/v1/articles/{'{'}'theme'{'}'}/{'{'}'subtopic'{'}'}</code></p>
+				<p>
+					<span class="method">GET</span> <code>/api/v1/articles/{'{theme}'}/{'{subtopic}'}</code>
+				</p>
 			</div>
 
 			<h4>Parameters</h4>
@@ -363,9 +377,12 @@ console.log(data.content);  // Markdown content`;
 		<section id="get-article" class="endpoint">
 			<h3>4. Get Single Article</h3>
 			<p>Retrieve the full content of a specific article with cleaned markdown.</p>
-			
+
 			<div class="endpoint-details">
-				<p><span class="method">GET</span> <code>/api/v1/articles/{'{'}'theme'{'}'}/{'{'}'subtopic'{'}'}/{'{'}'slug'{'}'}</code></p>
+				<p>
+					<span class="method">GET</span>
+					<code>/api/v1/articles/{'{theme}'}/{'{subtopic}'}/{'{slug}'}</code>
+				</p>
 			</div>
 
 			<h4>Parameters</h4>
@@ -391,7 +408,10 @@ console.log(data.content);  // Markdown content`;
 					<tr>
 						<td><code>slug</code></td>
 						<td>string</td>
-						<td>Format: <code>{'{'}'type'{'}'}_{'{'}'lang'{'}'}</code><br>(e.g., <code>devotional_en</code>, <code>study_material_am</code>)</td>
+						<td
+							>Format: <code>{'{type}'}_{'{lang}'}</code><br />(e.g., <code>devotional_en</code>,
+							<code>study_material_am</code>)</td
+						>
 					</tr>
 				</tbody>
 			</table>
@@ -406,14 +426,15 @@ console.log(data.content);  // Markdown content`;
 			<pre><code>{example4}</code></pre>
 
 			<div class="note">
-				<strong>Note:</strong> The <code>content</code> field contains cleaned markdown with all HTML/Svelte components removed.
+				<strong>Note:</strong> The <code>content</code> field contains cleaned markdown with all HTML/Svelte
+				components removed.
 			</div>
 		</section>
 
 		<!-- Error Handling -->
 		<section id="errors">
 			<h2>Error Handling</h2>
-			
+
 			<h3>HTTP Status Codes</h3>
 			<table>
 				<thead>
@@ -443,9 +464,11 @@ console.log(data.content);  // Markdown content`;
 			</table>
 
 			<h3>Error Response Format</h3>
-			<pre><code>{`{
+			<pre><code
+					>{`{
   "error": "Error message describing what went wrong"
-}`}</code></pre>
+}`}</code
+				></pre>
 
 			<h3>Common Errors</h3>
 			<pre><code>{errorExamples}</code></pre>
@@ -468,16 +491,9 @@ console.log(data.content);  // Markdown content`;
 </div>
 
 <style>
-	:global(body) {
-		margin: 0;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-		background: #ffffff;
-		color: #000000;
-	}
-
 	.docs-container {
 		display: flex;
-		min-height: 100vh;
+		min-height: calc(100vh - 70px);
 	}
 
 	/* Sidebar */
@@ -487,7 +503,7 @@ console.log(data.content);  // Markdown content`;
 		border-right: 1px solid #e0e0e0;
 		padding: 2rem 1.5rem;
 		position: sticky;
-		top: 0;
+		top: 70px;
 		height: 100vh;
 		overflow-y: auto;
 	}
@@ -529,11 +545,12 @@ console.log(data.content);  // Markdown content`;
 	}
 
 	.sidebar button:hover {
-		color: #4A90E2;
+		color: #333333;
 	}
 
 	/* Main Content */
 	.content {
+		min-width: 0;
 		flex: 1;
 		padding: 3rem;
 		max-width: 900px;
@@ -615,7 +632,8 @@ console.log(data.content);  // Markdown content`;
 		margin: 1rem 0;
 	}
 
-	th, td {
+	th,
+	td {
 		text-align: left;
 		padding: 0.75rem;
 		border: 1px solid #e0e0e0;
@@ -631,13 +649,13 @@ console.log(data.content);  // Markdown content`;
 		color: #333333;
 	}
 
-	ul, ol {
+	ul {
 		line-height: 1.8;
 		color: #333333;
 	}
 
 	.endpoint {
-		border-left: 3px solid #4A90E2;
+		border-left: 3px solid #333333;
 		padding-left: 1.5rem;
 		margin: 2rem 0;
 	}
@@ -651,7 +669,7 @@ console.log(data.content);  // Markdown content`;
 
 	.method {
 		display: inline-block;
-		background: #4A90E2;
+		background: #333333;
 		color: #ffffff;
 		padding: 0.25rem 0.75rem;
 		border-radius: 3px;
@@ -662,13 +680,13 @@ console.log(data.content);  // Markdown content`;
 
 	.note {
 		background: #f5f5f5;
-		border-left: 3px solid #4A90E2;
+		border-left: 3px solid #333333;
 		padding: 1rem;
 		margin: 1rem 0;
 	}
 
 	.note strong {
-		color: #4A90E2;
+		color: #333333;
 	}
 
 	/* Responsive */

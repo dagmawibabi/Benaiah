@@ -1,5 +1,6 @@
 <script>
-	import { _, locale } from 'svelte-i18n';
+	import { useI18n } from '$lib/i18n';
+	const { _, locale } = useI18n();
 
 	import SectionHeader from './section_header.svelte';
 	import AnnouncementPost from '$lib/assets/illustrations/AnnouncementPost.jpg';

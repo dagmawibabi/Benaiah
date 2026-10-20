@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "benaiah-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "dev", "--port", "5173", "--strictPort"],
+      "port": 5173
+    }
+  ]
+}

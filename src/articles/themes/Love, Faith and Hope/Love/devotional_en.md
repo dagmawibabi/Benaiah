@@ -8,7 +8,6 @@ audio: ''
   import {theme1} from '../../../../store/themes/theme1.svelte';
   import ArticleHero from '../../../../components/article_components/article_hero.svelte';
   import ArticleHeader from '../../../../components/article_components/article_header.svelte';
-  import AudioPlayer from '../../../../components/AudioPlayer.svelte'
 </script>
 
 <ArticleHero 

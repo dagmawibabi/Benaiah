@@ -1,17 +1,8 @@
-import { error } from '@sveltejs/kit';
-
-export async function load({ params }) {
-	console.log("Params:",params);
-	
-	try {
-		const article = await import(`../../../../../../articles/themes/${params.theme}/${params.subtopic}/${params.slug}.md`);
-
-		return {
-			content: article.default,
-			meta: article.metadata,
-			headings: article.metadata.headings
-		};
-	} catch (e) {
-		throw error(404, `Could not find ${params.slug}`);
-	}
-}
+import type { Component } from 'svelte';
+import type { PageLoad } from './$types';
+const modules = import.meta.glob('../../../../../../articles/themes/**/*.md');
+export const load: PageLoad = async ({ data }) => {
+	const key = '../../../../../../' + data.article.source.slice(2) + '.md';
+	const module = (await modules[key]()) as { default: Component; metadata: Record<string, string> };
+	return { ...data, content: module.default, meta: module.metadata };
+};

@@ -1,7 +1,7 @@
 <script>
-    let {title} = $props();
+	let { title } = $props();
 </script>
 
-<div class="font-semibold text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-xl pt-4 pb-2">
-    {title}
+<div class="pb-2 pt-4 text-lg font-semibold md:text-xl lg:text-xl xl:text-xl 2xl:text-xl">
+	{title}
 </div>

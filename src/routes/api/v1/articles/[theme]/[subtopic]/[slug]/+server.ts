@@ -104,12 +104,7 @@ export const GET: RequestHandler = async ({ params, setHeaders }) => {
 		remainingContent = remainingContent.replace(/<[^>]*>/g, '');
 		
 		// Step 6: Trim whitespace and blank lines
-		content = remainingContent
-			.split('\n')
-			.map(line => line.trim())
-			.filter(line => line.length > 0)
-			.join('\n')
-			.trim();
+		content = remainingContent.replace(/\r\n/g, '\n').replace(/\n[ \t]*\n(?:[ \t]*\n)+/g, '\n\n').trim();
 		
 	} catch (error) {
 		console.error('Error processing markdown content:', error);
