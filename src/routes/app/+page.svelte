@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Seo from '../../components/seo.svelte';
 	import Nav from '../../components/nav/nav.svelte';
+	import BlurredBackground from '../../components/blurred_background.svelte';
 	import { useI18n } from '$lib/i18n';
 	import logo from '$lib/assets/logo/BlackLogo.png';
 	const { locale } = useI18n();
@@ -98,8 +99,10 @@
 	image="/app/og.jpg"
 	imageAlt="The Benaiah app home screen"
 />
-<Nav />
-<main>
+<BlurredBackground />
+<div class="no-scrollbar relative min-h-screen">
+	<Nav />
+	<main>
 	<section class="intro">
 		<div class="intro-copy">
 			<p class="eyebrow">{am ? 'የበናያስ የሞባይል መተግበሪያ' : 'INTRODUCING THE BENAIAH APP'}</p>
@@ -124,6 +127,9 @@
 					? 'የሚገኙ ስሪቶችና የማውረጃ ፋይሎች በGitHub።'
 					: 'Android 7.0+ · APK downloads and release notes on GitHub.'}
 			</p>
+			<a class="ios-guide-link" href="/app/ios">
+				{am ? 'በiPhone ላይ መጫኛ መመሪያ' : 'Installing on iPhone? Read the guide'} →
+			</a>
 			<div class="language-pair">
 				<span>English</span><span>አማርኛ</span><small
 					>{am ? 'አንድ ተልዕኮ። ሁለት ቋንቋዎች።' : 'One mission. Two languages.'}</small
@@ -246,7 +252,8 @@
 		</div>
 		<a href="/resources">{am ? 'ማንበብ ይጀምሩ' : 'Start reading'} →</a>
 	</section>
-</main>
+	</main>
+</div>
 
 <style>
 	main {
@@ -301,6 +308,14 @@
 		font-size: 12px;
 		color: #737373;
 		margin-top: 0.75rem;
+	}
+	.ios-guide-link {
+		display: inline-block;
+		margin-top: 1rem;
+		font-size: 0.9rem;
+		font-weight: 600;
+		text-decoration: underline;
+		text-underline-offset: 4px;
 	}
 	.language-pair {
 		display: flex;

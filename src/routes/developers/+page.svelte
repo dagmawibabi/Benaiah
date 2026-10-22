@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Seo from '../../components/seo.svelte';
 	import Nav from '../../components/nav/nav.svelte';
+	import BlurredBackground from '../../components/blurred_background.svelte';
 
 	function scrollToSection(id: string) {
 		const element = document.getElementById(id);
@@ -235,9 +236,10 @@ console.log(data.content);  // Markdown content`;
 	title="API documentation · Benaiah"
 	description="REST API for Benaiah's devotionals, study materials and graphics in English and Amharic."
 />
-
-<Nav />
-<div class="docs-container">
+<BlurredBackground />
+<div class="no-scrollbar relative min-h-screen">
+	<Nav />
+	<div class="docs-container">
 	<!-- Sidebar Navigation -->
 	<nav class="sidebar">
 		<h2>API Documentation</h2>
@@ -488,6 +490,7 @@ console.log(data.content);  // Markdown content`;
 			<pre><code>{codeExample3}</code></pre>
 		</section>
 	</main>
+	</div>
 </div>
 
 <style>
