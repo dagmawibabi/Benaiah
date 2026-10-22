@@ -64,8 +64,8 @@
 			<li><span class="step-copy"><strong>Install <a href="https://sideloadly.io" target="_blank" rel="noopener noreferrer">Sideloadly</a></strong> from its official website.</span><img class="step-shot computer" src="/app/ios-guide/sideloadly-site.svg" alt="The download buttons on Sideloadly’s official website." /></li>
 			<li><span class="step-copy"><strong><a href="https://github.com/BenaiahOrg/BenaiahApp/releases/download/v1.0.0/Benaiah-1.0.0.ipa">Download the Benaiah <code>.ipa</code> file</a></strong> to your computer.</span></li>
 			<li><span class="step-copy"><strong>Connect and unlock your iPhone.</strong> If asked “Trust This Computer?”, tap Trust and enter your passcode.</span><img class="step-shot phone-shot" src="/app/ios-guide/trust-computer.svg" alt="iPhone prompt asking whether to trust the connected computer." /></li>
-			<li><span class="step-copy"><strong>Open Sideloadly.</strong> Drag the Benaiah file onto the IPA icon, confirm your iPhone is selected, and enter your Apple Account email.</span><img class="step-shot computer" src="/app/ios-guide/sideloadly-main.svg" alt="Sideloadly’s main screen, showing its IPA area, device picker, and Apple Account field." /></li>
-			<li><span class="step-copy"><strong>Open Advanced options and enable “Use automatic bundle ID”</strong> if it is not already enabled. Click <strong>Start</strong>.</span><img class="step-shot computer" src="/app/ios-guide/sideloadly-advanced.svg" alt="Sideloadly advanced options, with Use automatic bundle ID enabled." /></li>
+			<li><span class="step-copy"><strong>Open Sideloadly.</strong> Drag the Benaiah file onto the IPA icon, confirm your iPhone is selected, and enter your Apple Account email.</span><div class="step-shot computer branded-shot sideloadly-main"><img src="/app/ios-guide/sideloadly-main.svg" alt="Sideloadly’s main screen, showing its IPA area, device picker, and Apple Account field." /><img class="benaiah-shot-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /><span class="ipa-name">Benaiah-1.0.0.ipa</span></div></li>
+			<li><span class="step-copy"><strong>Open Advanced options and enable “Use automatic bundle ID”</strong> if it is not already enabled. Click <strong>Start</strong>.</span><div class="step-shot computer branded-shot sideloadly-advanced"><img src="/app/ios-guide/sideloadly-advanced.svg" alt="Sideloadly advanced options, with Use automatic bundle ID enabled." /><img class="benaiah-shot-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /><span class="ipa-name">Benaiah-1.0.0.ipa</span><span class="app-name">Benaiah</span></div></li>
 			<li><span class="step-copy"><strong>Sign in when asked.</strong> Enter your Apple Account password and the verification code Apple sends. Wait until Sideloadly confirms that it has finished.</span><img class="step-shot computer" src="/app/ios-guide/sideloadly-signin.svg" alt="Sideloadly prompts for an Apple Account password and verification code." /></li>
 		</ol>
 		<h3>On your iPhone</h3>
@@ -95,7 +95,7 @@
 			<li><span class="step-copy"><strong>Turn on Developer Mode</strong> on iOS 16 or newer in Settings → Privacy &amp; Security → Developer Mode, restart, then confirm with your passcode.</span></li>
 			<li><span class="step-copy"><strong>Finish setting up SideStore.</strong> Connect LocalDevVPN, open SideStore, and sign in with the same Apple Account. Go to My Apps and tap the “7 DAYS” button next to SideStore; choose Yes or Refresh Now if prompted.</span><img class="step-shot phone-shot" src="/app/ios-guide/sidestore-refresh.svg" alt="SideStore’s My Apps screen with the 7 DAYS button beside SideStore." /></li>
 			<li><span class="step-copy"><strong><a href="https://github.com/BenaiahOrg/BenaiahApp/releases/download/v1.0.0/Benaiah-1.0.0.ipa">Download the Benaiah <code>.ipa</code> in Safari.</a></strong> If this page opened in another app, open it in Safari. Tap Download; the file is saved in Files → Downloads.</span></li>
-			<li><span class="step-copy"><strong>Install Benaiah.</strong> With LocalDevVPN connected, open SideStore → My Apps → <strong>+</strong>, choose the Benaiah file from Downloads, and wait for installation.</span><img class="step-shot phone-shot" src="/app/ios-guide/sidestore-add.svg" alt="SideStore’s My Apps screen with its add button and a downloaded IPA selected." /></li>
+			<li><span class="step-copy"><strong>Install Benaiah.</strong> With LocalDevVPN connected, open SideStore → My Apps → <strong>+</strong>, choose the Benaiah file from Downloads, and wait for installation.</span><div class="step-shot phone-shot branded-shot file-picker"><img src="/app/ios-guide/sidestore-add.svg" alt="SideStore’s My Apps screen with its add button and a downloaded IPA selected." /><span class="picker-name">Benaiah-1.0.0.ipa</span><img class="picker-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /></div></li>
 			<li><span class="step-copy"><strong>Open Benaiah.</strong></span></li>
 		</ol>
 		<div class="weekly"><h3>Every week</h3><p>Open LocalDevVPN and tap Connect. Then open SideStore → My Apps → Refresh All. If SideStore itself has expired, connect to the computer and install it again using iloader.</p></div>
@@ -116,7 +116,7 @@
 			<li><span class="step-copy"><strong>Trust your Apple Account</strong> in Settings → General → VPN &amp; Device Management, then trust it twice.</span></li>
 			<li><span class="step-copy"><strong>Turn on Developer Mode</strong> on iOS 16 or newer in Settings → Privacy &amp; Security → Developer Mode, restart, then confirm with your passcode.</span></li>
 			<li><span class="step-copy"><strong><a href="https://github.com/BenaiahOrg/BenaiahApp/releases/download/v1.0.0/Benaiah-1.0.0.ipa">Download the Benaiah <code>.ipa</code> in Safari.</a></strong> Tap Download; it will be saved in Files → Downloads.</span></li>
-			<li><span class="step-copy"><strong>Install Benaiah.</strong> Keep AltServer running, with the iPhone and computer on the same Wi-Fi. In AltStore, open My Apps, tap <strong>+</strong>, and choose Benaiah from Downloads. Sign in with the same Apple Account if asked.</span><img class="step-shot phone-shot" src="/app/ios-guide/altstore-add.svg" alt="AltStore’s My Apps screen with the add button and a downloaded IPA selected." /></li>
+			<li><span class="step-copy"><strong>Install Benaiah.</strong> Keep AltServer running, with the iPhone and computer on the same Wi-Fi. In AltStore, open My Apps, tap <strong>+</strong>, and choose Benaiah from Downloads. Sign in with the same Apple Account if asked.</span><div class="step-shot phone-shot branded-shot file-picker"><img src="/app/ios-guide/altstore-add.svg" alt="AltStore’s My Apps screen with its add button and a downloaded IPA selected." /><span class="picker-name">Benaiah-1.0.0.ipa</span><img class="picker-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /></div></li>
 			<li><span class="step-copy"><strong>Open Benaiah.</strong></span></li>
 		</ol>
 		<div class="weekly"><h3>Every week</h3><p>AltStore refreshes Benaiah automatically when your iPhone is on the same Wi-Fi as the computer and AltServer is running. You can also use AltStore → My Apps → Refresh All.</p></div>
@@ -165,7 +165,19 @@
 	.guide ol li::before { content: counter(install-step); display: grid; place-items: center; width: 28px; height: 28px; border-radius: 999px; background: #202020; color: #fff; font-size: .8rem; font-weight: 700; line-height: 1; }
 	.step-copy { min-width: 0; padding-top: .1rem; }
 	.step-shot { grid-column: 3; width: 100%; height: auto; margin: 0; border: 1px solid #cfcfcf; border-radius: 8px; box-shadow: 0 7px 18px rgb(0 0 0 / .08); background: #fff; }
+	.step-shot:not(.branded-shot) { display: block; }
 	.step-shot.phone-shot { max-width: 225px; justify-self: end; }
+	.branded-shot { position: relative; overflow: hidden; }
+	.branded-shot > img:first-child { display: block; width: 100%; height: auto; }
+	.benaiah-shot-logo { position: absolute; left: 8%; width: 11.6%; border-radius: 7px; }
+	.ipa-name, .app-name, .picker-name { position: absolute; color: #f0f0f0; font-size: 7px; font-weight: 600; line-height: 1; text-align: center; }
+	.sideloadly-main .benaiah-shot-logo { top: 27%; }
+	.sideloadly-main .ipa-name { top: 57%; left: 3%; width: 20%; background: #3a3a3a; }
+	.sideloadly-advanced .benaiah-shot-logo { top: 20%; }
+	.sideloadly-advanced .ipa-name { top: 43%; left: 3%; width: 20%; background: #3a3a3a; }
+	.sideloadly-advanced .app-name { top: 60.5%; left: 24%; width: 26%; padding-left: 2px; background: #1f1f1f; font-size: 8px; text-align: left; }
+	.file-picker .picker-name { left: 24%; top: 79.5%; width: 58%; color: #000; font-size: 8px; text-align: left; background: #fff; }
+	.file-picker .picker-logo { position: absolute; left: 10.5%; top: 76.5%; width: 9%; border-radius: 4px; }
 	.callout { margin-top: 2rem; background: #e9eeea; }
 	.section-heading > p:last-child { color: #5d5d5d; line-height: 1.7; }
 	.method-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem; }
