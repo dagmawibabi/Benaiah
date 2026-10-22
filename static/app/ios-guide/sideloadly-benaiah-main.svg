@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 380 224" width="380" height="224" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+  <title>Sideloadly with the Benaiah IPA file selected, an iPhone selected, and an Apple Account email entered.</title>
+  <rect x=".5" y=".5" width="379" height="223" rx="10" fill="#2b2b2b" stroke="#505050"/>
+  <path d="M10 0h360q10 0 10 10v20H0V10Q0 0 10 0" fill="#363636"/>
+  <path d="M0 30h380" stroke="#1e1e1e"/><text x="190" y="20" font-size="12" fill="#dedede" font-weight="600" text-anchor="middle">Sideloadly</text>
+  <rect x="16" y="46" width="72" height="72" rx="7" fill="#3a3a3a" stroke="#555"/><rect x="30" y="60" width="44" height="44" rx="10" fill="#000"/>
+  <image href="/icons/icon-192.png" xlink:href="/icons/icon-192.png" x="30" y="60" width="44" height="44"/>
+  <text x="52" y="132" font-size="7.2" fill="#dcdcdc" text-anchor="middle">Benaiah-1.0.0.ipa</text>
+  <rect x="11" y="41" width="82" height="100" rx="9" fill="none" stroke="#2356e0" stroke-width="8" opacity=".25"/><rect x="11" y="41" width="82" height="100" rx="9" fill="none" stroke="#2356e0" stroke-width="2.5"/><circle cx="11" cy="41" r="11" fill="#2356e0"/><text x="11" y="45.5" font-size="13" fill="#fff" font-weight="800" text-anchor="middle">1</text>
+  <text x="124" y="55" font-size="12" fill="#d4d4d4">iDevice:</text><rect x="112" y="63" width="188" height="22" rx="4" fill="#1f1f1f" stroke="#5a5a5a"/><text x="120" y="78" font-size="11.5" fill="#f0f0f0">iPhone</text><path d="m286 72 4 4 4-4" fill="none" stroke="#cfcfcf" stroke-width="1.5"/>
+  <rect x="107" y="58" width="198" height="32" rx="8" fill="none" stroke="#2356e0" stroke-width="8" opacity=".25"/><rect x="107" y="58" width="198" height="32" rx="8" fill="none" stroke="#2356e0" stroke-width="2.5"/><circle cx="107" cy="58" r="11" fill="#2356e0"/><text x="107" y="62.5" font-size="13" fill="#fff" font-weight="800" text-anchor="middle">2</text>
+  <text x="124" y="104" font-size="12" fill="#d4d4d4">Apple account:</text><rect x="112" y="115" width="244" height="22" rx="4" fill="#1f1f1f" stroke="#5a5a5a"/><text x="120" y="130" font-size="11.5" fill="#f0f0f0">name@icloud.com</text>
+  <rect x="107" y="110" width="254" height="32" rx="8" fill="none" stroke="#2356e0" stroke-width="8" opacity=".25"/><rect x="107" y="110" width="254" height="32" rx="8" fill="none" stroke="#2356e0" stroke-width="2.5"/><circle cx="107" cy="110" r="11" fill="#2356e0"/><text x="107" y="114.5" font-size="13" fill="#fff" font-weight="800" text-anchor="middle">3</text>
+  <rect x="112" y="147" width="244" height="20" rx="5" fill="#3c3c3c" stroke="#555"/><text x="234" y="161" font-size="12" fill="#e8e8e8" text-anchor="middle">Advanced options</text><rect x="16" y="176" width="348" height="22" rx="5" fill="#3c3c3c" stroke="#555"/><text x="190" y="191" font-size="12" fill="#e8e8e8" text-anchor="middle">Start</text><text x="190" y="214" font-size="11" fill="#dcdcdc" text-anchor="middle">Idle.</text>
+</svg>

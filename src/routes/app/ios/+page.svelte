@@ -64,8 +64,8 @@
 			<li><span class="step-copy"><strong>Install <a href="https://sideloadly.io" target="_blank" rel="noopener noreferrer">Sideloadly</a></strong> from its official website.</span><img class="step-shot computer" src="/app/ios-guide/sideloadly-site.svg" alt="The download buttons on Sideloadly’s official website." /></li>
 			<li><span class="step-copy"><strong><a href="https://github.com/BenaiahOrg/BenaiahApp/releases/download/v1.0.0/Benaiah-1.0.0.ipa">Download the Benaiah <code>.ipa</code> file</a></strong> to your computer.</span></li>
 			<li><span class="step-copy"><strong>Connect and unlock your iPhone.</strong> If asked “Trust This Computer?”, tap Trust and enter your passcode.</span><img class="step-shot phone-shot" src="/app/ios-guide/trust-computer.svg" alt="iPhone prompt asking whether to trust the connected computer." /></li>
-			<li><span class="step-copy"><strong>Open Sideloadly.</strong> Drag the Benaiah file onto the IPA icon, confirm your iPhone is selected, and enter your Apple Account email.</span><div class="step-shot computer branded-shot sideloadly-main"><img src="/app/ios-guide/sideloadly-main.svg" alt="Sideloadly’s main screen, showing its IPA area, device picker, and Apple Account field." /><img class="benaiah-shot-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /><span class="ipa-name">Benaiah-1.0.0.ipa</span></div></li>
-			<li><span class="step-copy"><strong>Open Advanced options and enable “Use automatic bundle ID”</strong> if it is not already enabled. Click <strong>Start</strong>.</span><div class="step-shot computer branded-shot sideloadly-advanced"><img src="/app/ios-guide/sideloadly-advanced.svg" alt="Sideloadly advanced options, with Use automatic bundle ID enabled." /><img class="benaiah-shot-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /><span class="ipa-name">Benaiah-1.0.0.ipa</span><span class="app-name">Benaiah</span></div></li>
+			<li><span class="step-copy"><strong>Open Sideloadly.</strong> Drag the Benaiah file onto the IPA icon, confirm your iPhone is selected, and enter your Apple Account email.</span><div class="step-shot computer branded-shot sideloadly-main"><img src="/app/ios-guide/sideloadly-benaiah-main.svg" alt="Sideloadly’s main screen with Benaiah selected, an iPhone selected, and an Apple Account field." /><img class="benaiah-shot-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /></div></li>
+			<li><span class="step-copy"><strong>Open Advanced options and enable “Use automatic bundle ID”</strong> if it is not already enabled. Click <strong>Start</strong>.</span><div class="step-shot computer branded-shot sideloadly-advanced"><img src="/app/ios-guide/sideloadly-benaiah-advanced.svg" alt="Sideloadly advanced options with Benaiah selected and Use automatic bundle ID enabled." /><img class="benaiah-shot-logo" src="/icons/icon-192.png" alt="Benaiah app icon" /></div></li>
 			<li><span class="step-copy"><strong>Sign in when asked.</strong> Enter your Apple Account password and the verification code Apple sends. Wait until Sideloadly confirms that it has finished.</span><img class="step-shot computer" src="/app/ios-guide/sideloadly-signin.svg" alt="Sideloadly prompts for an Apple Account password and verification code." /></li>
 		</ol>
 		<h3>On your iPhone</h3>
@@ -170,13 +170,9 @@
 	.branded-shot { position: relative; overflow: hidden; }
 	.branded-shot > img:first-child { display: block; width: 100%; height: auto; }
 	.benaiah-shot-logo { position: absolute; left: 8%; width: 11.6%; border-radius: 7px; }
-	.ipa-name, .app-name, .picker-name { position: absolute; color: #f0f0f0; font-size: 7px; font-weight: 600; line-height: 1; text-align: center; }
 	.sideloadly-main .benaiah-shot-logo { top: 27%; }
-	.sideloadly-main .ipa-name { top: 57%; left: 3%; width: 20%; background: #3a3a3a; }
 	.sideloadly-advanced .benaiah-shot-logo { top: 20%; }
-	.sideloadly-advanced .ipa-name { top: 43%; left: 3%; width: 20%; background: #3a3a3a; }
-	.sideloadly-advanced .app-name { top: 60.5%; left: 24%; width: 26%; padding-left: 2px; background: #1f1f1f; font-size: 8px; text-align: left; }
-	.file-picker .picker-name { left: 24%; top: 79.5%; width: 58%; color: #000; font-size: 8px; text-align: left; background: #fff; }
+	.file-picker .picker-name { position: absolute; left: 24%; top: 79.5%; width: 58%; color: #000; font-size: 8px; font-weight: 600; line-height: 1; text-align: left; background: #fff; }
 	.file-picker .picker-logo { position: absolute; left: 10.5%; top: 76.5%; width: 9%; border-radius: 4px; }
 	.callout { margin-top: 2rem; background: #e9eeea; }
 	.section-heading > p:last-child { color: #5d5d5d; line-height: 1.7; }
