@@ -5,12 +5,17 @@
 	import { afterNavigate } from '$app/navigation';
 	import Nav from '../../../../../../components/nav/nav.svelte';
 	import FeedbackLink from '../../../../../../components/article_components/feedback_link.svelte';
+	import ShareDialog from '../../../../../../components/article_components/share_dialog.svelte';
+	import { page } from '$app/state';
+	import { Share2 } from '@lucide/svelte';
 	let { data } = $props();
 	let size = $state(18),
 		dark = $state(false),
-		progress = $state(0);
+		progress = $state(0),
+		shareOpen = $state(false);
 	let article: HTMLElement;
 	const am = $derived(data.article.lang === 'am');
+	const sharePost = $derived({ ...data.share, siteHost: page.url.host.replace(/^www\./, '') });
 	function updateProgress() {
 		if (!article) return;
 		const rect = article.getBoundingClientRect();
@@ -88,6 +93,9 @@
 				}}>{am ? (dark ? 'ብርሃን' : 'ጨለማ') : dark ? 'Light' : 'Dark'}</button
 			>
 		</div>
+		<button class="share" onclick={() => (shareOpen = true)}
+			><Share2 size={15} />{am ? 'አጋራ' : 'Share'}</button
+		>
 		{#if data.alternate}<a hreflang={data.alternate.lang} href={data.alternate.href}
 				>{am ? 'Read in English' : 'በአማርኛ ያንብቡ'} ↗</a
 			>{/if}
@@ -104,6 +112,7 @@
 				><small>{am ? 'ቀጣይ' : 'Next'} →</small>{data.next.title}</a
 			>{/if}
 	</nav>
+	<ShareDialog bind:open={shareOpen} post={sharePost} url={page.url.origin + page.url.pathname} />
 	<p class="offline-note">
 		{am
 			? 'የተከፈቱ ጽሑፎች ከመስመር ውጭ ለማንበብ በዚህ መሣሪያ ይቀመጣሉ።'
@@ -153,6 +162,11 @@
 		border: 1px solid #8886;
 		border-radius: 8px;
 		padding: 0.4rem 0.65rem;
+	}
+	.tools .share {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
 	}
 	.tools button:disabled {
 		opacity: 0.35;

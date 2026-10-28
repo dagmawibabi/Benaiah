@@ -22,7 +22,7 @@
 	<Hero title={$_('page.teams.teams')} description={$_('page.teams.description')} />
 
 	<!-- Content -->
-	<div class="absolute z-50 flex w-screen items-center justify-center pb-60">
+	<div class="relative z-50 flex w-full items-center justify-center pb-20">
 		<div class="flex w-[90%] flex-col justify-between md:w-[95%] lg:w-[85%] xl:w-3/5 2xl:w-3/5">
 			<TeamCategoryContainer title={$_('page.teams.authors')} category={teamCategories.authors} />
 			<TeamCategoryContainer
