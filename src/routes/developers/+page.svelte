@@ -275,9 +275,9 @@
   "narrators": [{ "fullname_en": "Courtney Reed", "…": "…" }],
   "video_editors": [
     {
-      "fullname_en": "Abenezer Tesfaye",
-      "fullname_am": "አቤኔዘር ተስፋዬ",
-      "photo": "/_app/immutable/assets/AbenezerTesfaye.a1b2c3.jpg",
+      "fullname_en": "Abenezer Teshome",
+      "fullname_am": "አቤኔዘር ተሾመ",
+      "photo": "/_app/immutable/assets/AbenezerTeshome.a1b2c3.jpg",
       "role_en": "Video Editor",
       "role_am": "Video Editor"
     }

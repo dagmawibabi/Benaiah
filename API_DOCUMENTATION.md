@@ -513,9 +513,9 @@ GET /api/v1/team
   "narrators": [],
   "video_editors": [
     {
-      "fullname_en": "Abenezer Tesfaye",
-      "fullname_am": "አቤኔዘር ተስፋዬ",
-      "photo": "/assets/team/AbenezerTesfaye.jpg",
+      "fullname_en": "Abenezer Teshome",
+      "fullname_am": "አቤኔዘር ተሾመ",
+      "photo": "/assets/team/AbenezerTeshome.jpg",
       "role_en": "Video Editor",
       "role_am": "Video Editor"
     }
