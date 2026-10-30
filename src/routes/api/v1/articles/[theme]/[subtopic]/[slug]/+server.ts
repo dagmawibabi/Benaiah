@@ -1,5 +1,6 @@
 import { json } from '@sveltejs/kit';
-import { getMarkdownContent, slugify } from '$lib/articleUtils';
+import { articleMedia, getMarkdownContent, slugify } from '$lib/articleUtils';
+import type { ArticleType, Lang } from '$lib/types';
 import { themeList } from '../../../../../../../store/theme_list.svelte.js';
 import type { RequestHandler } from '@sveltejs/kit';
 
@@ -119,9 +120,11 @@ export const GET: RequestHandler = async ({ params, setHeaders }) => {
 	// Get graphics data for this subtopic
 	const theme = themeList.themes.find((t) => slugify(t.theme_en) === themeSlug);
 	let graphics = null;
+	let media = null;
 	if (theme) {
 		const subtopic = theme.subtopics.find((s) => slugify(s.title_en) === topicSlug);
 		if (subtopic) {
+			media = articleMedia(subtopic, type as ArticleType, lang as Lang);
 			graphics = {
 				covers: {
 					en: subtopic.cover_en,
@@ -152,6 +155,7 @@ export const GET: RequestHandler = async ({ params, setHeaders }) => {
 		audio,
 		header,
 		graphics,
+		media,
 		content
 	});
 };

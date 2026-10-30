@@ -1,7 +1,29 @@
 import { themeList } from '../store/theme_list.svelte.js';
 import { slugify } from './themes';
+import type { ArticleType, Lang, Subtopic } from './types';
 
 export { slugify };
+
+// Video, Short and narration links for one article; null when there isn't one.
+export function articleMedia(subtopic: Subtopic, type: ArticleType, lang: Lang) {
+	const section = (type === 'devotional' ? subtopic.devotional : subtopic.study_material) as Record<
+		string,
+		unknown
+	>;
+	const link = (kind: string) => {
+		const value = section[`${type}_${kind}_${lang}`];
+		return typeof value === 'string' && value ? value : null;
+	};
+	return { video: link('video'), short: link('short'), narration: link('narration') };
+}
+
+export function subtopicMedia(subtopic: Subtopic) {
+	const both = (type: ArticleType) => ({
+		en: articleMedia(subtopic, type, 'en'),
+		am: articleMedia(subtopic, type, 'am')
+	});
+	return { devotional: both('devotional'), study_material: both('study_material') };
+}
 
 // Eagerly import all markdown article files as raw strings at build time.
 // This ensures the content is bundled into the serverless function on Vercel
@@ -80,7 +102,12 @@ export function getTopicBySlug(themeSlug: string, topicSlug: string) {
 
 // Get markdown content using Vite's statically-bundled glob imports.
 // The glob key format is: ../articles/themes/{ThemeName}/{SubtopicName}/{type}_{lang}.md
-export function getMarkdownContent(themeSlug: string, topicSlug: string, lang: string, type: string) {
+export function getMarkdownContent(
+	themeSlug: string,
+	topicSlug: string,
+	lang: string,
+	type: string
+) {
 	const theme = themeList.themes.find((t) => slugify(t.theme_en) === themeSlug);
 	if (!theme) return null;
 
@@ -114,4 +141,3 @@ export function getMarkdownContent(themeSlug: string, topicSlug: string, lang: s
 
 	return content;
 }
-

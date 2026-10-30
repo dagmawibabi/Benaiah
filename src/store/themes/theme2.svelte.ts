@@ -14,13 +14,21 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Jireh/devotional_en',
 				devotional_author_en: [team.TruketLema],
 				devotional_am: './articles/themes/Names of God/Jehovah Jireh/devotional_am',
-				devotional_author_am: [team.ClintonBeyene]
+				devotional_author_am: [team.ClintonBeyene],
+				devotional_short_en: 'https://www.youtube.com/shorts/PSYPXH5RnHs',
+				devotional_short_am: 'https://www.youtube.com/shorts/oibLFZ91dzk',
+				devotional_narration_en: 'https://t.me/benaiah_org/258',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/212'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Jireh/study_material_en',
 				study_material_author_en: [team.TruketLema],
 				study_material_am: './articles/themes/Names of God/Jehovah Jireh/study_material_am',
-				study_material_author_am: [team.ClintonBeyene]
+				study_material_author_am: [team.ClintonBeyene],
+				study_material_video_en: 'https://www.youtube.com/watch?v=lNWArDDGR9k',
+				study_material_video_am: 'https://www.youtube.com/watch?v=wh1DRIwoW9s',
+				study_material_narration_en: 'https://t.me/benaiah_org/259',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/213'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666007/1_fsfa6v.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1751666587/7_d7nw1t.png',
@@ -61,13 +69,21 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Shalom/devotional_en',
 				devotional_author_en: [team.HannaKinfe],
 				devotional_am: './articles/themes/Names of God/Jehovah Shalom/devotional_am',
-				devotional_author_am: [team.DanielDemerw]
+				devotional_author_am: [team.DanielDemerw],
+				devotional_short_en: 'https://www.youtube.com/shorts/IY3IKeR4br8',
+				devotional_short_am: 'https://www.youtube.com/shorts/KjjLubgeA8s',
+				devotional_narration_en: 'https://t.me/benaiah_org/289',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/244'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Shalom/study_material_en',
 				study_material_author_en: [team.HannaKinfe],
 				study_material_am: './articles/themes/Names of God/Jehovah Shalom/study_material_am',
-				study_material_author_am: [team.DanielDemerw]
+				study_material_author_am: [team.DanielDemerw],
+				study_material_video_en: 'https://www.youtube.com/watch?v=IdaLzzlddsA',
+				study_material_video_am: 'https://www.youtube.com/watch?v=D8Pk9W-cprY',
+				study_material_narration_en: 'https://t.me/benaiah_org/290',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/245'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1753385689/1_oy64l6.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1753385977/11_asbtbj.png',
@@ -108,13 +124,21 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Rapha/devotional_en',
 				devotional_author_en: [team.HannaKinfe],
 				devotional_am: './articles/themes/Names of God/Jehovah Rapha/devotional_am',
-				devotional_author_am: [team.DanielDemerw]
+				devotional_author_am: [team.DanielDemerw],
+				devotional_short_en: 'https://www.youtube.com/shorts/M4h76U3kPAk',
+				devotional_short_am: 'https://www.youtube.com/shorts/rb1D1cu4J9E',
+				devotional_narration_en: 'https://t.me/benaiah_org/320',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/282'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Rapha/study_material_en',
 				study_material_author_en: [team.HannaKinfe],
 				study_material_am: './articles/themes/Names of God/Jehovah Rapha/study_material_am',
-				study_material_author_am: [team.DanielDemerw]
+				study_material_author_am: [team.DanielDemerw],
+				study_material_video_en: 'https://www.youtube.com/watch?v=IoQNrkoNw4c',
+				study_material_video_am: 'https://www.youtube.com/watch?v=muGZnTk3jtk',
+				study_material_narration_en: 'https://t.me/benaiah_org/321',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/283'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1755031386/2_gxuwbj.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1755030222/10_sujeg5.png',
@@ -155,13 +179,18 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Chatsahi/devotional_en',
 				devotional_author_en: [team.HawiFikru],
 				devotional_am: './articles/themes/Names of God/Jehovah Chatsahi/devotional_am',
-				devotional_author_am: [team.ClintonBeyene]
+				devotional_author_am: [team.ClintonBeyene],
+				devotional_narration_en: 'https://t.me/benaiah_org/369',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/329'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Chatsahi/study_material_en',
 				study_material_author_en: [team.HawiFikru],
 				study_material_am: './articles/themes/Names of God/Jehovah Chatsahi/study_material_am',
-				study_material_author_am: [team.ClintonBeyene]
+				study_material_author_am: [team.ClintonBeyene],
+				study_material_video_en: 'https://www.youtube.com/watch?v=VJJBueN1aMo',
+				study_material_narration_en: 'https://t.me/benaiah_org/370',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/331'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842089/1_uk9ixj.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1757842164/7_ya1qov.png',
@@ -202,13 +231,17 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Misgab/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
 				devotional_am: './articles/themes/Names of God/Jehovah Misgab/devotional_am',
-				devotional_author_am: [team.KibruAbebe]
+				devotional_author_am: [team.KibruAbebe],
+				devotional_narration_en: 'https://t.me/benaiah_org/409',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/372'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Misgab/study_material_en',
 				study_material_author_en: [team.EdenTesfaye],
 				study_material_am: './articles/themes/Names of God/Jehovah Misgab/study_material_am',
-				study_material_author_am: [team.KibruAbebe]
+				study_material_author_am: [team.KibruAbebe],
+				study_material_narration_en: 'https://t.me/benaiah_org/410',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/373'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1759876145/4_ioebeu.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1759874449/7_pb0ffd.png',
@@ -249,13 +282,17 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Goel/devotional_en',
 				devotional_author_en: [team.TruketLema],
 				devotional_am: './articles/themes/Names of God/Jehovah Goel/devotional_am',
-				devotional_author_am: [team.LeulGezahegn]
+				devotional_author_am: [team.LeulGezahegn],
+				devotional_narration_en: 'https://t.me/benaiah_org/453',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/414'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Goel/study_material_en',
 				study_material_author_en: [team.TruketLema],
 				study_material_am: './articles/themes/Names of God/Jehovah Goel/study_material_am',
-				study_material_author_am: [team.LeulGezahegn]
+				study_material_author_am: [team.LeulGezahegn],
+				study_material_narration_en: 'https://t.me/benaiah_org/454',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/415'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1762299661/3_rvfyow.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1762299669/10_zivp2u.png',
@@ -296,13 +333,17 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Immeka/devotional_en',
 				devotional_author_en: [team.TruketLema],
 				devotional_am: './articles/themes/Names of God/Jehovah Immeka/devotional_am',
-				devotional_author_am: [team.KibruAbebe]
+				devotional_author_am: [team.KibruAbebe],
+				devotional_narration_en: 'https://t.me/benaiah_org/514',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/476'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Immeka/study_material_en',
 				study_material_author_en: [team.TruketLema],
 				study_material_am: './articles/themes/Names of God/Jehovah Immeka/study_material_am',
-				study_material_author_am: [team.KibruAbebe]
+				study_material_author_am: [team.KibruAbebe],
+				study_material_narration_en: 'https://t.me/benaiah_org/515',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/477'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1764598906/4_wwvx1a.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1764599253/9_wwrrtz.png',
@@ -343,13 +384,17 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Bora/devotional_en',
 				devotional_author_en: [team.HawiFikru],
 				devotional_am: './articles/themes/Names of God/Jehovah Bora/devotional_am',
-				devotional_author_am: [team.AbleneMelese]
+				devotional_author_am: [team.AbleneMelese],
+				devotional_narration_en: 'https://t.me/benaiah_org/592',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/554'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Bora/study_material_en',
 				study_material_author_en: [team.HawiFikru],
 				study_material_am: './articles/themes/Names of God/Jehovah Bora/study_material_am',
-				study_material_author_am: [team.AbleneMelese]
+				study_material_author_am: [team.AbleneMelese],
+				study_material_narration_en: 'https://t.me/benaiah_org/593',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/555'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190295/1_z0sr2b.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1768190332/10_dfsmxb.png',
@@ -390,13 +435,17 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Maoz/devotional_en',
 				devotional_author_en: [team.HawiFikru],
 				devotional_am: './articles/themes/Names of God/Jehovah Maoz/devotional_am',
-				devotional_author_am: [team.AbleneMelese]
+				devotional_author_am: [team.AbleneMelese],
+				devotional_narration_en: 'https://t.me/benaiah_org/615',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/578'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Maoz/study_material_en',
 				study_material_author_en: [team.HawiFikru],
 				study_material_am: './articles/themes/Names of God/Jehovah Maoz/study_material_am',
-				study_material_author_am: [team.AbleneMelese]
+				study_material_author_am: [team.AbleneMelese],
+				study_material_narration_en: 'https://t.me/benaiah_org/616',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/579'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1770596065/6_y7cbcm.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1770595975/7_df3qqk.png',
@@ -437,13 +486,17 @@ export const theme2 = $state({
 				devotional_en: './articles/themes/Names of God/Jehovah Kanna/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
 				devotional_am: './articles/themes/Names of God/Jehovah Kanna/devotional_am',
-				devotional_author_am: [team.BethelemMelese]
+				devotional_author_am: [team.BethelemMelese],
+				devotional_narration_en: 'https://t.me/benaiah_org/638',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/600'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Names of God/Jehovah Kanna/study_material_en',
 				study_material_author_en: [team.EdenTesfaye],
 				study_material_am: './articles/themes/Names of God/Jehovah Kanna/study_material_am',
-				study_material_author_am: [team.BethelemMelese]
+				study_material_author_am: [team.BethelemMelese],
+				study_material_narration_en: 'https://t.me/benaiah_org/639',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/601'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1773085993/2_kfrhlm.jpg',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1773086015/7_zkixnb.jpg',

@@ -14,7 +14,9 @@ export const theme3 = $state({
 				devotional_en: './articles/themes/The Full Armor of God/Belt of Truth/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
 				devotional_am: './articles/themes/The Full Armor of God/Belt of Truth/devotional_am',
-				devotional_author_am: [team.KibruAbebe]
+				devotional_author_am: [team.KibruAbebe],
+				devotional_narration_en: 'https://t.me/benaiah_org/709',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/674'
 			},
 			study_material: {
 				study_material_en:
@@ -22,7 +24,9 @@ export const theme3 = $state({
 				study_material_author_en: [team.EdenTesfaye],
 				study_material_am:
 					'./articles/themes/The Full Armor of God/Belt of Truth/study_material_am',
-				study_material_author_am: [team.KibruAbebe]
+				study_material_author_am: [team.KibruAbebe],
+				study_material_narration_en: 'https://t.me/benaiah_org/708',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/673'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1779052535/6_cubwmd.jpg',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1779052661/10_eamo6n.png',
@@ -65,7 +69,9 @@ export const theme3 = $state({
 				devotional_author_en: [team.TruketLema],
 				devotional_am:
 					'./articles/themes/The Full Armor of God/Breastplate of Righteousness/devotional_am',
-				devotional_author_am: [team.BethelemMelese]
+				devotional_author_am: [team.BethelemMelese],
+				devotional_narration_en: 'https://t.me/benaiah_org/739',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/704'
 			},
 			study_material: {
 				study_material_en:
@@ -73,7 +79,9 @@ export const theme3 = $state({
 				study_material_author_en: [team.TruketLema],
 				study_material_am:
 					'./articles/themes/The Full Armor of God/Breastplate of Righteousness/study_material_am',
-				study_material_author_am: [team.BethelemMelese]
+				study_material_author_am: [team.BethelemMelese],
+				study_material_narration_en: 'https://t.me/benaiah_org/740',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/705'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1782839561/6_gqcepe.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1782839718/12_n0jxdv.png',
@@ -114,13 +122,17 @@ export const theme3 = $state({
 		        devotional_en: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/devotional_en',
 		        devotional_author_en: [team.HawiFikru],
 		        devotional_am: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/devotional_am',
-		        devotional_author_am: [team.ClintonBeyene]
+		        devotional_author_am: [team.ClintonBeyene],
+		        devotional_narration_en: 'https://t.me/benaiah_org/763',
+		        devotional_narration_am: 'https://t.me/Benaiah_Amharic/730'
 		    },
 		    study_material: {
 		        study_material_en: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/study_material_en',
 		        study_material_author_en: [team.HawiFikru],
 		        study_material_am: './articles/themes/The Full Armor of God/Shoes of the Gospel of Peace/study_material_am',
-		        study_material_author_am: [team.ClintonBeyene]
+		        study_material_author_am: [team.ClintonBeyene],
+		        study_material_narration_en: 'https://t.me/benaiah_org/764',
+		        study_material_narration_am: 'https://t.me/Benaiah_Amharic/731'
 		    },
 		    cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
 		    cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',
@@ -162,7 +174,9 @@ export const theme3 = $state({
 				devotional_en: './articles/themes/The Full Armor of God/Helmet of Salvation/devotional_en',
 				devotional_author_en: [team.HannaKinfe],
 				devotional_am: './articles/themes/The Full Armor of God/Helmet of Salvation/devotional_am',
-				devotional_author_am: [team.DanielDemerw]
+				devotional_author_am: [team.DanielDemerw],
+				devotional_narration_en: 'https://t.me/benaiah_org/786',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/753'
 			},
 			study_material: {
 				study_material_en:
@@ -170,7 +184,9 @@ export const theme3 = $state({
 				study_material_author_en: [team.HannaKinfe],
 				study_material_am:
 					'./articles/themes/The Full Armor of God/Helmet of Salvation/study_material_am',
-				study_material_author_am: [team.DanielDemerw]
+				study_material_author_am: [team.DanielDemerw],
+				study_material_narration_en: 'https://t.me/benaiah_org/787',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/754'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788128999/1_lkpxiq.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129032/9_lrbncy.png',
@@ -212,13 +228,17 @@ export const theme3 = $state({
 		        devotional_en: './articles/themes/The Full Armor of God/Sword of the Spirit/devotional_en',
 		        devotional_author_en: [team.EdenTesfaye],
 		        devotional_am: './articles/themes/The Full Armor of God/Sword of the Spirit/devotional_am',
-		        devotional_author_am: [team.KibruAbebe]
+		        devotional_author_am: [team.KibruAbebe],
+		        devotional_narration_en: 'https://t.me/benaiah_org/813',
+		        devotional_narration_am: 'https://t.me/Benaiah_Amharic/781'
 		    },
 		    study_material: {
 		        study_material_en: './articles/themes/The Full Armor of God/Sword of the Spirit/study_material_en',
 		        study_material_author_en: [team.EdenTesfaye],
 		        study_material_am: './articles/themes/The Full Armor of God/Sword of the Spirit/study_material_am',
-		        study_material_author_am: [team.KibruAbebe]
+		        study_material_author_am: [team.KibruAbebe],
+		        study_material_narration_en: 'https://t.me/benaiah_org/814',
+		        study_material_narration_am: 'https://t.me/Benaiah_Amharic/782'
 		    },
 		    cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129360/2_fszf3c.png',
 		    cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1788129355/12_zyqgso.png',

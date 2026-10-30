@@ -1,5 +1,5 @@
 import { json } from '@sveltejs/kit';
-import { slugify } from '$lib/articleUtils';
+import { slugify, subtopicMedia } from '$lib/articleUtils';
 import { themeList } from '../../../../store/theme_list.svelte.js';
 import type { RequestHandler } from '@sveltejs/kit';
 
@@ -55,6 +55,7 @@ export const GET: RequestHandler = async ({ setHeaders }) => {
 							: null
 					}
 				},
+				media: subtopicMedia(subtopic),
 				artists: subtopic.artists.map(({ socials, ...rest }) => rest)
 			}))
 		}));

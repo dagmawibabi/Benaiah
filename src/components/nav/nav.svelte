@@ -3,10 +3,14 @@
 	import { useI18n } from '$lib/i18n';
 	const { _, locale, setLanguage } = useI18n();
 	import EachNavItem from './each_nav_item.svelte';
+	// Pages whose content scrolls under the nav can ask for a frosted backing.
+	let { solid = false }: { solid?: boolean } = $props();
 </script>
 
 <div
-	class="sticky left-0 right-0 top-0 z-[1000] flex items-center justify-between px-2 pt-2 backdrop-blur-sm"
+	class="sticky left-0 right-0 top-0 z-[1000] flex items-center justify-between px-2 pt-2 {solid
+		? 'border-b border-white/60 bg-[#fafafa]/75 backdrop-blur-xl'
+		: 'backdrop-blur-sm'}"
 >
 	<!-- LOGO -->
 	<div class="hidden pb-2 pl-3 pt-1 md:block">
@@ -24,6 +28,9 @@
 		<EachNavItem name={$_('page.navigation.resources')} link="/resources" />
 		<EachNavItem name={$_('page.navigation.teams')} link="/team" />
 		<EachNavItem name={$_('page.navigation.app')} link="/app" />
+		<div class="hidden md:flex">
+			<EachNavItem name={$_('page.navigation.developers')} link="/developers" />
+		</div>
 
 		<div class="hidden md:flex">
 			<EachNavItem name={$_('page.navigation.contact')} link="/#contactus" />

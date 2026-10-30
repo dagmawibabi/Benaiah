@@ -14,13 +14,22 @@ export const theme1 = $state({
 				devotional_en: './articles/themes/Love, Faith and Hope/Love/devotional_en',
 				devotional_author_en: [team.HawiFikru],
 				devotional_am: './articles/themes/Love, Faith and Hope/Love/devotional_am',
-				devotional_author_am: [team.KibruAbebe]
+				devotional_author_am: [team.KibruAbebe],
+				devotional_video_en: 'https://www.youtube.com/watch?v=dceWYKFEH2Q',
+				devotional_video_am: 'https://www.youtube.com/watch?v=z_0Bnzu9rU4',
+				devotional_short_am: 'https://www.youtube.com/shorts/5uzSM-xUMd0',
+				devotional_narration_en: 'https://t.me/benaiah_org/107',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/48'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Love, Faith and Hope/Love/study_material_en',
 				study_material_author_en: [team.HawiFikru],
 				study_material_am: './articles/themes/Love, Faith and Hope/Love/study_material_am',
-				study_material_author_am: [team.KibruAbebe]
+				study_material_author_am: [team.KibruAbebe],
+				study_material_video_en: 'https://www.youtube.com/watch?v=RQMxFTXn1hU',
+				study_material_video_am: 'https://www.youtube.com/watch?v=nbkbmy-MGmc',
+				study_material_narration_en: 'https://t.me/benaiah_org/108',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/49'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/3_jl5qfb.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745801065/10_pktqym.png',
@@ -61,13 +70,21 @@ export const theme1 = $state({
 				devotional_en: './articles/themes/Love, Faith and Hope/Faith/devotional_en',
 				devotional_author_en: [team.EdenTesfaye],
 				devotional_am: './articles/themes/Love, Faith and Hope/Faith/devotional_am',
-				devotional_author_am: [team.KibruAbebe]
+				devotional_author_am: [team.KibruAbebe],
+				devotional_short_en: 'https://www.youtube.com/shorts/hf5Z74tZNXA',
+				devotional_video_am: 'https://www.youtube.com/watch?v=-mfj9Yv2TsQ',
+				devotional_short_am: 'https://www.youtube.com/shorts/kcTmcNXoQ-0',
+				devotional_narration_en: 'https://t.me/benaiah_org/146',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/105'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Love, Faith and Hope/Faith/study_material_en',
 				study_material_author_en: [team.EdenTesfaye],
 				study_material_am: './articles/themes/Love, Faith and Hope/Faith/study_material_am',
-				study_material_author_am: [team.KibruAbebe]
+				study_material_author_am: [team.KibruAbebe],
+				study_material_video_en: 'https://www.youtube.com/watch?v=-D4L-uPT-vc',
+				study_material_narration_en: 'https://t.me/benaiah_org/147',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/106'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745798661/1_zadgvw.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1745795456/8_dbsvnk.png',
@@ -109,13 +126,19 @@ export const theme1 = $state({
 				devotional_en: './articles/themes/Love, Faith and Hope/Hope/devotional_en',
 				devotional_author_en: [team.TruketLema],
 				devotional_am: './articles/themes/Love, Faith and Hope/Hope/devotional_am',
-				devotional_author_am: [team.LeulGezahegn]
+				devotional_author_am: [team.LeulGezahegn],
+				devotional_video_am: 'https://www.youtube.com/watch?v=9HuNXiC_pl8',
+				devotional_short_am: 'https://www.youtube.com/shorts/hP5CIQ0gFGc',
+				devotional_narration_en: 'https://t.me/benaiah_org/188',
+				devotional_narration_am: 'https://t.me/Benaiah_Amharic/153'
 			},
 			study_material: {
 				study_material_en: './articles/themes/Love, Faith and Hope/Hope/study_material_en',
 				study_material_author_en: [team.TruketLema],
 				study_material_am: './articles/themes/Love, Faith and Hope/Hope/study_material_am',
-				study_material_author_am: [team.KibruAbebe]
+				study_material_author_am: [team.KibruAbebe],
+				study_material_narration_en: 'https://t.me/benaiah_org/189',
+				study_material_narration_am: 'https://t.me/Benaiah_Amharic/154'
 			},
 			cover_en: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/2_enaiyr.png',
 			cover_am: 'https://res.cloudinary.com/doh7zyphl/image/upload/v1741484789/11_edphwm.png',

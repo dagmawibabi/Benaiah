@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["vite", "dev", "--port", "5173", "--strictPort"],
       "port": 5173
+    },
+    {
+      "name": "benaiah-dev-alt",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "dev", "--port", "5180", "--strictPort"],
+      "port": 5180
     }
   ]
 }
