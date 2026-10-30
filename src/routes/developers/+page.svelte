@@ -24,7 +24,8 @@
 				{ id: 'list-themes', label: 'List themes', method: 'GET' },
 				{ id: 'get-theme', label: 'Get a theme', method: 'GET' },
 				{ id: 'get-subtopic', label: 'Get a subtopic', method: 'GET' },
-				{ id: 'get-article', label: 'Get an article', method: 'GET' }
+				{ id: 'get-article', label: 'Get an article', method: 'GET' },
+				{ id: 'list-team', label: 'List the team', method: 'GET' }
 			]
 		},
 		{
@@ -113,6 +114,14 @@
 					'{type}_{lang}: devotional_en, devotional_am, study_material_en or study_material_am'
 				]
 			]
+		},
+		{
+			id: 'list-team',
+			title: 'List the team',
+			summary: 'Everyone behind Benaiah, grouped by what they do.',
+			path: '/team',
+			tryPath: '/team',
+			params: []
 		}
 	];
 
@@ -259,6 +268,21 @@
     "narration": "https://t.me/benaiah_org/258"
   },
   "content": "He stretched out the sky and laid the earth beneath it. He whispered and life took form…"
+}`,
+		'list-team': `{
+  "authors": [{ "fullname_en": "Truket Lema", "…": "…" }],
+  "graphics_designers": [{ "fullname_en": "Akinahom Getahun", "…": "…" }],
+  "narrators": [{ "fullname_en": "Courtney Reed", "…": "…" }],
+  "video_editors": [
+    {
+      "fullname_en": "Abenezer Tesfaye",
+      "fullname_am": "አቤኔዘር ተስፋዬ",
+      "photo": "/_app/immutable/assets/AbenezerTesfaye.a1b2c3.jpg",
+      "role_en": "Video Editor",
+      "role_am": "Video Editor"
+    }
+  ],
+  "software_developers": [{ "fullname_en": "Dagmawi Esayas", "…": "…" }]
 }`
 	};
 
@@ -491,7 +515,7 @@ curl ${base}/articles/names-of-god/jehovah-jireh/devotional_am`
 			<section id="objects">
 				<h2>Objects</h2>
 				<h3>Person</h3>
-				<p>Authors and artists share one shape.</p>
+				<p>Authors, artists and team members share one shape.</p>
 				<dl class="params">
 					<div>
 						<dt><code>fullname_en</code><span class="type">string</span></dt>

@@ -498,6 +498,34 @@ curl -X GET https://your-domain.com/api/v1/articles/love-faith-hope/love/devotio
 
 ---
 
+### 5. List the Team
+
+Everyone behind Benaiah, grouped by what they do. Each person is a Team Member object (see Data Models).
+
+```
+GET /api/v1/team
+```
+
+```json
+{
+  "authors": [],
+  "graphics_designers": [],
+  "narrators": [],
+  "video_editors": [
+    {
+      "fullname_en": "Abenezer Tesfaye",
+      "fullname_am": "አቤኔዘር ተስፋዬ",
+      "photo": "/assets/team/AbenezerTesfaye.jpg",
+      "role_en": "Video Editor",
+      "role_am": "Video Editor"
+    }
+  ],
+  "software_developers": []
+}
+```
+
+---
+
 ## Data Models
 
 ### Theme Object

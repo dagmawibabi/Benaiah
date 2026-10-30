@@ -34,6 +34,10 @@
 				category={teamCategories.narrators}
 			/>
 			<TeamCategoryContainer
+				title={$_('page.teams.videoEditors')}
+				category={teamCategories.videoEditors}
+			/>
+			<TeamCategoryContainer
 				title={$_('page.teams.softwareDevelopers')}
 				category={teamCategories.softwareDevelopers}
 			/>

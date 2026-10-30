@@ -17,6 +17,8 @@ import KibruAbebe from '$lib/assets/team/KibruAbebe.png';
 import LeulGezahegn from '$lib/assets/team/LeulGezahegn.png';
 import TruketLema from '$lib/assets/team/TruketLema.png';
 
+import AbenezerTesfaye from '$lib/assets/team/AbenezerTesfaye.jpg';
+
 import HenokTesfaye from '$lib/assets/team/HenokTesfaye.png';
 import CourtneyReed from '$lib/assets/team/CourtneyReed.png';
 
@@ -260,6 +262,13 @@ export const team = $state({
 	},
 
 	// Devs
+	AbenezerTesfaye: {
+		fullname_en: 'Abenezer Tesfaye',
+		fullname_am: 'አቤኔዘር ተስፋዬ',
+		photo: AbenezerTesfaye,
+		role_en: 'Video Editor',
+		role_am: 'Video Editor'
+	},
 	DagmawiEsayas: {
 		fullname_en: 'Dagmawi Esayas',
 		fullname_am: 'ዳግማዊ ኢሳያስ',
@@ -297,5 +306,6 @@ export const teamCategories = $state({
 		team.YisihakWondimagegn
 	],
 	narrators: [team.CourtneyReed, team.HenokTesfaye],
+	videoEditors: [team.AbenezerTesfaye],
 	softwareDevelopers: [team.DagmawiEsayas]
 });

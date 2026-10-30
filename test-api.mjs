@@ -63,6 +63,15 @@ async function main() {
 	console.log(`Target Base URL: ${colors.yellow}${BASE_URL}${colors.reset}\n`);
 
 	// --- 1. Endpoint 1: Get All Themes ---
+	await runTest('0. List the Team', '/api/v1/team', (res, data) => {
+		if (res.status !== 200) return `Expected status 200, got ${res.status}`;
+		for (const key of ['authors', 'graphics_designers', 'narrators', 'video_editors', 'software_developers']) {
+			if (!Array.isArray(data[key]) || data[key].length === 0) return `${key} missing or empty`;
+		}
+		if (data.authors.some((person) => 'socials' in person)) return 'socials should not be returned';
+		return true;
+	});
+
 	await runTest('1. Get All Themes', '/api/v1/articles', (res, data) => {
 		if (res.status !== 200) return `Expected status 200, got ${res.status}`;
 		if (!Array.isArray(data)) return 'Expected array of themes';
