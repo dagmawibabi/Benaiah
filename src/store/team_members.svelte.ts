@@ -251,7 +251,7 @@ export const team = $state({
 	},
 	BekkemDerrese: {
 		fullname_en: 'Bekkem Derrese',
-		fullname_am: 'ቤካም ደረሰ',
+		fullname_am: 'ቤከም ደረሰ',
 		photo: BekkemDerrese,
 		role_en: 'Narrator',
 		role_am: 'Narrator'
