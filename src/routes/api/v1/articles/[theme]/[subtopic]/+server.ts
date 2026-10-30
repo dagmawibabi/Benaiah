@@ -1,5 +1,5 @@
 import { json } from '@sveltejs/kit';
-import { slugify, subtopicMedia } from '$lib/articleUtils';
+import { slugify, subtopicMedia, subtopicNarrators } from '$lib/articleUtils';
 import { themeList } from '../../../../../../store/theme_list.svelte.js';
 import type { RequestHandler } from '@sveltejs/kit';
 
@@ -62,7 +62,8 @@ export const GET: RequestHandler = async ({ params, setHeaders }) => {
 			study_material_en: (subtopic.study_material?.study_material_author_en || []).map(({ socials, ...rest }) => rest),
 			study_material_am: (subtopic.study_material?.study_material_author_am || []).map(({ socials, ...rest }) => rest)
 		},
-		artists: subtopic.artists.map(({ socials, ...rest }) => rest)
+		artists: subtopic.artists.map(({ socials, ...rest }) => rest),
+		narrators: subtopicNarrators(subtopic)
 	};
 	
 	// Set Cache-Control header

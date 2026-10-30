@@ -1,3 +1,4 @@
+import { narratorsByLang } from '../store/team_members.svelte.js';
 import { themeList } from '../store/theme_list.svelte.js';
 import { slugify } from './themes';
 import type { ArticleType, Lang, Subtopic } from './types';
@@ -23,6 +24,16 @@ export function subtopicMedia(subtopic: Subtopic) {
 		am: articleMedia(subtopic, type, 'am')
 	});
 	return { devotional: both('devotional'), study_material: both('study_material') };
+}
+
+// The narrators of a subtopic per language, empty for a language it has no narration in.
+export function subtopicNarrators(subtopic: Subtopic) {
+	const media = subtopicMedia(subtopic);
+	const of = (lang: Lang) =>
+		media.devotional[lang].narration || media.study_material[lang].narration
+			? narratorsByLang[lang].map(({ socials, ...rest }) => rest)
+			: [];
+	return { en: of('en'), am: of('am') };
 }
 
 // Eagerly import all markdown article files as raw strings at build time.

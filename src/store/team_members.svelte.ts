@@ -21,6 +21,7 @@ import AbenezerTeshome from '$lib/assets/team/AbenezerTeshome.jpg';
 
 import HenokTesfaye from '$lib/assets/team/HenokTesfaye.png';
 import CourtneyReed from '$lib/assets/team/CourtneyReed.png';
+import BekkemDerrese from '$lib/assets/team/BekkemDerrese.webp';
 
 import DagmawiEsayas from '$lib/assets/team/DagmawiEsayas.png';
 
@@ -248,12 +249,19 @@ export const team = $state({
 			telegram: 'https://t.me/akinahomgetahun'
 		}
 	},
+	BekkemDerrese: {
+		fullname_en: 'Bekkem Derrese',
+		fullname_am: 'ቤካም ደረሰ',
+		photo: BekkemDerrese,
+		role_en: 'Narrator',
+		role_am: 'Narrator'
+	},
 	HenokTesfaye: {
 		fullname_en: 'Henok Tesfaye',
 		fullname_am: 'ሄኖክ ተስፋዬ',
 		photo: HenokTesfaye,
-		role_en: 'Narrator',
-		role_am: 'Narrator',
+		role_en: 'Narrator & Graphic Designer',
+		role_am: 'Narrator & Graphic Designer',
 		socials: {
 			instagram: 'https://www.instagram.com/akinahomgetahun',
 			linkedin: 'https://www.linkedin.com/in/akinahomgetahun',
@@ -303,9 +311,17 @@ export const teamCategories = $state({
 		team.EyuelMelese,
 		team.RebiraTibebu,
 		team.TinsaeSolomon,
-		team.YisihakWondimagegn
+		team.YisihakWondimagegn,
+		team.HenokTesfaye
 	],
-	narrators: [team.CourtneyReed, team.HenokTesfaye],
+	narrators: [team.CourtneyReed, team.BekkemDerrese, team.HenokTesfaye],
 	videoEditors: [team.AbenezerTeshome],
 	softwareDevelopers: [team.DagmawiEsayas]
+});
+
+// Who reads the narrations, per language. This isn't tracked per article, so every
+// narration in a language lists all of that language's narrators.
+export const narratorsByLang = $state({
+	en: [team.CourtneyReed, team.BekkemDerrese],
+	am: [team.HenokTesfaye]
 });

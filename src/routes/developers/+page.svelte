@@ -247,7 +247,11 @@
     "study_material_en": [{ "fullname_en": "Truket Lema", "…": "…" }],
     "study_material_am": [{ "fullname_en": "Clinton Beyene", "…": "…" }]
   },
-  "artists": [{ "fullname_en": "Akinahom Getahun", "…": "…" }]
+  "artists": [{ "fullname_en": "Akinahom Getahun", "…": "…" }],
+  "narrators": {
+    "en": [{ "fullname_en": "Courtney Reed", "…": "…" }],
+    "am": [{ "fullname_en": "Henok Tesfaye", "…": "…" }]
+  }
 }`,
 		'get-article': `{
   "theme": "names-of-god",
